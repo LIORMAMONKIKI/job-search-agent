@@ -1,0 +1,52 @@
+name: Weekly Job Hunt
+
+# Runs every Monday at 05:00 UTC = 08:00 Israel time.
+# Also manually runnable from the Actions tab.
+on:
+  schedule:
+    - cron: '0 5 * * 1'
+  workflow_dispatch:
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180  # 3-hour cap (generous; pipeline usually ~1.5 hr)
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          NOTION_TOKEN:        ${{ secrets.NOTION_TOKEN }}
+          ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_USER:          ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD:  ${{ secrets.GMAIL_APP_PASSWORD }}
+          GMAIL_LOOKBACK_DAYS: '7'
+          SCRAPER_SITES:       'linkedin'
+          SCRAPER_COUNTRY:     'Israel'
+          MAX_COMPANIES_PER_RUN: '0'
+        run: |
+          python -u main.py
+
+      - name: Upload run log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-log-${{ github.run_id }}
+          path: |
+            *.log
+            reports/
+          if-no-files-found: ignore
+          retention-days: 30

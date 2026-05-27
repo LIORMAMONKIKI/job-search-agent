@@ -1,0 +1,41 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+
+# Local state files (per-machine, not for cloud)
+.gmail_seen.txt
+outreach_state.json
+
+# Personal data
+warm_intros.csv
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated outputs (regenerated on each run)
+enrichment_*.csv
+enrichment_*.md
+qa_results_*.csv
+qa_results_*.md
+reports/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log

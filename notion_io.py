@@ -123,13 +123,16 @@ def write_sourced_role(notion, role_data, company_page_id):
         properties["Application Friction"] = {"select": {"name": role_data["application_friction"]}}
     if role_data.get("warm_intro") is not None:
         properties["Warm Intro"] = {"checkbox": bool(role_data["warm_intro"])}
+    def _ms(name):
+        """Notion multi_select disallows commas in option names."""
+        return str(name).replace(",", " /")[:100]
     if role_data.get("matched_skills"):
         properties["Matched Skills"] = {
-            "multi_select": [{"name": s[:100]} for s in role_data["matched_skills"][:10]]
+            "multi_select": [{"name": _ms(s)} for s in role_data["matched_skills"][:10]]
         }
     if role_data.get("gap_skills"):
         properties["Gap Skills"] = {
-            "multi_select": [{"name": s[:100]} for s in role_data["gap_skills"][:10]]
+            "multi_select": [{"name": _ms(s)} for s in role_data["gap_skills"][:10]]
         }
     if role_data.get("pitch_angle"):
         properties["Pitch Angle"] = {

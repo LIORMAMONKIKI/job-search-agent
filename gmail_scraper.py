@@ -236,9 +236,24 @@ def scrape_gmail_job_alerts(lookback_days=None, verbose=True):
                 print(f"    ! error processing msg: {e}")
             continue
 
-    M.close()
-    M.logout()
-    _save_seen(seen)
+    # Best-effort cleanup — the connection may already be dead (cloud runners
+    # tend to see EOF on long-running IMAP sessions). Don't lose the roles we
+    # already extracted just because tear-down failed.
+    try:
+        M.close()
+    except Exception as e:
+        if verbose:
+            print(f"  (IMAP close raised, ignoring: {e})")
+    try:
+        M.logout()
+    except Exception as e:
+        if verbose:
+            print(f"  (IMAP logout raised, ignoring: {e})")
+    try:
+        _save_seen(seen)
+    except Exception as e:
+        if verbose:
+            print(f"  (could not save seen cache: {e})")
 
     # Dedupe by job_url where present
     by_url = {}

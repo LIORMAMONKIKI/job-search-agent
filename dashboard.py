@@ -131,6 +131,7 @@ def fetch_sourced_roles():
             "Build From": [t["name"] for t in p.get("Build-From Tags", {}).get("multi_select", [])],
             "Matched Skills": [t["name"] for t in p.get("Matched Skills", {}).get("multi_select", [])],
             "Gap Skills": [t["name"] for t in p.get("Gap Skills", {}).get("multi_select", [])],
+            "Strikes": (p.get("Verification Strikes", {}) or {}).get("number") or 0,
         })
     df = pd.DataFrame(out)
     if df.empty:
@@ -345,8 +346,13 @@ priority_options = ["Top Target", "High", "Medium", "Low"]
 selected_priorities = st.sidebar.multiselect("Priority", priority_options, default=[])
 match_options = ["High", "Medium", "Low"]
 selected_matches = st.sidebar.multiselect("Skill Match", match_options, default=["High", "Medium"])
-action_options = ["New", "Apply", "Applied", "Save for Later", "Interesting but Not Now", "Dismiss"]
-selected_actions = st.sidebar.multiselect("Action", action_options, default=["New", "Apply", "Save for Later"])
+action_options = ["New", "Apply", "Applied", "Save for Later", "Interesting but Not Now", "Dismiss", "Stale"]
+selected_actions = st.sidebar.multiselect(
+    "Action",
+    action_options,
+    default=["New", "Apply", "Save for Later"],
+    help="Stale = JD link verified dead 2+ weeks in a row. Roles are never deleted — toggle Stale here to inspect or recover.",
+)
 search_text = st.sidebar.text_input("Search (title / company)", "")
 
 sort_options = [
@@ -374,7 +380,7 @@ location_filter = st.sidebar.radio(
 
 st.title("Job Hunt — Lior")
 
-col1, col2, col3, col4, col5 = st.columns(5)
+col1, col2, col3, col4, col5, col6 = st.columns(6)
 with col1:
     st.metric("Total roles", len(roles_df))
 with col2:
@@ -392,6 +398,9 @@ with col5:
         scores = roles_df.apply(opportunity_score, axis=1)
         great_count = int((scores >= 6).sum())
     st.metric("Great opportunities", great_count)
+with col6:
+    stale_count = int((roles_df["Action"] == "Stale").sum()) if not roles_df.empty else 0
+    st.metric("Stale (archived)", stale_count, help="JD link verified dead 2+ weeks in a row. Hidden from default view but never deleted.")
 
 
 # ---- Tabs -------------------------------------------------------------------
@@ -501,6 +510,9 @@ with tab_roles:
                         meta.append(f"Sourced: {sourced}")
                     if pd.notna(r["Date Applied"]):
                         meta.append(f"Applied: {r['Date Applied'].strftime('%Y-%m-%d')}")
+                    strikes = int(r.get("Strikes") or 0)
+                    if strikes > 0:
+                        meta.append(f":red[**Strike {strikes}/2** — JD link dead]")
                     st.caption(" · ".join([m for m in meta if m]))
                     if r["JD Link"]:
                         st.markdown(f"[Open job description ↗]({r['JD Link']})")

@@ -1,0 +1,41 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-814f-911e-ee632343e2bf",
+    "name": "McCann TLV",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "Media/Content",
+    "size": "Large (1000+)",
+    "location": "Tel Aviv",
+    "notes": "Ad agency with AI integration."
+  },
+  "research": {
+    "status_summary": "McCann TLV is actively hiring (11+ open roles as of May 2026) and operationally stable, with no signals of layoffs or acquisition.",
+    "hiring_policy": "All posted roles are Israel-based, full-time, and listed as hybrid (Tel Aviv District); no visa sponsorship or EOR-friendly remote policy is indicated \u2014 standard expectation is local Israeli presence.",
+    "recent_news": [
+      "Won the Israel Electric Corporation (IEC) advertising account \u2014 a \u20aa40M/2-year budget \u2014 after IEC ended its decade-plus relationship with its previous agency (per mccann.co.il).",
+      "McCann TLV's CEO Amit Mashiah publicly discussed how AI will reshape the ad-agency labor market in a podcast appearance, signaling the agency is actively reckoning with AI integration at the leadership level.",
+      "The agency expanded its senior management team (six new managers placed across departments), with CEO Eti Avdi citing 'significant growth of the firm in the past year' as the driver."
+    ],
+    "growth_signal": "With ~223\u2013228 employees and $40.5M estimated annual revenue (RocketReach 2026), McCann TLV is in a modest growth trajectory, landing major new accounts (IEC, continued El Al at ~\u20aa50M/year) and expanding headcount.",
+    "fit_for_lior": "McCann TLV's explicit AI-in-advertising narrative and its Creative/Strategy/Digital departments offer a realistic entry point for a Creative AI or Prompt-to-Campaign product role, but as a traditional Israeli ad agency it's better suited to Lior's 'Creative AI' thread than her Product Analyst or Vibe Coder tracks.",
+    "sources": [
+      "https://mccann.co.il/wrote-about-us/",
+      "https://bebee.com/il/companies/mccann-tlv",
+      "https://rocketreach.co/mccann-tlv-profile_b5d46465f42e3fd3",
+      "https://il.linkedin.com/company/mccann-erickson-israel"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Noa Viviorka",
+      "position": "Client Success Director",
+      "linkedin": "https://www.linkedin.com/in/noa-viviorka-814264137",
+      "connected_on": "17 Feb 2018"
+    }
+  ],
+  "intro_count": 1
+}

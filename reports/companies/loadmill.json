@@ -1,0 +1,35 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81c6-bd19-d882b991b212",
+    "name": "Loadmill",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Startup (1-50)",
+    "location": "Tel Aviv",
+    "notes": "AI-driven test automation."
+  },
+  "research": {
+    "status_summary": "Loadmill is an active, bootstrapped-style Israeli-founded startup (HQ Palo Alto / Tel Aviv dual entity) operating normally with no signs of layoffs, acquisition, or funding pause \u2014 but remains very small and low-profile with no fresh 2026 funding rounds announced.",
+    "hiring_policy": "No recent open roles detected and G2 profile has been inactive for over a year; with only ~20 employees as of March 2026, formal visa sponsorship or EOR infrastructure is unlikely \u2014 remote-friendly culture implied by multi-continent headcount but not explicitly confirmed.",
+    "recent_news": [
+      "Loadmill launched an MCP (Model Context Protocol) integration in late 2025, enabling AI-native E2E test generation directly from VS Code, Cursor, and GitHub Copilot without leaving the IDE.",
+      "G2 Spring 2026 reports recognized Loadmill as a Momentum Leader in Test Automation, Load Testing, Ease of Use, and Mobile App Testing categories.",
+      "Papa John's International adopted Loadmill's AI testing platform in summer 2024 \u2014 the most notable enterprise customer win in recent memory, still being promoted as a flagship case study."
+    ],
+    "growth_signal": "Headcount stands at roughly 20 employees across 3 continents as of March 2026 (per LeadIQ), total disclosed funding remains under $500K (seed-stage, MizMaa/Gefen/UpWest/Peregrine), signaling slow but steady organic growth with no recent scale-up.",
+    "fit_for_lior": "Loadmill's MCP-powered AI test generation ('describe in plain text, get a ready-to-run E2E suite') directly overlaps Lior's Vibe Coder thread \u2014 shipping code confidently without manual scripting \u2014 but the company is too small and slow-moving for a meaningful Product Analyst or Creative AI role.",
+    "sources": [
+      "https://leadiq.com/c/loadmill/5cb486652000001c0175d081",
+      "https://docs.loadmill.com/loadmill-mcp/loadmill-mcp",
+      "https://www.linkedin.com/company/loadmill",
+      "https://www.g2.com/products/loadmill/reviews",
+      "https://pitchbook.com/profiles/company/227509-48"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

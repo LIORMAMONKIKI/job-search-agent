@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81d6-ad30-da3601d98cff",
+    "name": "Comfy Org",
+    "tier": "T1 - Frontier AI Video/Image",
+    "priority": "Top Target",
+    "status": "Researching",
+    "hiring_policy": "Sponsors visa",
+    "industry": "AI/ML",
+    "size": "Startup (1-50)",
+    "location": "San Francisco",
+    "notes": "Company behind ComfyUI \u2014 your daily tool. $48M raised, $500M valuation. 'Sponsors visas for exceptional candidates' per their careers page. Strongest single fit."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

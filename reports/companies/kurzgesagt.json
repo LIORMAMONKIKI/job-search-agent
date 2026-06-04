@@ -1,0 +1,37 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81c1-ad42-f1dfb776fde2",
+    "name": "Kurzgesagt",
+    "tier": "T7 - Science/Climate/Environment",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "EOR-friendly",
+    "industry": "Media/Content",
+    "size": "Growth (51-200)",
+    "location": "Munich",
+    "notes": "Educational science animation. Cool brand, EU-friendly. Your visual + science combo."
+  },
+  "research": {
+    "status_summary": "Actively operating and hiring \u2014 Kurzgesagt (77 employees as of April 2026) is posting open roles including a Scriptwriter/Storyteller and Head of YouTube & Production, with no layoff or acquisition signals.",
+    "hiring_policy": "Kurzgesagt offers roles based in Munich/Berlin as well as remote worldwide, explicitly welcoming international talent; no explicit visa sponsorship policy is published, but their EU/Germany base makes them inherently EOR-friendly for EU candidates.",
+    "recent_news": [
+      "Star Birds (collab with Toukana Interactive) launched in Early Access on Steam in September 2025, earned 'overwhelmingly positive' reviews (~95%), and received its first major 'Flora & Fauna' content update in January 2026; full release is planned for Autumn 2026.",
+      "A new Star Birds major content update ('Cinnakeet') dropped around late May 2026 with an active community screenshot event (May 26\u201331, 2026), signaling continued product momentum.",
+      "As of May 2026, Kurzgesagt crossed 25 million YouTube subscribers and is described as still 'setting a benchmark' for explainer content in 2026, with new videos on AI, climate, and the future of humanity generating viral cross-platform traction."
+    ],
+    "growth_signal": "With 77 employees (up from a historically small team), a diversified revenue model (merch, Patreon, AdSense = 65% of income), an actively developing video game, and 25M+ YouTube subscribers, Kurzgesagt is on a steady multi-product expansion trajectory.",
+    "fit_for_lior": "Kurzgesagt is a strong fit for Lior's Creative AI + visual science storytelling thread \u2014 they are actively expanding into interactive/game products and need people who can bridge data-driven science communication with aesthetic, AI-augmented content production; a Scriptwriter, Content Strategist, or Creative AI Product role would be natural entry points.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kurzgesagt",
+      "https://kurzgesagt.org/careers",
+      "https://tracxn.com/d/companies/kurzgesagt/__n6TOpxjft5OpWuLdQdLUWvauHJwadavs2a_VI_vGiLg",
+      "https://www.gamespress.com/Toukana-Interactive-and-Kurzgesagt-launch-Flora-Fauna-Update-for-58296",
+      "https://en.wikipedia.org/wiki/Star_Birds",
+      "https://steamcommunity.com/app/2719750",
+      "https://www.ad-hoc-news.de/boerse/news/corporate-news/kurzgesagt-why-this-youtube-channel-still-rules-explainer-content-in-2026/69288117"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

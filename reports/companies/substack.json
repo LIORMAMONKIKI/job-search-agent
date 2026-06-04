@@ -1,0 +1,39 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81b0-971e-ce40f4fdc642",
+    "name": "Substack",
+    "tier": "T6 - Globally Distributed",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Multiple paths",
+    "industry": "Media/Content",
+    "size": "Growth (51-200)",
+    "location": "San Francisco + remote",
+    "notes": "Creator economy."
+  },
+  "research": {
+    "status_summary": "Substack is actively hiring (~17 open roles as of mid-2026), independently operating as a $1.1B unicorn with no acquisition or layoff signals.",
+    "hiring_policy": "Roles are predominantly US-based (San Francisco HQ) with no public evidence of visa sponsorship or EOR-friendly international hiring; Substack does not appear on curated visa-sponsorship/relocation job lists, making it a poor fit for internationally-distributed candidates.",
+    "recent_news": [
+      "March 2026: Launched built-in desktop Recording Studio for creators to pre-record/publish video with auto-generated clips and thumbnails; creators using video features grew revenue 50% faster than non-video peers.",
+      "January 2026: Launched Substack TV, a standalone app for Apple TV and Google TV supporting video posts and livestreams with a TikTok-style 'For You' recommendations feed.",
+      "February 2026: Disclosed an October 2025 security breach in which a third party accessed user email addresses, phone numbers, and internal metadata \u2014 now patched.",
+      "Platform reached 8.4M paid subscribers and 17,000+ revenue-earning writers as of mid-2026, up from 5M paid subscriptions reported in March 2025 (67% YoY growth).",
+      "Substack remains deliberately AI-cautious on content generation, positioning itself as the 'home of authentic human writing,' while using AI only for discovery/analytics features."
+    ],
+    "growth_signal": "Post-$100M Series C (July 2025, a16z + BOND, $1.1B valuation), Substack is aggressively shipping multimedia product (Recording Studio, Substack TV) and expanding its paid creator base \u2014 not yet profitable but on a strong revenue trajectory.",
+    "fit_for_lior": "Substack is a strong contextual match for Lior's Creative AI and creator-economy threads as a research/writing beat, but its US-centric, small-team (~100 employees) hiring posture with no EOR or visa sponsorship makes it a low-probability direct employer for a globally-distributed candidate.",
+    "sources": [
+      "https://sacra.com/c/substack/",
+      "https://dataconomy.com/2026/03/13/substack-launches-recording-studio-for-built-in-video-production/",
+      "https://en.wikipedia.org/wiki/Substack",
+      "https://tracxn.com/d/companies/substack/__p24iniy6ZkhjH1kHKlzDUc3zpmnVgDfLZNx8RkxXs2I/funding-and-investors",
+      "https://www.glassdoor.com/Jobs/Substack-Jobs-E3403284.htm",
+      "https://thatrandomagency.com/2026/04/13/substack-in-2026/",
+      "https://www.readless.app/blog/best-paid-substack-newsletters-2026"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

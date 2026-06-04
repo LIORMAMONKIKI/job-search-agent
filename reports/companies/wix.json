@@ -1,0 +1,39 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8139-9f53-d79a62fc7484",
+    "name": "Wix",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "High",
+    "status": "Monitoring",
+    "hiring_policy": "L-1 lane",
+    "industry": "SaaS",
+    "size": "Enterprise",
+    "location": "Tel Aviv + New York",
+    "notes": "Already tried (final, no). Still hires. 5 LinkedIn contacts. Possible re-engagement on adjacent roles."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [
+    {
+      "name": "Lior Hilzenrat",
+      "position": "Graphic Designer",
+      "linkedin": "https://www.linkedin.com/in/lior-hilzenrat-34b136237",
+      "connected_on": "15 Mar 2026"
+    },
+    {
+      "name": "Hezi Jacob",
+      "position": "Creative Director",
+      "linkedin": "https://www.linkedin.com/in/hezijacob",
+      "connected_on": "07 Mar 2026"
+    },
+    {
+      "name": "Shiri Mahler",
+      "position": "Product Marketing Team Lead",
+      "linkedin": "https://www.linkedin.com/in/shiri-mahler-91051993",
+      "connected_on": "23 Jul 2025"
+    }
+  ],
+  "intro_count": 3
+}

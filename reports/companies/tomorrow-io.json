@@ -1,0 +1,39 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-814b-8863-f28244d4dcab",
+    "name": "Tomorrow.io",
+    "tier": "T7 - Science/Climate/Environment",
+    "priority": "Top Target",
+    "status": "Researching",
+    "hiring_policy": "L-1 lane",
+    "industry": "AI/ML",
+    "size": "Mid (201-1000)",
+    "location": "Tel Aviv + Boston",
+    "notes": "Weather + climate intel. Visualization-heavy. Israeli bullseye for science/climate angle. Multi-city."
+  },
+  "research": {
+    "status_summary": "Actively hiring and aggressively expanding post-unicorn status, having closed a $210M Series F (in two tranches: $175M in Feb 2026, +$35M in May 2026) with no reported layoffs in 2026 \u2014 though Glassdoor reviews cite two rounds of layoffs in the prior two years.",
+    "hiring_policy": "Open roles are listed across ZipRecruiter, Wellfound, and Built In (10+ active postings as of May\u2013Jun 2026), with some roles explicitly US-only and restricted to US citizens/permanent residents due to DoD export controls; no public evidence of EOR hiring or broad visa sponsorship, and federal-track roles explicitly bar non-citizens without clearance.",
+    "recent_news": [
+      "Feb 3, 2026: Raised $175M Series F led by Stonecourt Capital & HarbourVest, achieving unicorn valuation (>$1B), earmarked for DeepSky \u2014 the world's first AI-native weather satellite constellation; 13 satellites already in LEO with 60-min global revisit rate.",
+      "May 18\u201319, 2026: Extended Series F by an additional $35M from Pitango + Harel Group, bringing total Series F to $210M and cumulative funding to ~$535M; capital targeting agentic AI platform buildout and satellite network expansion.",
+      "Apr 28, 2026: Launched Spring 2026 product update featuring a native MCP server, Asset Insight Dashboard, and agentic AI stack \u2014 positioning the platform as embeddable infrastructure for real-time operational intelligence across aviation (Altitude) and insurance (Shield) verticals.",
+      "Expanding federal footprint: actively recruiting for NOAA AWIPS, FAA next-gen air traffic control, and DoD weather sensor contracts (~$20M already secured from US DoD); also signed deals with Bahamas Aviation Climate Network and F1 teams for 2026 race season.",
+      "Fast Company ranked Tomorrow.io #1 Most Innovative Space Company for both 2025 and 2026; ~$100M ARR reported at time of Feb 2026 raise."
+    ],
+    "growth_signal": "Strong upward trajectory \u2014 headcount at ~218 (PitchBook 2026), $535M total raised, $100M ARR, unicorn valuation, dual-tranche Series F in a single quarter, and a Palantir partnership (announced Jul 2025) signal platform-layer ambitions rather than point-solution growth.",
+    "fit_for_lior": "Near-perfect fit: Israeli-founded (Boston HQ + ~150-person Israel team), deeply visualization-heavy weather/climate intelligence platform now building agentic AI and MCP-native tooling \u2014 ideal Creative AI / Product Analyst angle pitching data storytelling, climate dashboard UX, or AI-agent integration narratives across multi-city enterprise and government verticals.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/rj67r5yvze",
+      "https://www.calcalistech.com/ctechnews/article/opg9e0ka0",
+      "https://ventureburn.com/tomorrow-io-raises-35m-ai-weather-intelligence-expansion/",
+      "https://www.tomorrow.io/blog/tomorrow-io-spring-2026-product-update/",
+      "https://en.wikipedia.org/wiki/Tomorrow.io",
+      "https://www.ziprecruiter.com/co/Tomorrow-Io/Jobs",
+      "https://aitoolly.com/ai-news/article/2026-05-19-us-weather-intelligence-startup-tomorrowio-secures-35-million-in-series-f-funding-round-to-expand-op"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

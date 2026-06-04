@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81df-b521-fe334ed5bd93",
+    "name": "Higgsfield",
+    "tier": "T1 - Frontier AI Video/Image",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "L-1 lane",
+    "industry": "AI/ML",
+    "size": "Growth (51-200)",
+    "location": "San Francisco",
+    "notes": "$130M Series A, $200M run-rate. L-1 signal confirmed. Creative AI Evangelist-style role open. Researched in conversation."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

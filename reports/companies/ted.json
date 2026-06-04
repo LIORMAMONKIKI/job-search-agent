@@ -1,0 +1,36 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-816f-808d-fc2212e81ab4",
+    "name": "TED",
+    "tier": "T7 - Science/Climate/Environment",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Sponsors visa",
+    "industry": "Media/Content",
+    "size": "Mid (201-1000)",
+    "location": "New York",
+    "notes": "Educational content. Large brand. Some distributed roles."
+  },
+  "research": {
+    "status_summary": "TED is actively operating and selectively hiring (~3\u20136 open roles as of May 2026), with no public layoff announcements, though employee reviews flag ongoing upper-management restructuring and historically limited remote access outside the tech team.",
+    "hiring_policy": "TED posts US-based roles (New York HQ) and explicitly notes at least one grant-sponsored position open to remote US applicants; visa sponsorship policy is not publicly stated, and most operational roles appear to require on-site presence, making EOR-friendly placement unlikely without direct confirmation.",
+    "recent_news": [
+      "TED2026 'All of Us' ran April 13\u201317 in Vancouver \u2014 its final flagship conference there before relocating to San Diego, CA in 2027; CEO/head curator Chris Anderson stepped down following the event.",
+      "TED Countdown co-hosted a 2026 CarbonX event with Tencent spotlighting climate-tech winners in carbon capture, clean energy storage, and industrial-scale climate solutions.",
+      "TEDAI Vienna is scheduled for October 28\u201330, 2026, TED's dedicated annual AI conference, curated in collaboration with TED's main organization."
+    ],
+    "growth_signal": "TED is in a strategic transition phase \u2014 relocating its flagship conference, turning over senior leadership, and expanding its AI and climate programming verticals \u2014 but headcount remains small and growth is content/brand-driven rather than funded headcount scaling.",
+    "fit_for_lior": "TED's heavy 2026 focus on Creative AI (Kelly Boesch AI music talk, AI-creativity intersection programming) and its podcast/audience-growth analyst roles (grant-funded, data-to-action mandates) map well to Lior's Creative AI and Product Analyst threads, especially given TED's brand reach and distributed content roles.",
+    "sources": [
+      "https://conferences.ted.com/ted2026",
+      "https://dailyhive.com/vancouver/ted-conference-vancouver-ends-san-diego-relocation",
+      "https://slate.com/technology/2026/05/ted-conference-2026-climate-change-billionaires-malala-al-gore.html",
+      "https://www.ted.com/topics/ai",
+      "https://www.ziprecruiter.com/co/Ted-Conferences/Jobs",
+      "https://conferences.ted.com/events"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

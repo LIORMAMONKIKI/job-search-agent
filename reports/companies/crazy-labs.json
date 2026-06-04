@@ -1,0 +1,35 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8180-bbe1-d7eaa6a4f415",
+    "name": "Crazy Labs",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "Gaming",
+    "size": "Mid (201-1000)",
+    "location": "Tel Aviv",
+    "notes": "Mobile gaming. UA-heavy. Gaming distaste."
+  },
+  "research": {
+    "status_summary": "Actively hiring (26\u201329 open roles on LinkedIn as of Jun 2026), no reported layoffs specific to CrazyLabs; remains a going concern inside a restructuring Embracer Group that is spinning off its premium-IP division ('Fellowship Entertainment') in a May 2026 announcement, leaving CrazyLabs firmly in the retained Embracer mobile/casual portfolio.",
+    "hiring_policy": "Offers remote positions globally (dedicated remote careers page, active remote listings including AI-native roles as of May 2026); no public evidence of visa sponsorship or explicit EOR policy, and the Israeli HQ plus distributed offices in Macedonia, China, Germany, Ukraine, and five gaming hubs suggest contractor/EOR arrangements are operationally common but not officially advertised.",
+    "recent_news": [
+      "May 20 2026 \u2013 Embracer Group formally announced the spin-off of 'Fellowship Entertainment' (Tomb Raider, LotR, AAA studios); CrazyLabs was explicitly listed as staying with the retained, mobile-focused Embracer entity alongside THQ Nordic, Deca, Milestone, and others.",
+      "May 2026 \u2013 CrazyLabs posted an 'AI-Native Motion Designer / Animator' remote role requiring hands-on use of Runway, Kling, Veo, Seedance, and Midjourney video pipelines for UA creative production \u2014 signaling a deliberate AI-first creative stack build-out.",
+      "Jan 2026 \u2013 ZoomInfo data shows fresh hires including a 'Junior AI Creative Technologist' (Dec 2025) and a 'Senior Data Scientist' (Nov 2025), consistent with quiet but steady headcount growth rather than contraction."
+    ],
+    "growth_signal": "Headcount estimated at 201\u2013500 (last confirmed Jul 2024) with continued selective hiring in AI-creative and UA roles in early 2026, but parent Embracer's broader mobile spend is flat ('mobile spend five years flat' per Matthew Ball's 2026 report) and private gaming investment fell 55% in 2025, limiting meaningful upside.",
+    "fit_for_lior": "Weak fit overall \u2014 the company is a pure UA-performance and mobile-casual shop with gaming-domain culture, and while the new AI-Native Motion Designer role touches Lior's Creative AI thread, the work is narrowly scoped to ad-creative production for hyper-casual games rather than product, analytics, or generalist AI tooling she'd likely prefer.",
+    "sources": [
+      "https://embracer.com/releases/embracer-group-announces-its-intention-to-spin-off-fellowship-entertainment-on-nasdaq-stockholm/",
+      "https://www.designremotejobs.com/job/crazylabs-ai-native-motion-designer-animator",
+      "https://www.zoominfo.com/c/crazy-labs/363631479",
+      "https://en.wikipedia.org/wiki/Embracer_Group",
+      "https://www.pocketgamer.biz/matthew-balls-state-of-video-gaming-in-2026-china-is-eating-the-video-games-industry/"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

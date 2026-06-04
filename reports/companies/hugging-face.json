@@ -1,0 +1,36 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-815a-8ade-c5aa6449a5da",
+    "name": "Hugging Face",
+    "tier": "T5 - Frontier Labs + Creative-AI",
+    "priority": "Top Target",
+    "status": "Researching",
+    "hiring_policy": "Multiple paths",
+    "industry": "AI/ML",
+    "size": "Growth (51-200)",
+    "location": "New York + Paris (distributed)",
+    "notes": "Distributed by default, EU office. Strong cultural fit, open-source ethos."
+  },
+  "research": {
+    "status_summary": "Actively hiring (open remote ML/EMEA roles on Workable/ZipRecruiter as of May\u2013Jun 2026), no major layoffs in 2026 \u2014 a small Feb 2025 GTM cut of ~10 people was isolated to the consulting/Expert Support Program and is resolved.",
+    "hiring_policy": "Remote-first by default with physical hubs in New York and Paris; the team is distributed across 20+ countries and operates async, making it structurally EOR-friendly for international hires who already have local work rights. No public confirmation of direct visa sponsorship, but the Paris (EU) entity means EU-based candidates can be hired compliantly without EOR.",
+    "recent_news": [
+      "Feb 20, 2026 \u2014 Acquired ggml.ai (the team behind llama.cpp/GGUF), absorbing Georgi Gerganov's team to ensure long-term open-source local AI inference; projects stay MIT-licensed with full team autonomy.",
+      "Jan 5, 2026 (CES) \u2014 NVIDIA and Hugging Face announced deep integration of NVIDIA Isaac/GR00T models into the LeRobot open-source robotics framework, uniting NVIDIA's 2M robotics developers with Hugging Face's 13M AI builders.",
+      "May\u2013Jun 2026 \u2014 Released an open-source $2,500 3D-printed LeRobot Humanoid bipedal platform and a free robotics course; robotics datasets on the Hub grew from 1,145 (2024) to 26,991 (2025), now the largest dataset category on the platform."
+    ],
+    "growth_signal": "Community scaled to 13M+ AI builders with 2M+ models and 700k+ datasets hosted; team sits at ~700 people across 20+ countries (per 2026 compensation data), with product expansion into open-source robotics hardware (Pollen Robotics acquisition, LeRobot) and local inference (ggml.ai acquisition) driving new TAM on top of a $4.5B valuation last set in Aug 2023.",
+    "fit_for_lior": "Hugging Face is a direct landing zone for a Creative AI / Vibe Coder profile \u2014 its open-source ethos, Spaces (no-code/low-code app hosting), and LeRobot democratization narrative reward practitioners who build, ship, and share in public, and the EU Paris office plus distributed-default structure removes most relocation friction.",
+    "sources": [
+      "https://jobsbyculture.com/blog/huggingface-compensation-2026",
+      "https://insiderllm.com/guides/llamacpp-hugging-face-ggml-acquisition/",
+      "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Releases-New-Physical-AI-Models-as-Global-Partners-Unveil-Next-Generation-Robots/default.aspx",
+      "https://sacra.com/c/hugging-face/",
+      "https://letsdatascience.com/news/hugging-face-releases-lerobot-low-cost-humanoid-platform-e9ee3f67",
+      "https://apply.workable.com/huggingface"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

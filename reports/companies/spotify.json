@@ -1,0 +1,39 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-810c-94e3-f6967d1b924f",
+    "name": "Spotify",
+    "tier": "T5 - Frontier Labs + Creative-AI",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Sponsors visa",
+    "industry": "Media/Content",
+    "size": "Enterprise",
+    "location": "Stockholm + New York + global",
+    "notes": "Music + audio creative. Sponsors. No TLV office known. Brand-strong."
+  },
+  "research": {
+    "status_summary": "Spotify is in active cost-cutting / restructuring mode \u2014 with a major 17% workforce reduction in late 2023, a smaller podcast-division trim in March 2026, and new co-CEOs leading a strategic pivot toward AI-generated audio products unveiled at its May 2026 Investor Day.",
+    "hiring_policy": "Spotify actively sponsors H-1B visas (filed 47 LCAs in FY2026) and maintains its 'Work From Anywhere' policy allowing employees to work remotely from any country where Spotify has a legal entity \u2014 no known EOR friction, but sponsorship volume has dropped significantly from 139 LCAs in FY2025, suggesting a tighter hiring pace.",
+    "recent_news": [
+      "May 21, 2026 \u2014 Spotify held its first Investor Day in four years, unveiling a 'Large Taste Model,' a 2030 roadmap targeting 1 billion subscribers and $100B in revenue, and a landmark licensing deal with Universal Music Group to let Premium users create AI-powered covers and remixes of songs.",
+      "March 24, 2026 \u2014 Spotify laid off ~15 employees (~3% of its podcasting division), affecting Spotify Studios and The Ringer, as part of an internal restructure aimed at reducing management layers.",
+      "Q1 2026 financials (SEC filing) \u2014 Spotify hit a Q1 record gross margin of 33.0%, operating income of \u20ac715M, and 761M monthly active users (12% YoY growth), beating guidance on all key metrics."
+    ],
+    "growth_signal": "Despite a ~25% stock decline YTD, Spotify's fundamentals are accelerating \u2014 761M MAUs, 293M Premium subscribers, \u20ac4.5B quarterly revenue, and a bold AI-monetization strategy position it for platform expansion rather than contraction.",
+    "fit_for_lior": "Spotify is a near-perfect fit for Lior's Creative AI thread \u2014 the UMG generative remix deal, the Large Taste Model, ElevenLabs audiobook narration partnership, and AI DJ features all demand Product Analysts and creative-AI thinkers who can sit at the intersection of music, UX, and responsible AI; WFA policy and confirmed visa sponsorship make it practically accessible too.",
+    "sources": [
+      "https://www.cnbc.com/2026/05/21/spotify-spot-stock-guidance-investor-day-ai.html",
+      "https://newsroom.spotify.com/2026-05-21/universal-music-group-spotify-licensing-agreements-fan-made-covers-remixes/",
+      "https://techcrunch.com/2026/05/22/spotifys-ai-bet-more-of-everything-less-of-what-you-want/",
+      "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/",
+      "https://frontofficesports.com/spotify-lays-off-15-employees-multiple-ringer-staffers/",
+      "https://www.sec.gov/Archives/edgar/data/0001639920/000114036126017211/ef20071303_ex99-1.htm",
+      "https://newsroom.spotify.com/2026-05-21/investor-day-recap/",
+      "https://www.ellis.com/visa-sponsors/spotify-usa-inc",
+      "https://fortune.com/2025/03/06/companies-with-remote-hybrid-work-options-spotify-nvidia-zillow-pintrest-microsoft/"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

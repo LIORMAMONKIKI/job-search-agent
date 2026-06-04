@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-814c-8f4d-f7d876f54a76",
+    "name": "Topaz Labs",
+    "tier": "T2 - Established AI Video/Image",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Unknown - needs research",
+    "industry": "AI/ML",
+    "size": "Growth (51-200)",
+    "location": "Dallas",
+    "notes": "Image/video enhancement."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

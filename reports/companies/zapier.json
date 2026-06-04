@@ -1,0 +1,38 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-816b-ba3b-f79fb9f76024",
+    "name": "Zapier",
+    "tier": "T6 - Globally Distributed",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "EOR-friendly",
+    "industry": "SaaS",
+    "size": "Large (1000+)",
+    "location": "Fully distributed",
+    "notes": "Automation, fully remote since founding."
+  },
+  "research": {
+    "status_summary": "Zapier is actively hiring across engineering, AI, sales, and design roles as of June 2026, with no announced formal layoff rounds in 2026 \u2014 though Glassdoor reviews note quiet, unannounced attrition and internal cultural turbulence tied to a heavy AI-first pivot.",
+    "hiring_policy": "Zapier is 100% remote-first since founding, hiring across 30+ countries (36 US states + 30 countries globally), but restricts certain geographies and does not publicly offer visa sponsorship \u2014 candidates must already hold local work rights; no EOR-explicit hiring policy is stated, though its distributed model is structurally EOR-compatible for countries where it already operates.",
+    "recent_news": [
+      "March 2026: Zapier launched '1 Million AIs,' a free AI education initiative via live workshops, bootcamps, and courses, riding momentum from its first-ever Super Bowl commercial.",
+      "February 2026: Zapier shipped 'AI Guardrails' \u2014 a built-in safety layer detecting PII, prompt injection, and toxic content inside automated workflows \u2014 alongside unified Agents + Zap templates.",
+      "March 2026: Zapier published research from 10,000 AI-powered workflows, identifying lead management as the #1 AI automation use case, reinforcing its enterprise GTM push."
+    ],
+    "growth_signal": "Headcount sits at ~1,475 (Tracxn, Apr 2026), up from ~800\u2013805 (2025 estimates), valuation holds at $5B with no new funding needed \u2014 projected $400M revenue for 2025 (~29% growth) on a bootstrapped, capital-efficient model.",
+    "fit_for_lior": "Strong fit: Zapier's AI Agents, Copilot (natural language workflow builder), and no-code AI orchestration platform sit squarely at the intersection of Lior's Creative AI, Vibe Coder, and Product Analyst threads \u2014 and the company explicitly welcomes AI tool use during its own hiring process.",
+    "sources": [
+      "https://tracxn.com/d/companies/zapier/__M0GRI5XzSGaxAGJkKBYUSwpVmq148p0Ngn32DrgXz90",
+      "https://zapier.com/blog/february-2026-product-updates/",
+      "https://www.citybiz.co/article/820129/zapier-pledges-free-ai-education-for-1-million-people/",
+      "https://www.zoominfo.com/c/zapier-inc/394324186",
+      "https://zapier.com/jobs",
+      "https://weworkremotely.com/company/zapier",
+      "https://sqmagazine.co.uk/zapier-statistics/",
+      "https://builtin.com/company/zapier/jobs"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

@@ -1,0 +1,27 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81ca-aa8f-ef46fa620cf3",
+    "name": "Navina",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "L-1 lane",
+    "industry": "AI/ML",
+    "size": "Growth (51-200)",
+    "location": "Tel Aviv + US",
+    "notes": "Clinical AI workflows."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [
+    {
+      "name": "Keren Gafni",
+      "position": "Global Human Resources Director",
+      "linkedin": "https://www.linkedin.com/in/keren-gafni-b86a7a1",
+      "connected_on": "05 Mar 2026"
+    }
+  ],
+  "intro_count": 1
+}

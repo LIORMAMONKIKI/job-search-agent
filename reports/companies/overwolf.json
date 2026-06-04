@@ -1,0 +1,43 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81d8-847f-c065626c09dc",
+    "name": "Overwolf",
+    "tier": "T4 - Israeli Local",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "Gaming",
+    "size": "Mid (201-1000)",
+    "location": "Tel Aviv",
+    "notes": "Gaming creator platform. Creator-economy angle."
+  },
+  "research": {
+    "status_summary": "Actively hiring (~25 open roles, 100% remote-listed) with no layoffs or acquisition signals; headcount sits at ~307 as of April 2026 and the company is in active product-launch mode.",
+    "hiring_policy": "Overwolf has sponsored H1B visas in the past and current open roles are listed as fully remote, suggesting EOR-friendly hiring is plausible, though no explicit EOR policy is publicly stated; Israeli-headquartered roles are also listed as remote-eligible.",
+    "recent_news": [
+      "April 27, 2026: Overwolf Ads launched 'Gamer Grid,' a first-party audience-data product built from deterministic PC gameplay behavior reaching ~113M monthly gamers, available in 8 markets (US, UK, CA, DE, FR, IT, ES, NL).",
+      "May 6, 2026: ArcSpan announced it is powering Gamer Grid's AI-driven identity resolution and audience targeting infrastructure, marking Overwolf's push into programmatic advertising beyond its own inventory.",
+      "Overwolf Ads won Best Gaming Platform at the Campaign Media Company of the Year Awards 2026 and was shortlisted for four categories at The Drum Awards Marketing Americas 2026 (tied to a Universal Pictures 'Nobody 2' Fortnite NPC campaign)."
+    ],
+    "growth_signal": "Headcount grew from ~294 (PitchBook) to ~307 (Tracxn, Apr 2026), no new external funding since the $75M Series D in Nov 2021, but revenue is estimated at $100M\u2013$250M annually and creator payouts hit $300M in 2025 on a trajectory toward $1B by 2030.",
+    "fit_for_lior": "Strong fit: Overwolf sits at the intersection of creator-economy infrastructure, AI-powered ad tech (Gamer Grid/Scalibur), and UGC tooling for 178K gaming creators \u2014 directly aligned with Lior's Creative AI and Product Analyst angles, and the Israeli HQ removes relocation friction.",
+    "sources": [
+      "https://www.exchangewire.com/blog/2026/04/27/overwolf-ads-launches-gamer-grid/",
+      "https://www.prnewswire.com/news-releases/arcspan-powers-overwolfs-gamer-grid-bringing-precision-audience-targeting-and-identity-intelligence-to-gaming-advertising-302764293.html",
+      "https://blog.overwolf.com/overwolf-ads-launches-gamer-grid-to-revolutionize-gaming-ad-targeting/",
+      "https://tracxn.com/d/companies/overwolf/__23SVReOTyjrEHH0_e9z7_akiWHeX6wNXvl02vUwGSSo",
+      "https://www.trueup.io/co/overwolf/jobs",
+      "https://gamesbeat.com/overwolf-paid-out-300m-to-creators-so-far-this-year/"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Shai Atzlan",
+      "position": "Developer Relations Manager",
+      "linkedin": "https://www.linkedin.com/in/shai-atzlan",
+      "connected_on": "27 Nov 2023"
+    }
+  ],
+  "intro_count": 1
+}

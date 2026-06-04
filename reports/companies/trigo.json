@@ -1,0 +1,27 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81f0-8315-e5ef9b32d4a5",
+    "name": "Trigo",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Mid (201-1000)",
+    "location": "Tel Aviv",
+    "notes": "Retail AI vision."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [
+    {
+      "name": "Heli Cogan",
+      "position": "Marketing Operations Manager - MLR",
+      "linkedin": "https://www.linkedin.com/in/helicogan",
+      "connected_on": "04 Nov 2022"
+    }
+  ],
+  "intro_count": 1
+}

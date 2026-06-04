@@ -1,0 +1,27 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8110-80ef-d2a61d725558",
+    "name": "Navan",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "L-1 lane",
+    "industry": "SaaS",
+    "size": "Large (1000+)",
+    "location": "Palo Alto + Tel Aviv",
+    "notes": "Corporate travel/expense unicorn (formerly TripActions). Israeli founders. Brand-strong but less creative-AI."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [
+    {
+      "name": "Eran Amir",
+      "position": "Creative Director",
+      "linkedin": "https://www.linkedin.com/in/eamir",
+      "connected_on": "22 Jan 2025"
+    }
+  ],
+  "intro_count": 1
+}

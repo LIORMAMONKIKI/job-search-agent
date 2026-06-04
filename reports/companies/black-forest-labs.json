@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81ae-99e4-c2d39c4eb457",
+    "name": "Black Forest Labs",
+    "tier": "T1 - Frontier AI Video/Image",
+    "priority": "Top Target",
+    "status": "Researching",
+    "hiring_policy": "EOR-friendly",
+    "industry": "AI/ML",
+    "size": "Startup (1-50)",
+    "location": "Freiburg, Germany",
+    "notes": "Makers of Flux \u2014 your daily stack. EU-real, hires globally. High strategic fit."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

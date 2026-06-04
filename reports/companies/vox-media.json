@@ -1,0 +1,36 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-819c-a354-e0650a071d48",
+    "name": "Vox Media (Future Perfect)",
+    "tier": "T7 - Science/Climate/Environment",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Sponsors visa",
+    "industry": "Media/Content",
+    "size": "Large (1000+)",
+    "location": "Washington DC + New York",
+    "notes": "Science/futures journalism. US-only typically."
+  },
+  "research": {
+    "status_summary": "Vox Media (parent of Future Perfect) is mid-acquisition: James Murdoch's Lupa Systems agreed in May 2026 to buy Vox.com, New York Magazine, and the Vox Media Podcast Network for ~$300M, with Future Perfect staying under the Vox.com umbrella; remaining brands (Eater, The Verge, SB Nation, etc.) may go to Penske Media \u2014 the company is structurally splitting and in transition, not actively hiring at scale.",
+    "hiring_policy": "Future Perfect specifically posted a Deputy Editor role (Feb 2026) and a new class of Fellows (Jul 2026\u2013Jun 2027, deadline May 12) \u2014 both NY/DC-based, US-focused; no public EOR or visa sponsorship language found, and all postings specify US office locations, consistent with the existing 'US-only' note.",
+    "recent_news": [
+      "May 20, 2026: James Murdoch's Lupa Systems agreed to acquire Vox.com (which houses Future Perfect), New York Magazine, and the Vox Media Podcast Network for reportedly >$300M \u2014 deal expected to close in 4\u20136 weeks.",
+      "January 2026: Vox Media Union reported 8+ layoffs (staff from Pop Sugar, The Verge, Eater) \u2014 the union noted layoffs had occurred 'at an average of once per quarter in the last year.'",
+      "Future Perfect itself showed active program continuity: recruiting a new 2026\u20132027 fellow cohort and a Deputy Editor, with Editorial Director Bryan Walsh shifting to a writing-focused role \u2014 no cuts reported within the section itself."
+    ],
+    "growth_signal": "Future Perfect appears editorially stable and continuing its fellowship pipeline, but sits inside a company being broken up and sold at a discounted ~$300M valuation \u2014 down sharply from the implied ~$500M valuation when Penske invested in 2023 \u2014 signaling financial contraction at the parent level even as the section itself keeps publishing.",
+    "fit_for_lior": "Future Perfect covers AI, emerging tech, and global risk through an evidence-based lens, which overlaps with Lior's Creative AI thread, but it is a journalism/editorial org with no product, engineering, or vibe-coding roles \u2014 and its US-only, NYC/DC hiring posture and ongoing ownership flux make it a poor near-term fit.",
+    "sources": [
+      "https://variety.com/2026/digital/news/james-murdoch-buys-new-york-magazine-vox-media-podcast-network-deal-1236754854/",
+      "https://www.axios.com/2026/05/20/vox-media-lupa-systems-james-murdoch",
+      "https://www.prnewswire.com/news-releases/lupa-systems-acquires-three-major-divisions-of-vox-media-new-york-magazine-vox-media-podcast-network-and-vox-302777619.html",
+      "https://pressgazette.co.uk/news/journalism-job-cuts-in-2026-updates/",
+      "https://jobs.togethxr.com/companies/vox-media-2-c6144686-dc20-478b-89ae-44bec0072bf0/jobs/75991292-future-perfect-fellow",
+      "https://www.adweek.com/media/vox-media-buzzfeed-end-era/"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

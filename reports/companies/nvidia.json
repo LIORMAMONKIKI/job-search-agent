@@ -1,0 +1,39 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8173-9864-db7f70f8d407",
+    "name": "NVIDIA (Israel)",
+    "tier": "T8 - Global Giants TLV Office",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Enterprise",
+    "location": "Tel Aviv + Yokne'am",
+    "notes": "Massive footprint after Mellanox + Run.ai acquisitions. Active AI hiring."
+  },
+  "research": {
+    "status_summary": "Aggressively hiring and physically expanding across Israel \u2014 ~6,000 employees as of mid-2026 with 350\u2013400 open Israel roles live on LinkedIn/Glassdoor, zero signals of layoffs or freeze.",
+    "hiring_policy": "NVIDIA Israel hires directly via its global Workday ATS (nvidia.wd5.myworkdayjobs.com); roles are on-site or hybrid at Yokneam, Tel Aviv (18 floors, Rubinstein Twin Towers), Ra'anana, Be'er Sheva, and Jerusalem \u2014 no EOR-friendly or fully-remote posture publicly stated for Israel headcount, and Israeli citizenship is not a listed hard requirement per korotchaim.com (last verified 2026-05-02).",
+    "recent_news": [
+      "Networking division (largely built in Israel) hit ~$15B in quarterly revenue \u2014 almost tripling YoY \u2014 as of NVIDIA's latest earnings (May 2026), cementing Israel as the company's single largest revenue-generating R&D hub outside the US.",
+      "NVIDIA formally confirmed its Kiryat Tivon mega-campus (160,000 sqm, 10,000-employee capacity, multibillion-shekel investment, construction 2027\u20132031) \u2014 the first international tech campus in Israel built on owned, not leased, land.",
+      "NVIDIA acquired Israeli AI startup Illumex (~$60M, February 2026), folding its enterprise knowledge-graph / Generative Semantic Fabric team into NVIDIA Israel \u2014 the third Israeli AI acquisition in two years (after Deci and Run:ai).",
+      "Be'er Sheva R&D center tripled to 3,000 sqm at Gav-Yam Negev Tech Park, targeting 'hundreds' of new hires including chip developers, HW/SW engineers, and university graduates \u2014 move completed H1 2026.",
+      "Jensen Huang publicly named Israel NVIDIA's 'second home' at CES 2026, and CFO confirmed Mellanox-derived networking revenue now exceeds $31B annually \u2014 more than 4\u00d7 the original $7B acquisition price."
+    ],
+    "growth_signal": "Headcount has grown from ~2,000 (at Mellanox acquisition) to ~6,000 today and is on a stated trajectory toward 10,000+ when the Kiryat Tivon campus opens (~2031), making NVIDIA the fastest-scaling large tech employer in Israel and likely its largest private employer within a decade.",
+    "fit_for_lior": "NVIDIA Israel is a strong match for Lior across all three threads: the Run:ai and Deci acquisitions seeded a dedicated AI-software / LLM product org in Tel Aviv (Creative AI + Product Analyst fit), the 'Manager, AI Agents and Applied Research' and 'Software Solutions Architect \u2013 NVIS' roles listed in TLV signal appetite for product-adjacent AI builders, and NVIDIA's Inception Program (1,000+ Israeli startups) offers a Vibe Coder / developer-relations entry point for someone bridging creative AI and technical product work.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/bkddbq2jme",
+      "https://www.calcalistech.com/ctechnews/article/hkrcgl5dbx",
+      "https://www.timesofisrael.com/nvidia-picks-kiryat-tivon-for-large-rd-campus-bringing-tech-jobs-north/",
+      "https://www.ynetnews.com/business/article/hjybzui0xg",
+      "https://korotchaim.com/en/companies/nvidia-israel",
+      "https://americanbazaaronline.com/2026/06/02/nvidia-tackles-tech-layoffs-with-high-paying-ai-hiring-481993/",
+      "https://il.linkedin.com/jobs/nvidia-jobs"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

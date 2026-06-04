@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8165-b689-e8b2b3753704",
+    "name": "Magnific / Freepik",
+    "tier": "T2 - Established AI Video/Image",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "EOR-friendly",
+    "industry": "AI/ML",
+    "size": "Growth (51-200)",
+    "location": "Madrid",
+    "notes": "Image upscaling, creative stack. EU."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

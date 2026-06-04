@@ -1,0 +1,35 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81cd-a102-ec11b3bb6084",
+    "name": "Briya",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Startup (1-50)",
+    "location": "Tel Aviv",
+    "notes": "AI healthcare. Less creative-adjacent."
+  },
+  "research": {
+    "status_summary": "Actively growing and hiring \u2014 Briya is scaling its U.S. presence post-Series A, adding senior leadership and open technical/design roles as of mid-2026.",
+    "hiring_policy": "Open roles include Data Engineer and Product Designer, listed on briya.com/careers with no explicit mention of visa sponsorship or remote policy; company operates offices in Israel (Tel Aviv) and Tennessee/New York, suggesting a hybrid or multi-location setup unlikely optimized for EOR-friendly international hires.",
+    "recent_news": [
+      "Feb 5, 2026: Briya appointed Brian Creighton as Executive Director of Client Strategy to accelerate U.S. partnerships and drive adoption of its AIRE platform, representing the company at the SCOPE Summit in Orlando.",
+      "Feb 16, 2026: Briya highlighted its AI and privacy-preserving data infrastructure for biopharma R&D (via TipRanks), signaling continued enterprise BD push.",
+      "Dec 2025: Briya announced availability in the Epic Connection Hub, expanding its integration footprint within major hospital EHR ecosystems."
+    ],
+    "growth_signal": "Headcount grew from ~34 (Sept 2022) to 61 (May 2026), though year-over-year growth is slightly negative at -7.6%; total disclosed funding stands at ~$17M (Series A), backed by Insight Partners, Team8, and Amiti.",
+    "fit_for_lior": "Very low fit \u2014 Briya is a clinical/epidemiological data infrastructure play (healthcare RWE, not creative AI), with open roles in data engineering and product design that skew toward health-data compliance and biomedical research tooling rather than Lior's Creative AI, Product Analyst, or Vibe Coder threads.",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/briya-appoints-brian-creighton-to-accelerate-growth-in-ai-driven-healthcare-data-302679975.html",
+      "https://finder.startupnationcentral.org/company_page/bria-interoperability",
+      "https://profiles.crustdata.com/company/briya",
+      "https://www.cbinsights.com/company/briya",
+      "https://briya.com/careers/"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

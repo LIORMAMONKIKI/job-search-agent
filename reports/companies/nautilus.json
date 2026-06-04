@@ -1,0 +1,35 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-816b-ac61-fc1add4a5181",
+    "name": "Nautilus",
+    "tier": "T7 - Science/Climate/Environment",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Unknown - needs research",
+    "industry": "Media/Content",
+    "size": "Startup (1-50)",
+    "location": "New York",
+    "notes": "Science magazine. Small, US."
+  },
+  "research": {
+    "status_summary": "Nautilus (nautil.us) is actively publishing as of June 2026 \u2014 website updated 2 days ago, newsletter running daily, and print editions continuing \u2014 with no reported layoffs, closures, or acquisitions; it remains a small for-profit science magazine under NautilusNext Inc.",
+    "hiring_policy": "Job listings on Indeed show remote roles (Associate Editor, Newsletter Editor, Deputy Editor) with Nautilus explicitly advertising fully remote work; no public information found on visa sponsorship or EOR policy, and as a very small US media company, EOR/sponsorship is unlikely.",
+    "recent_news": [
+      "Site active as of June 2, 2026 with fresh editorial content; newsletter page refreshed April 2026 confirming ongoing daily curation operations.",
+      "Print Edition 56 published January 20, 2026, managed by Liz Greene \u2014 indicating steady cadence of 6 annual print issues continues.",
+      "No funding rounds, acquisitions, or layoffs detected in Apr\u2013Jun 2026; Facebook page shows DAILY DOT LLC listed as page manager, consistent with NautilusNext/Daily Dot ownership structure since 2019."
+    ],
+    "growth_signal": "No new funding or headcount signals in 2026; Nautilus remains a small subscription-driven (10,000+ paying members) niche science brand with stable but modest trajectory, showing no meaningful growth or contraction indicators.",
+    "fit_for_lior": "Very low fit \u2014 Nautilus is a tiny editorial/journalism operation with no product, data, or AI roles; its openings are editorial (Associate Editor, Newsletter Editor), leaving no clear entry point for Creative AI, Product Analyst, or Vibe Coder profiles.",
+    "sources": [
+      "https://nautil.us/",
+      "https://nautil.us/newsletter",
+      "https://nautil.us/print-edition-56-695802",
+      "https://www.indeed.com/q-nautilus-magazine-jobs.html",
+      "https://www.facebook.com/NautilusMag/"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

@@ -1,0 +1,37 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8153-a347-ee3e05e4dcfe",
+    "name": "Amazon (Israel)",
+    "tier": "T8 - Global Giants TLV Office",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Enterprise",
+    "location": "Tel Aviv",
+    "notes": "AWS + AGI presence."
+  },
+  "research": {
+    "status_summary": "Actively hiring across 160\u2013302 open roles in Israel (TLV + Haifa), spanning AWS ML, Agentic AI, Applied Science, Annapurna Labs chip design, Prime Video, and data center operations \u2014 no signs of pause or layoffs.",
+    "hiring_policy": "Roles are Israel-local (on-site/hybrid, Sunday\u2013Thursday workweek); no EOR or remote-first posture observed \u2014 candidates are expected to be Israel-based, and Amazon Israel does not broadly advertise visa sponsorship for external hires into the TLV office.",
+    "recent_news": [
+      "Apr 13 2026: AWS expanded IoT Core and IoT Device Management to the Israel (Tel Aviv) il-central-1 region, signaling continued service rollout into the local cloud infrastructure.",
+      "AWS Summit Tel Aviv 2026 (scheduled Sep 10, 2026) features a 'Gen AI Village' with 100+ sessions on agentic AI, Amazon Bedrock, and generative AI \u2014 the biggest AWS community event in Israel this year.",
+      "AWS denied a Globes (Israeli press) report that it was halting data center expansion in Israel, with a spokesperson confirming it continues to invest 'in line with our previously announced investment plan' of $7.2B through 2037.",
+      "Shareholder proposal at Amazon's May 2026 annual meeting called on the board to audit whether AWS's AI/cloud contracts with Israel's military (Project Nimbus) align with its responsible AI policies \u2014 adding reputational scrutiny to the Israel operation."
+    ],
+    "growth_signal": "AWS Israel (il-central-1) is in steady infrastructure expansion mode \u2014 new compute instances (EC2 M7i, Feb 2026), new IoT services (Apr 2026), and a dedicated Machine Learning Israel (MLIL) team with active Agentic AI SDE headcount \u2014 pointing to a growing AI/ML engineering hub in TLV.",
+    "fit_for_lior": "Strong fit on the AWS Agentic AI and MLIL teams (open SDE roles in Agentic AI, Applied Scientist intern, RecsAI personalization SDE) and Amazon Stores Shopping Personalization AI \u2014 all squarely in Lior's Creative AI + Product Analyst sweet spot, with the Bedrock/GenAI ecosystem providing direct vibe-coding relevance.",
+    "sources": [
+      "https://www.glassdoor.com/Jobs/Amazon-Israel-Jobs-EI_IE6036.0,6_IL.7,13_IN119.htm",
+      "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-iot-israel-tel-aviv-europe-milan/",
+      "https://www.datacenterdynamics.com/en/news/aws-puts-israel-expansion-plans-to-bed-report/",
+      "https://aws.amazon.com/events/summits/tel-aviv/",
+      "https://finance.yahoo.com/news/amazons-59-million-ai-backlash-165146022.html",
+      "https://aws.amazon.com/local/israel/"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

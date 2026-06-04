@@ -1,0 +1,40 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3668fd95-1b02-81bd-9b77-c6f33c2f77f5",
+    "name": "krea.ai",
+    "tier": "T1 - Frontier AI Video/Image",
+    "priority": "Top Target",
+    "status": "Researching",
+    "hiring_policy": "Unknown - needs research",
+    "industry": "AI/ML",
+    "size": "Startup (1-50)",
+    "location": "San Francisco + distributed",
+    "notes": "Frontier AI image/video generation. Surfaced 4 roles in 2026-05-20 LinkedIn scrape under AI Creative keywords. Direct creative-AI fit, Lior's stack overlap (Flux, etc.)."
+  },
+  "research": {
+    "status_summary": "Actively hiring across engineering, ML, and community roles as of June 2026, with no signals of layoffs, pauses, or acquisition.",
+    "hiring_policy": "Krea operates full-time and in-person at its San Francisco waterfront office; remote appears limited to rare roles (e.g., Social Media Lead), and no public EOR or visa sponsorship policy has been stated \u2014 strong on-site SF bias makes EOR/remote unlikely.",
+    "recent_news": [
+      "Krea 2 launched May 12\u201318, 2026 as the company's first proprietary foundation image model built from scratch, focused on aesthetics and creative control; went live for all users on May 18.",
+      "Krea 2 LoRA training previewed May 29, 2026 \u2014 lets creators train styles, characters, and objects privately or share publicly via Krea Train; API now available on Fal, ComfyUI, and with Claude/Codex support.",
+      "SeeDance-2 video generation tool announced April 16, 2026, adding an effects-tag catalog for controlling motion, style, lighting, and camera behavior; June 2, 2026 partnership with Henning Larsen Architects for AI architecture tools.",
+      "Krea Realtime 14B (14B-parameter real-time video model) released Oct 2025; FLUX.1 Krea open-sourced (weights + fine-tune resources) Jul 2025 \u2014 both still active pillars of current stack.",
+      "Krea 2 ranked #1 image model from an independent research lab and #6 globally on Artificial Analysis text-to-image leaderboard as of late May 2026."
+    ],
+    "growth_signal": "Series B-stage company (~95 employees as of Apr 2026, up from earlier estimates) with $83M raised total (led by Bain Capital Ventures, a16z, Abstract Ventures), shipping proprietary foundation models at high cadence \u2014 clear upward product and headcount trajectory.",
+    "fit_for_lior": "Near-perfect fit: Krea 2's LoRA/fine-tuning stack and FLUX.1 open release align directly with Lior's Flux expertise, and the rapid product surface expansion (nodes, realtime edit, moodboards, API) creates immediate openings for a Creative AI Product Analyst or Vibe Coder who can bridge generative model capabilities with UX and workflow design.",
+    "sources": [
+      "https://www.krea.ai/news",
+      "https://krea.ai/release-notes",
+      "https://krea.ai/release-notes/krea-2-is-here",
+      "https://krea.ai/release-notes/krea-2-is-live-for-everyone",
+      "https://tracxn.com/d/companies/krea/__vbg0pscxCO89X-ZlrVDSYKyRSuDHMIFcUi_Dy65TLFA",
+      "https://www.ziprecruiter.com/co/krea-ai/Jobs/full-time",
+      "https://blockchain.news/ainews/krea-ai-seedance-2-video-model-latest-effects-tags-and-prompt-guide-for-2026-creators",
+      "https://www.glassdoor.com/Jobs/Krea-Jobs-E515544.htm"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

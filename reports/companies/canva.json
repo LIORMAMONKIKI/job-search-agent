@@ -1,0 +1,38 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81ab-bc53-db9e700140e9",
+    "name": "Canva",
+    "tier": "T5 - Frontier Labs + Creative-AI",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "Sponsors visa",
+    "industry": "AI/ML",
+    "size": "Enterprise",
+    "location": "Sydney + San Francisco + global",
+    "notes": "Sponsors. Creative AI for marketing/design."
+  },
+  "research": {
+    "status_summary": "Canva is actively hiring (300+ open roles globally as of Jan 2026) while simultaneously executing selective AI-driven restructuring \u2014 notably absorbing Leonardo.AI's ~150-person team into its core AI org and cutting a small technical writing team in Apr 2025 amid broader AI substitution pressure; COO Cliff Obrecht's deleted March 2026 Slack note comparing Canva's ~5,000-person headcount to Anthropic's ~2,300 sparked internal layoff fears, though no mass cuts have been confirmed.",
+    "hiring_policy": "Canva (HQ: Sydney) offers visa sponsorship for software engineering, product management, and design roles, primarily for its Australian offices; for US roles, Canva Us Inc. has filed H-1B LCAs (marketing managers, sales, software developers, data analysts) but is a modest US sponsor. Remote/flexible work is a stated policy ('work from home allowed, hours flexible, what matters is getting work done'), making it hybrid-friendly though not fully EOR-remote by default.",
+    "recent_news": [
+      "Canva AI 2.0 launched Apr 16, 2026 at Canva Create in LA \u2014 billed as the platform's biggest evolution since 2013, introducing a proprietary Canva Design Model (world's first design-specific foundation model), conversational/agentic editing, persistent memory, and six new workflows (Connectors, Scheduling, Web Research, Brand Intelligence, Sheets AI, Canva Code 2.0).",
+      "Canva acquired Ortto (Apr 8, 2026) and earlier acquired Cavalry + MangoAI (Feb 2026), integrating motion graphics and AI video-ad optimization into its suite; Leonardo.AI fully absorbed into Canva's 100+ AI product/research teams (Mar 2026) \u2014 bringing total acquisitions to 5+ in two years.",
+      "Revenue hit $4B ARR by end of 2025 (+20% MAU growth to 265M users, 31M paid); B2B segment (25+ seats) grew 100% YoY reaching $500M ARR; Canva fined A$792K in May 2026 for failing to lodge financial results on time; IPO signaled by COO as 'next couple of years.'"
+    ],
+    "growth_signal": "Canva is on a steep upward trajectory \u2014 $4B ARR, 265M MAUs, 100% enterprise growth YoY, ~15,755 employees as of Apr 2026, a $42B\u2013$65B valuation range, and a wave of acquisitions and the landmark Canva AI 2.0 platform launch positioning it as the dominant Creative AI OS for non-designers and marketing teams.",
+    "fit_for_lior": "Canva is a direct bull's-eye for Lior's Creative AI + Product Analyst threads \u2014 Canva AI 2.0's agentic design workflows, Magic Layers, and LLM integrations (ChatGPT, Claude, Perplexity) are exactly the 'vibe coding meets marketing design' surface she covers, and Canva is a confirmed sponsor actively hiring product, AI, and growth roles globally.",
+    "sources": [
+      "https://www.capitalbrief.com/article/canva-bucks-tech-employment-slowdown-with-intentional-global-hiring-spree-1fdb6959-29d7-42f1-abbe-876ad652bc53/",
+      "https://www.canva.com/newsroom/news/canva-create-2026-ai/",
+      "https://techcrunch.com/2026/02/18/canva-gets-to-4b-in-revenue-as-llm-referral-traffic-rises/",
+      "https://www.cnbc.com/2026/02/23/canva-acquires-cavalry-for-motion-graphics-and-mangoai-for-video-ads.html",
+      "https://www.startupdaily.net/topic/business/canva-denies-job-losses-as-leonardo-ai-comes-into-the-fold/",
+      "https://www.capitalbrief.com/article/this-is-a-new-bar-cliff-obrecht-sparks-canva-job-cut-fears-in-since-deleted-slack-note-ef467973-fdc8-4759-a912-c7c41204f9c6/",
+      "https://www.myvisajobs.com/Visa-Sponsor/Canva/1456601.htm",
+      "https://tracxn.com/d/companies/canva/__LHKOZhxQIkd1nKd00xe8ZiSIZ1WlxGLsiY4nuztOWOY"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

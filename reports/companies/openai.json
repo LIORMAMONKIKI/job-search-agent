@@ -1,0 +1,39 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-816a-9eee-eab738334a8d",
+    "name": "OpenAI",
+    "tier": "T5 - Frontier Labs + Creative-AI",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "Sponsors visa",
+    "industry": "AI/ML",
+    "size": "Large (1000+)",
+    "location": "San Francisco",
+    "notes": "Sponsors. Frontier lab."
+  },
+  "research": {
+    "status_summary": "Actively and aggressively hiring \u2014 OpenAI is targeting a near-doubling of headcount from ~4,500 to ~8,000 employees by end of 2026, with no layoffs reported internally.",
+    "hiring_policy": "OpenAI sponsors H-1B visas (57 LCAs filed in FY2026, 100% approval rate) and provides immigration/relocation support; however, it is firmly hybrid/office-first (3 days in-office Mon\u2013Wed), with only ~4% of open roles listed as remote and no EOR or work-from-anywhere policy \u2014 candidates outside a hub city are expected to relocate within ~45 days of hire.",
+    "recent_news": [
+      "$122B funding round closed March 31, 2026 at an $852B valuation, anchored by Amazon ($50B), Nvidia ($30B), and SoftBank ($30B) \u2014 the largest private fundraise in history; an IPO is widely expected by Q4 2026 or Q1 2027.",
+      "Product velocity in overdrive: GPT-5.5 released April 23 and set as ChatGPT default in May; Sora 2 (flagship video/audio generation) launched as a standalone product; Codex (coding agent) doubled API revenue growth rate within one week of its Goal Mode launch in May 2026.",
+      "Disney signed a landmark 3-year licensing deal giving Sora access to 200+ characters across Disney, Marvel, Pixar, and Star Wars for user-prompted social videos; OpenAI also launched 'Rosalind Biodefense' (GPT-Rosalind for life-sciences AI) in early June 2026 \u2014 signaling aggressive vertical expansion beyond consumer chat."
+    ],
+    "growth_signal": "Revenue run-rate reached ~$2B/month (~$24B annualized), enterprise now constitutes 40% of revenue (up from 30% a year ago) and is on track to reach parity with consumer by end of 2026, while headcount is set to nearly double \u2014 the clearest hyper-growth signal in the current AI landscape.",
+    "fit_for_lior": "OpenAI is a direct high-priority target for Lior: Sora 2, ChatGPT Images, and the Disney creative-IP deal sit squarely in her Creative AI thread, Codex + GPT-5.5 power her Vibe Coder angle, and the explosive enterprise + product analytics surface (900M weekly users, ads pilot, agentic workflows) maps perfectly onto a Product Analyst / AI Product role \u2014 especially given OpenAI's stated push to build out product development and 'technical ambassadorship' headcount.",
+    "sources": [
+      "https://futurism.com/artificial-intelligence/openai-double-headcount-anthropic",
+      "https://openai.com/index/accelerating-the-next-phase-ai/",
+      "https://www.bloomberg.com/news/articles/2026-03-31/openai-valued-at-852-billion-after-completing-122-billion-round",
+      "https://jobsbyculture.com/blog/openai-remote-work-policy-2026",
+      "https://h1bgrader.com/h1b-sponsors/openai-opco-llc-60d97wl6k8",
+      "https://openai.com/index/sora-2/",
+      "https://openai.com/index/disney-sora-agreement/",
+      "https://codersera.com/blog/openai-may-2026-updates-roundup/",
+      "https://releasebot.io/updates/openai"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

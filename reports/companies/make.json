@@ -1,0 +1,39 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8192-bd32-f8af8ebaac2c",
+    "name": "Make (Integromat)",
+    "tier": "T6 - Globally Distributed",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "EOR-friendly",
+    "industry": "SaaS",
+    "size": "Mid (201-1000)",
+    "location": "Prague + remote",
+    "notes": "EU automation platform."
+  },
+  "research": {
+    "status_summary": "Make (formerly Integromat) is actively operating and product-shipping as of June 2026, with no layoffs reported \u2014 self-described as 'profitable' and growing, with ~706 employees as of April 2026.",
+    "hiring_policy": "Make's careers page advertises active hiring with RSU grants, flexible/remote working with a monthly remote allowance, and flexible hours, but no public mention of visa sponsorship or explicit EOR-friendly hiring; as a Czech-HQ'd EU company, international hiring likely follows European work-permit norms rather than EOR models.",
+    "recent_news": [
+      "Next-generation Make AI Agents launched February 11, 2026 \u2014 fully integrated into the visual Scenario Builder with a real-time Reasoning Panel, available on all paid plans.",
+      "Maia, Make's conversational AI build assistant (describe a workflow in plain language, Maia wires the modules), is in early access as of May 2026 \u2014 not yet GA, with per-plan weekly message limits already documented.",
+      "Make Waves '26 announced for Prague, October 19\u201320, 2026 \u2014 Make's flagship annual conference moving to HQ city for the first time, targeting 700+ automation and AI builders; tickets went on sale April 23, 2026.",
+      "Make Grid (real-time auto-generated visual map of entire automation landscape) rolled out to all paid users in 2025 and is now a core platform pillar entering 2026.",
+      "Make announced official end-of-support dates for the legacy Integromat platform, completing the full brand/product migration."
+    ],
+    "growth_signal": "Make reports being profitable with ~706 employees (April 2026, per Tracxn), powers 250,000\u2013500,000+ organizations, and is on an accelerating product-release cadence (AI Agents, Maia, Grid, MCP) with a growing annual conference \u2014 trajectory is expansion, not contraction.",
+    "fit_for_lior": "Make is a direct sweet spot: its entire 2026 product story \u2014 Maia (vibe-coding automations via natural language), AI Agents, and Make Grid \u2014 maps precisely to Lior's Creative AI, Vibe Coder, and Product Analyst threads, and the no-code-first DNA means PM/analyst roles here sit at the intersection of AI product strategy and workflow UX.",
+    "sources": [
+      "https://www.make.com/en/blog/announcing-next-generation-make-ai-agents",
+      "https://stacksheriff.com/automation/make-maia-review/",
+      "https://waves.make.com/",
+      "https://community.make.com/t/waves-26-tickets-on-sale-make-s-biggest-event-comes-to-prague/107900",
+      "https://tracxn.com/d/companies/make/__goblLB6Svzom9RNvXuqdn_VrOTsml5MUXUV7RVMuzRE",
+      "https://www.make.com/en/careers",
+      "https://www.make.com/en/press"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

@@ -1,0 +1,38 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8170-a762-fa95c9b1324b",
+    "name": "Microsoft (Israel)",
+    "tier": "T8 - Global Giants TLV Office",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Enterprise",
+    "location": "Tel Aviv + Herzliya",
+    "notes": "Major R&D. AI work. 2 LinkedIn contacts."
+  },
+  "research": {
+    "status_summary": "Actively hiring (~100 open R&D roles as of March 2026, 580\u2013609 Israel-listed jobs on LinkedIn/Glassdoor in June 2026), but under significant leadership and governance disruption following the firing of Country GM Alon Haimovich in May 2026 and an ongoing internal ethics probe.",
+    "hiring_policy": "Microsoft Israel operates a hybrid model (3 days/week in-office at Herzliya/Tel Aviv/Haifa/Nazareth sites); roles are direct Microsoft employment\u2014no EOR needed\u2014but the company hires locally in Israel and does not typically sponsor non-local visa candidates for its Israel R&D center.",
+    "recent_news": [
+      "May 2026: Country GM Alon Haimovich fired and several government-division managers exited following an internal ethics probe into Microsoft Israel's work with Israel's Ministry of Defense and IDF Unit 8200's use of Azure for surveillance of Palestinians.",
+      "May 2026: Microsoft Israel temporarily placed under the management of Microsoft France (previously reported to Dubai) while a new country GM is sought; the probe focused on non-transparent contract terms that exposed Microsoft to European regulatory/GDPR risk.",
+      "March 2026 (Calcalist): Microsoft Israel R&D (3,000 employees) was actively recruiting ~100 people in software development, research, and product management, with AI (Copilot capabilities) and cybersecurity as the primary focus areas\u2014recruitment continued despite the governance controversy.",
+      "May 2026: Microsoft globally consolidated its consumer and enterprise Copilot teams under new leadership (Jacob Andreou), with Israel's Excel/AI Formula Completion team cited as a flagship local AI product.",
+      "June 2026: Microsoft preparing new MAI model family (image, voice, transcription, coding) for Build 2026 announcements, reinforcing Israel R&D center's AI pipeline relevance."
+    ],
+    "growth_signal": "Headcount stable at ~3,000 in Israel with ~100 active R&D hires in progress, but leadership vacuum and governance probe introduce near-term uncertainty; the core AI and security product mandate remains intact and Microsoft's global AI model investment is accelerating.",
+    "fit_for_lior": "Strong fit on Creative AI (Israel team built AI Formula Completion for Excel, Copilot AI features) and Product Analyst threads, though the leadership transition and ethics probe mean the government/defense sales side is turbulent\u2014pure R&D/product roles in the Herzliya campus remain the most stable entry point.",
+    "sources": [
+      "https://www.jpost.com/defense-and-tech/article-895866",
+      "https://www.newarab.com/news/microsoft-israel-chief-fired-over-use-azure-israeli-army",
+      "https://www.calcalistech.com/ctechnews/article/cdzdrd6pl",
+      "https://www.jns.org/news/israel-news/microsoft-said-to-probe-israel-offices-defense-ties",
+      "https://winbuzzer.com/2026/05/12/microsoft-israel-chief-leaves-after-ethics-probe-xcxwbn/",
+      "https://careers.microsoft.com/v2/global/en/locations/israel.html"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

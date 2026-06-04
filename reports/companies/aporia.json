@@ -1,0 +1,36 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-817e-aed2-e3c51941a983",
+    "name": "Aporia",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Acquired",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Growth (51-200)",
+    "location": "Tel Aviv",
+    "notes": "ML observability. AI-adjacent. | ACQUIRED: Acquired by Coralogix (which is in this DB). ML observability product team merged into Coralogix."
+  },
+  "research": {
+    "status_summary": "Fully absorbed \u2014 Aporia was acquired by Coralogix on December 23, 2024 for ~$50M; it no longer operates as an independent entity, with aporia.com now redirecting to Coralogix and the team rebranded as 'Coralogix AI.'",
+    "hiring_policy": "Hiring, if any, would be under Coralogix's banner (Coralogix AI R&D center), not Aporia directly; Coralogix has offices in Israel, the US, UK, Germany, and India, but Aporia as a standalone hiring entity is effectively defunct.",
+    "recent_news": [
+      "Acquired by Coralogix on Dec 23, 2024 in a ~$50M cash-and-shares deal; entire Aporia team relocated to Coralogix offices.",
+      "Aporia co-founders Liran Hason (CEO) and Alon Gubkin (CTO) now lead 'Coralogix AI,' a dedicated AI R&D center focused on guardrails, monitoring, and AI governance.",
+      "Coralogix raised a $115M Series E in mid-2025 at a $1B+ valuation, with a significant portion earmarked to expand the former Aporia team and its AI observability solutions.",
+      "aporia.com now auto-redirects to Coralogix; the standalone Aporia brand and product are fully merged into the Coralogix platform."
+    ],
+    "growth_signal": "Aporia itself is no longer growing independently \u2014 its technology and headcount are absorbed into Coralogix, which doubled down with a $115M Series E and plans to double the team size within two years of the acquisition.",
+    "fit_for_lior": "No longer a viable target as an independent employer; any relevant opportunity would be via Coralogix AI (the successor R&D unit), which is focused on AI guardrails and LLM observability \u2014 tangentially relevant to AI-adjacent Product Analyst or Vibe Coder roles but not a creative AI or product-forward environment.",
+    "sources": [
+      "https://coralogix.com/blog/coralogix-acquires-aporia/",
+      "https://www.calcalistech.com/ctechnews/article/5y3de8pii",
+      "https://www.calcalistech.com/ctechnews/article/h1tsdarqge",
+      "https://www.aporia.com/blog/aporia-has-been-acquired-by-coralogix/",
+      "https://tracxn.com/d/companies/aporiaai/__ar0Oq6DaVdJLY0sh_ekTFK9S6h5gcdD-CyR8V3hB3jg"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

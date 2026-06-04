@@ -1,0 +1,35 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8163-863f-ecfa3e205d1f",
+    "name": "Sweep",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "SaaS",
+    "size": "Startup (1-50)",
+    "location": "Tel Aviv",
+    "notes": "Salesforce automation."
+  },
+  "research": {
+    "status_summary": "Actively hiring across sales, marketing, customer success, and R&D roles (as of May\u2013Jun 2026), post-Series B with no signs of layoffs or acquisition.",
+    "hiring_policy": "Sweep has an established R&D hub in Tel Aviv alongside offices in New York, Lisbon, and Madrid, and operates a work-from-anywhere policy; no explicit EOR or visa sponsorship language found publicly, but the distributed multi-country footprint suggests openness to international hires.",
+    "recent_news": [
+      "Raised $22.5M Series B in May 2025 led by Insight Partners with participation from Bessemer Venture Partners, bringing total funding to ~$50.5M\u2013$57.6M across 3 rounds.",
+      "Pivoted product positioning from 'Salesforce visual workspace' to 'the agentic layer for system metadata,' expanding coverage to HubSpot, ServiceNow, Snowflake, Marketo, NetSuite, and SAP.",
+      "Attended Salesforce TDX in San Francisco (April 15\u201316, 2026) as an active exhibitor, signaling continued go-to-market push into the Salesforce ecosystem."
+    ],
+    "growth_signal": "Headcount grew to ~82 employees as of April 2026 (up from ~77 in February 2026), with Series B funds earmarked to scale engineering, GTM, and customer success teams.",
+    "fit_for_lior": "Strong fit for the Vibe Coder and Product Analyst threads \u2014 Sweep's agentic, no-code/low-code Salesforce automation platform needs people who can bridge AI product thinking with RevOps workflows, and the Tel Aviv R&D office makes it a natural Israeli-local target.",
+    "sources": [
+      "https://tracxn.com/d/companies/sweep/__n8hg5HeQ64n_r6r3T3pLfJVmkZdJOyRdsqu_Ttja1fg",
+      "https://www.prnewswire.com/news-releases/sweep-raises-22-5m-in-series-b-funding-led-by-insight-partners-to-help-businesses-stay-ahead-with-an-agentic-workspace-for-gtm-systems-302460023.html",
+      "https://www.sweep.io/about",
+      "https://wellfound.com/company/sweep360/jobs",
+      "https://www.sweep.io/ai-powered-salesforce-documentation"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

@@ -1,0 +1,43 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8193-b345-e06c3786bce9",
+    "name": "Adobe",
+    "tier": "T5 - Frontier Labs + Creative-AI",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "Sponsors visa",
+    "industry": "AI/ML",
+    "size": "Enterprise",
+    "location": "San Francisco + global (incl. TLV)",
+    "notes": "Creative AI giant. Has TLV office. Sponsors."
+  },
+  "research": {
+    "status_summary": "Adobe is actively continuing operations and product launches with no formal mass layoffs announced, but is undergoing quiet attrition, rolling PIPs (especially in DX/Workfront), and a major CEO transition after Shantanu Narayen stepped down in March 2026.",
+    "hiring_policy": "Adobe is a confirmed H-1B sponsor (796 LCAs filed in FY2026) and operates a hybrid model (roughly 50/50 home/office), with some fully remote roles available; EOR-friendly status for international hires outside the US is not explicitly confirmed, but the Israel entity (Adobe Systems Israel Ltd., Herzliya) is active and LinkedIn shows open roles in Israel as recently as June 2026.",
+    "recent_news": [
+      "CEO exit (March 2026): Longtime CEO Shantanu Narayen stepped down amid investor pressure over Adobe's AI monetization pace; stock down ~25% YTD at time of exit.",
+      "Semrush acquisition closed April 28, 2026 \u2014 $1.9B all-cash deal to add SEO/GEO/brand-visibility intelligence to Adobe CX Enterprise as AI-driven discovery surges 269% YoY.",
+      "Firefly AI Assistant launched in public beta (April 2026) \u2014 agentic creative AI that orchestrates multi-step workflows across Photoshop, Premiere, Illustrator, Lightroom, and Frame.io via natural language; followed by a new Productivity Agent for Acrobat (May 2026).",
+      "Strategic NVIDIA partnership announced March 2026 at GTC \u2014 next-gen Firefly models, agentic loops, and 3D digital twin capabilities built on NVIDIA Omniverse/NeMo.",
+      "Adobe presenting 75+ papers at CVPR 2026 (June 3\u20134) including TokenTrace for AI content attribution and PRISM privacy-preserving licensing \u2014 signaling heavy research investment.",
+      "Q2 FY2026 earnings call scheduled June 11, 2026; board approved $25B stock buyback through 2030, signaling financial confidence despite stock headwinds."
+    ],
+    "growth_signal": "Despite stock pressure and a CEO change, Adobe is aggressively expanding its AI product surface (agentic Firefly, CX Enterprise, Acrobat productivity agent) and inorganic growth via the Semrush acquisition, pointing to a platform-expansion trajectory rather than contraction.",
+    "fit_for_lior": "Adobe is a direct match for Lior's Creative AI thread \u2014 Firefly's agentic assistant, Generative Fill, and the new multi-app orchestration layer are exactly the product surface where a Creative AI-fluent Product Analyst or Vibe Coder can contribute, and the Israel office (Herzliya) plus active Israel LinkedIn listings make local entry realistic.",
+    "sources": [
+      "https://news.adobe.com/news/2026/04/adobe-new-creative-agent",
+      "https://news.adobe.com/news/2026/05/adobes-new-productivity-agent",
+      "https://news.adobe.com/news/2026/03/adobe-and-nvidia-announce-strategic-partnership",
+      "https://news.adobe.com/news/2026/04/adobe-completes-semrush-acquisition",
+      "https://www.businesswire.com/news/home/20260601840348/en/Adobe-to-Announce-Q2-FY2026-Earnings-Results-on-June-11-2026",
+      "https://fortune.com/2026/03/19/ceo-ai-churn-turnover-adobe-shantanu-narayen/",
+      "https://www.kore1.com/adobe-layoffs-2026/",
+      "https://research.adobe.com/news/tokentrace-at-cvpr-2026-tracing-creative-influence-in-generative-ai/",
+      "https://www.myvisajobs.com/Visa-Sponsor/Adobe/1377760.htm",
+      "https://il.linkedin.com/jobs/adobe-jobs"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

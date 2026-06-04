@@ -1,0 +1,34 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-814d-8143-ea6688eac9a9",
+    "name": "Amphibio Ltd",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "Other",
+    "size": "Startup (1-50)",
+    "location": "Tel Aviv",
+    "notes": "Environmental consulting / green building. Aligns with past Society for Protection of Nature work."
+  },
+  "research": {
+    "status_summary": "Operational and stable \u2014 no acquisitions, layoffs, or funding events detected; website active as of 2026 and company continues delivering environmental consulting and green-building projects in Israel.",
+    "hiring_policy": "No public job postings or formal hiring policy found; as a small Israeli boutique firm (revenue <$5M, core team of ~8\u201310 specialists) it supplements staff with external specialist advisers on a project basis, making visa sponsorship or EOR arrangements extremely unlikely.",
+    "recent_news": [
+      "No Apr\u2013Jun 2026 press releases, news articles, or LinkedIn announcements detected for Amphibio Ltd.",
+      "Company website (amphibio-ltd.co.il) shows a 2026 copyright notice, confirming the site is maintained and the firm is still active.",
+      "ZoomInfo flags 'very low activity levels' relative to peers in the Construction/Business Services sector, with no recent funding, product launches, or headcount changes surfaced."
+    ],
+    "growth_signal": "Flat \u2014 small boutique firm with <$5M revenue and a stable ~8\u201310 person core team; no funding rounds, headcount expansion, or new product lines detected.",
+    "fit_for_lior": "Weak fit \u2014 Amphibio is a domain-expert environmental consultancy with no technology product, no AI/data tooling track, and no indication of roles overlapping with Creative AI, Product Analysis, or Vibe Coding; the SPNI alignment is thematic but not actionable.",
+    "sources": [
+      "https://www.amphibio-ltd.co.il/",
+      "http://en.amphibio-ltd.co.il/The_Team/",
+      "https://www.zoominfo.com/c/amphibio-ltd-environmental-engineering-consulting-and-planning/536986528",
+      "https://www.zoominfo.com/c/amphibio-ltd-%E2%80%93-environmental-engineering-consulting-and-planning/425691869"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

@@ -1,0 +1,39 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-812b-ab0e-cba68eedaa23",
+    "name": "Snap (Israel)",
+    "tier": "T8 - Global Giants TLV Office",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Enterprise",
+    "location": "Tel Aviv",
+    "notes": "AR/Lens Studio team. Creative-AI native."
+  },
+  "research": {
+    "status_summary": "Post-restructuring / cautiously selective hiring: Snap executed a major global layoff on April 15, 2026 \u2014 cutting ~1,000 employees (16% of full-time workforce) and closing 300+ open roles \u2014 with the TLV office retaining its AR/Lens Studio engineering function but showing near-zero open Israel-based roles on LinkedIn and Glassdoor as of June 2026.",
+    "hiring_policy": "No Israel-specific sponsorship or EOR policy has been publicly updated post-layoffs; Glassdoor currently lists zero open Snap roles in Israel, and LinkedIn shows only 2 Snap Inc. postings in Israel \u2014 suggesting a hard hiring pause in-market while the global restructuring plays out through Q3 2026.",
+    "recent_news": [
+      "April 15 2026: Snap announced ~1,000 global layoffs (16% of workforce) + closure of 300+ open roles, with $500M annualized cost savings target by H2 2026 (CNBC, Variety, Barchart).",
+      "CEO Evan Spiegel cited AI as a productivity lever: 'rapid advancements in artificial intelligence enable our teams to reduce repetitive work' \u2014 ~40% of new Snap code is already AI-generated per Q4 2025 earnings (InformationWeek).",
+      "Snap TLV office remains operational (Glassdoor profile active, office design intact) and Lens Studio's GenAI Suite (text-to-3D, GenAI Body Generator, Gaussian-splatting Head Gen) continued shipping updates through May 2026, pointing to preserved AR R&D investment in Israel despite headcount cuts.",
+      "Snap's 2026 Spectacles hardware release is still on roadmap per Lens Studio release notes, and Snap AR blog published fresh creator-reach content as recently as April 27, 2026, signaling continued platform investment."
+    ],
+    "growth_signal": "Revenue growing ~10-12% YoY (~$1.72B in Q1 2026) and Snapchat MAU at 946M, but SNAP stock is down 26%+ YTD and the company is in a cost-reduction / AI-efficiency phase rather than a headcount-expansion phase, making net new Israel hiring unlikely before late 2026.",
+    "fit_for_lior": "Strong long-term fit: Snap's TLV team sits at the exact intersection of Lior's Creative AI and AR/Lens Studio threads \u2014 the GenAI Suite (text-to-Lens, no-code AR creation) is a direct analogue to vibe-coding, and a Product Analyst or Creator-tools PM role would map tightly to her profile \u2014 but the current post-layoff hiring freeze means timing is poor until Q4 2026 at earliest.",
+    "sources": [
+      "https://variety.com/2026/digital/news/snap-layoffs-snapchat-ceo-evan-spiegel-cites-ai-1236722228/",
+      "https://www.cnbc.com/2026/04/15/snap-stock-layoffs-16-percent-workforce.html",
+      "https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs",
+      "https://www.barchart.com/story/news/1406227/snap-just-announced-major-layoffs-what-do-1-000-16-job-cuts-mean-for-snap-stock",
+      "https://www.ynetnews.com/business/article/ryt113f9xfx",
+      "https://ar.snap.com/blog/lens-studio-ar-platform-global-reach",
+      "https://www.glassdoor.com/Jobs/Snap-Israel-Jobs-EI_IE671946.0,4_IL.5,11_IN119.htm",
+      "https://il.linkedin.com/jobs/snap-inc-jobs"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

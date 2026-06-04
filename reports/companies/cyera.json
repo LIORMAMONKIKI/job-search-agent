@@ -1,0 +1,35 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81d5-88b7-c825d00a9a89",
+    "name": "Cyera",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "SaaS",
+    "size": "Growth (51-200)",
+    "location": "Tel Aviv",
+    "notes": "Data security (growing fast)."
+  },
+  "research": {
+    "status_summary": "Actively hiring and aggressively expanding \u2014 finalizing a ~$300M round at a $12B valuation (June 2, 2026), just five months after its $400M Series F at $9B, with no layoffs or acquisition of the company itself reported.",
+    "hiring_policy": "Cyera lists 20+ remote-friendly roles and explicitly advertises remote work with office-setup reimbursement; no confirmed EOR policy found, and visa sponsorship is not prominently listed in postings \u2014 likely US-entity hire-only for most roles.",
+    "recent_news": [
+      "June 2, 2026: Cyera finalizing a $300M round led by Evolution Equity Partners at a $12B valuation \u2014 bringing total capital raised to 2B+; valued at 80x ARR despite not yet being profitable.",
+      "May 2026: Acquired Israeli startup Genie Security (~$50M), one month after acquiring Ryft (~$100-130M) to add AI-ready data lake capabilities; also added Steffan Tomlinson to its board (May 12).",
+      "April 2026: Acquired Ryft Data Inc.; CEO Yotam Segev stated in Calcalist interview that Cyera aims to become 'the CrowdStrike or Palo Alto Networks of data security'; also recognized as Leader in Sensitive Data Discovery & Classification."
+    ],
+    "growth_signal": "Headcount reached ~1,462 as of April 30, 2026 (up ~500 hires YTD per PitchBook), ARR surpassed $150M, revenue grew 3.4x YoY, and valuation has tripled in under 12 months \u2014 one of the fastest-scaling Israeli cybersecurity companies ever.",
+    "fit_for_lior": "Cyera is a strong match on the AI-governance and data-security product axis \u2014 roles like Marketing Ops AI Manager, Senior Business Value Analyst, and Product Marketing align with Lior's Product Analyst / Vibe Coder threads, and the company's narrative around 'AI without guardrails = risk' maps well to Creative AI positioning.",
+    "sources": [
+      "https://techcrunch.com/2026/06/02/cyera-eyes-12b-valuation-at-80x-arr-multiple-despite-operating-losses/",
+      "https://siliconangle.com/2026/06/02/cyera-raises-300m-12b-valuation-doubling-worth-five-months/",
+      "https://www.calcalistech.com/ctechnews/article/w1j2xejw4",
+      "https://tracxn.com/d/companies/cyera/__p8e5_i0CWICkrIIlFk4v-KW5_IdvKEquM9eXK85ET6g",
+      "https://www.remoterocketship.com/us/company/cyera-io/"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

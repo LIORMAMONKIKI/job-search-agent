@@ -1,0 +1,36 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-815f-8280-f6abc8822bfa",
+    "name": "Google (Tel Aviv)",
+    "tier": "T8 - Global Giants TLV Office",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Enterprise",
+    "location": "Tel Aviv",
+    "notes": "Large R&D office. DeepMind presence locally. Creative AI work. 3 LinkedIn contacts."
+  },
+  "research": {
+    "status_summary": "Actively hiring across 90\u2013500+ open Israel roles (Tel Aviv + Haifa) as of June 2026, with no Israel-specific layoffs reported in 2026 \u2014 global Google layoffs (~1,500\u20133,000 cuts worldwide) have been U.S.-centric and focused on Android/Chrome/Pixel restructuring, not the Israel R&D org.",
+    "hiring_policy": "Roles are predominantly on-site (Tel Aviv-Yafo / Haifa District) with some hybrid options; Google Israel does not sponsor visas for external candidates in its standard R&D hiring and is not EOR-friendly \u2014 candidates must have Israeli work authorization, as all postings require local presence.",
+    "recent_news": [
+      "Google & Tel Aviv University launched a new 3-year, $1M AI research program (Dec 2025\u20132028) covering language models, AI privacy, algorithmic efficiency, GenAI evaluation, and climate AI \u2014 with Google PhD fellowships and free AI Pro access for Israeli students.",
+      "Google DeepMind confirmed Tel Aviv as one of its 9 major global research outposts (alongside London, Mountain View, Zurich, Paris, Tokyo, Toronto, Bangalore, Seattle) as of 2026, with the Israel site contributing to Gemini, AlphaFold-adjacent, and general-purpose AI work.",
+      "Google I/O 2026 (late May) showcased Gemini 3.5 Flash, Veo video generation, and real-time audio models \u2014 product lines that align with DeepMind's Tel Aviv creative/generative AI research mandate; DeepMind also acqui-hired 20+ Contextual AI researchers globally under an $80\u201390M deal."
+    ],
+    "growth_signal": "Israel R&D headcount holds at ~2,000 across Tel Aviv and Haifa with no reported cuts; the TAU academic partnership expansion and DeepMind's continued Tel Aviv listing signal sustained investment in the site, while the Israel Innovation Authority projects 5\u20137% sector headcount growth for 2026.",
+    "fit_for_lior": "Google TLV is a strong Creative AI fit \u2014 DeepMind's local presence ties directly to Gemini, Veo, and image-generation work, and the TAU partnership's GenAI evaluation and language-model research threads are natural entry points for a Product Analyst / Vibe Coder profile bridging AI research and product.",
+    "sources": [
+      "https://www.techbuzz.ai/articles/google-expands-ai-research-partnership-with-tel-aviv-university",
+      "https://aiwiki.ai/wiki/google_deepmind",
+      "https://devjobs.co.il/company-details/google",
+      "https://www.glassdoor.com/Job/israel-google-jobs-SRCH_IL.0,6_IN119_KO7,13.htm",
+      "https://www.heygotrade.com/en/news/google-io-2026-gemini-deepmind-contextual-ai/",
+      "https://kitalent.com/articles/article-tel-aviv-ai-software-hiring/"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

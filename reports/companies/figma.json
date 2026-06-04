@@ -1,0 +1,38 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81a3-b877-e9c325cc7978",
+    "name": "Figma (US)",
+    "tier": "T5 - Frontier Labs + Creative-AI",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "Sponsors visa",
+    "industry": "AI/ML",
+    "size": "Large (1000+)",
+    "location": "San Francisco",
+    "notes": "Sponsors. Separate from new Figma R&D TLV."
+  },
+  "research": {
+    "status_summary": "Actively hiring across AI product, engineering, and sales roles (37+ open roles on Wellfound as of May 2026, 90+ on ZipRecruiter) with no reported mass layoffs at Figma itself \u2014 though isolated post-acquisition departures noted on Blind.",
+    "hiring_policy": "Figma sponsors H-1B, H-1B1, E-3, and Green Card (PERM) pathways, concentrated in software engineering, product management, and data roles; remote hiring is open across the US and Canada, with hub offices in SF and NYC and localized pay bands at 80\u2013100% of range for remote employees \u2014 no public EOR-friendly stance confirmed.",
+    "recent_news": [
+      "May 20, 2026: Figma launched a native AI Design Agent embedded directly in its collaborative canvas, partnering with Anthropic (Claude Code) and OpenAI (Codex) for agentic design and code workflows.",
+      "May 28, 2026: Figma expanded 'Make' to connect to local production codebases, enabling AI-driven visual edits, Git branching, and PR submission without a terminal \u2014 blurring the line between design tool and IDE.",
+      "Q1 2026 (reported May 14, 2026): Revenue hit $333.4M (+46% YoY) with Net Dollar Retention at 139% (Figma's highest ever), beating consensus of $316M and triggering a guidance raise; stock still ~85% off its August 2025 post-IPO peak near $143, trading ~$21 amid 'SaaSpocalypse' fears.",
+      "April 2026: Instagram co-founder Mike Krieger resigned from Figma's board amid competitive concerns over Anthropic's emerging AI design tools."
+    ],
+    "growth_signal": "Headcount reached ~2,877 as of April 2026 (up ~86% YoY per SEC filings), revenue crossed $1B annually in 2025 and accelerated to 46% growth in Q1 2026, with AI credit monetization and enterprise seat expansion driving a raised full-year guidance.",
+    "fit_for_lior": "Figma is the canonical Creative-AI + Vibe Coding platform \u2014 its new AI Design Agent, Make (prompt-to-production-code), and Anthropic/OpenAI integrations map directly onto Lior's Creative AI and Vibe Coder threads, and its AI Product Manager and Manager of Data Science\u2013AI Product open roles are strong fits for her Product Analyst positioning.",
+    "sources": [
+      "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas/",
+      "https://www.varindia.com/news/figma-expands-make-with-production-code-editing",
+      "https://stockanalysis.com/stocks/fig/",
+      "https://www.unifygtm.com/insights-headcount/figma",
+      "https://migratemate.co/companies-that-sponsor/figma",
+      "https://www.figma.com/careers/",
+      "https://dataconomy.com/2026/05/21/figma-ai-design-agent-openai-anthropic-integrations/"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

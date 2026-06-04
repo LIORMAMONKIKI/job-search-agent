@@ -1,0 +1,36 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81a7-82ce-ff770b39bec2",
+    "name": "Replicate",
+    "tier": "T6 - Globally Distributed",
+    "priority": "Top Target",
+    "status": "Researching",
+    "hiring_policy": "EOR-friendly",
+    "industry": "AI/ML",
+    "size": "Growth (51-200)",
+    "location": "San Francisco + distributed",
+    "notes": "AI model hosting (Flux, LTX \u2014 your stack). Distributed. Direct fit."
+  },
+  "research": {
+    "status_summary": "Replicate was acquired by Cloudflare on December 1, 2025 for $57.4M and is now operating as a fully integrated part of Cloudflare's AI Platform team \u2014 no longer an independent company.",
+    "hiring_policy": "Replicate's team has merged into Cloudflare's AI Platform org; new hiring is through Cloudflare (a publicly traded US company), which historically sponsors visas and has global remote roles, but EOR/direct Replicate-brand hiring is no longer applicable. No standalone Replicate job postings are currently live on YC, a16z, or their own careers page.",
+    "recent_news": [
+      "Acquisition closed December 1, 2025: Cloudflare paid $57.4M cash for all outstanding Replicate shares, per Cloudflare's SEC 10-Q filing (Q1 2026).",
+      "Active integration in progress (Apr\u2013May 2026): Cloudflare's AI Platform blog confirmed the Replicate team 'no longer considers itself a separate team,' with all Replicate models being migrated onto AI Gateway and Workers AI infrastructure.",
+      "Replicate's Cog containerization technology is now powering Cloudflare's 'bring your own model' feature for Workers AI, and fine-tuning capabilities are being built into Workers AI using Replicate's expertise \u2014 announced during Cloudflare's April 2026 Agents Week."
+    ],
+    "growth_signal": "Post-acquisition, Replicate's model catalog (50,000+ models including Flux, LTX, SD) is being absorbed into Cloudflare's globally distributed edge network, giving it massive distribution leverage but removing it as a standalone hiring/growth target.",
+    "fit_for_lior": "Replicate's platform is Lior's direct infrastructure stack (Flux, LTX Video), but as a Cloudflare subsidiary it is no longer a hireable independent entity \u2014 the relevant opportunity is now at Cloudflare itself, where Replicate's AI model tooling and creative-AI developer focus lives inside the Workers AI / AI Gateway product surface.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/0001477333/000147733326000038/cloud-20260331.htm",
+      "https://blog.cloudflare.com/replicate-joins-cloudflare/",
+      "https://blog.cloudflare.com/ai-platform/",
+      "https://siliconangle.com/2026/04/13/cloudflare-expands-agent-cloud-new-tools-build-scale-ai-agents/",
+      "https://wavespeed.ai/blog/posts/replicate-review-2026/",
+      "https://www.ycombinator.com/companies/replicate/jobs"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

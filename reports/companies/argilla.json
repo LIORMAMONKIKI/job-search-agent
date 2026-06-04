@@ -1,0 +1,42 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3678fd95-1b02-8167-a6cb-c004a638bc0f",
+    "name": "Argilla",
+    "tier": "T5 - Frontier Labs + Creative-AI",
+    "priority": "Medium",
+    "status": "Acquired",
+    "hiring_policy": "Multiple paths",
+    "industry": "AI/ML",
+    "size": "Startup (1-50)",
+    "location": "Madrid + remote (was independent)",
+    "notes": "Open-source data labeling / dataset curation platform. ACQUIRED by Hugging Face (2024) \u2014 argilla.io now redirects to HF. Roles flow through HF careers (Workable). Relevant for Lior's LoRA dataset fluency gap \u2014 Argilla team focuses on dataset quality."
+  },
+  "research": {
+    "status_summary": "Argilla no longer exists as a standalone entity \u2014 fully absorbed into Hugging Face (acquired ~$10M, 2024) and operates as the HF data-labeling/dataset-curation team, with argilla.io redirecting to HF and all hiring flowing through HF's Workable board.",
+    "hiring_policy": "Hugging Face is remote-first by default, distributed across 20+ countries, with ~9\u201311 open roles listed as of mid-2026 (mostly US/EMEA remote); HF has filed H-1B petitions historically (3 approved in FY2025, 0 denied) but volume is very low, making direct US visa sponsorship unreliable \u2014 EOR-friendly for non-US candidates is feasible given HF's global distributed structure.",
+    "recent_news": [
+      "Hugging Face acquired GGML.ai (Feb 20, 2026), further deepening its open-source model-inference stack \u2014 Argilla/distilabel team benefits from tighter model+data flywheel.",
+      "Appen partnered with Hugging Face (May 6, 2026) to enhance the Open ASR Leaderboard with private audio datasets, signaling HF's push into multimodal/audio dataset curation \u2014 directly adjacent to Argilla's roadmap.",
+      "Hugging Face launched an open-source Robot App Store for Reachy Mini (May 6, 2026), expanding beyond NLP into robotics data \u2014 Argilla's synthetic/annotation tooling (distilabel 2.x, Synthetic Data Generator Space) is the upstream data layer for these new modalities.",
+      "DataCraft (Argilla's no-code synthetic data UI, launched Sep 2024) was quietly discontinued by July 2025 per third-party observations, with the Synthetic Data Generator Space (125 running instances on HF) replacing it as the canonical no-code entry point.",
+      "Argilla SDK reached v2.8.0 on PyPI (latest as of research date), confirming active maintenance; distilabel repo sits at 3.2k GitHub stars with ongoing releases."
+    ],
+    "growth_signal": "HF parent headcount stabilized at ~679\u2013731 (Revelio Labs Dec 2025; Tracxn Apr 2026) after 13.6% growth in 2024, with $4.5B valuation unchanged since Aug 2023 and no new funding round announced \u2014 steady but not hyper-growth phase.",
+    "fit_for_lior": "Argilla/HF is a direct fit for Lior's LoRA dataset curation thread \u2014 distilabel + Argilla 2.x is the canonical open-source stack for building preference/instruction datasets for fine-tuning, and any product/analyst/vibe-coder role here would sit at the exact intersection of creative AI data pipelines and human-in-the-loop annotation tooling.",
+    "sources": [
+      "https://aibusiness.com/data/hugging-face-acquires-ai-software-startup-to-boost-datasets",
+      "https://huggingface.co/argilla",
+      "https://pypi.org/project/argilla/",
+      "https://github.com/argilla-io/distilabel",
+      "https://tracxn.com/d/companies/huggingface/___89yhA9z0-ZrLstW87xWDVe15Bkl70IZOkQf38SXzmQ",
+      "https://www.reveliolabs.com/companies/hugging-face/employees/",
+      "https://www.myvisajobs.com/employer/hugging-face/",
+      "https://jobsbyculture.com/blog/huggingface-compensation-2026",
+      "https://apply.workable.com/huggingface",
+      "https://www.innovatiana.com/en/post/argilla-for-nlp-annotation"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

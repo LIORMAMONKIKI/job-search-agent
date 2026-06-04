@@ -1,0 +1,27 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81a1-9e29-c1ea58a98682",
+    "name": "Eleos Health",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "L-1 lane",
+    "industry": "AI/ML",
+    "size": "Growth (51-200)",
+    "location": "Tel Aviv + New York",
+    "notes": "AI for mental health. Mission-driven."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [
+    {
+      "name": "Ohad Peled",
+      "position": "Senior Product Designer",
+      "linkedin": "https://www.linkedin.com/in/ohadpeled",
+      "connected_on": "26 Dec 2016"
+    }
+  ],
+  "intro_count": 1
+}

@@ -1,0 +1,42 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8189-851b-cf3d730d1638",
+    "name": "ScaleOps",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "SaaS",
+    "size": "Startup (1-50)",
+    "location": "Tel Aviv",
+    "notes": "DevOps with Senior Creative & Motion Designer role."
+  },
+  "research": {
+    "status_summary": "Actively hiring and in high-growth mode following a $130M Series C raise in March 2026 at an $800M+ valuation, with plans to triple headcount by year-end.",
+    "hiring_policy": "Headquartered in Tel Aviv (Israel R&D) and New York, with ~40% of open roles listed as remote-friendly; no public EOR or visa sponsorship policy found, and Israel-local roles are the primary target for the Senior Creative & Motion Designer position.",
+    "recent_news": [
+      "March 30, 2026: Closed $130M Series C led by Insight Partners at $800M+ valuation, bringing total funding to $210M; round included a secondary transaction worth tens of millions for employees.",
+      "2026 headcount tripled YoY to 120+ employees across Israel, North America, and Europe, with a stated goal to triple again by end of 2026.",
+      "Platform expanded to self-hosted GenAI models and GPU-based applications in late 2025, now serving Adobe, Wiz, DocuSign, Salesforce, and Coupa; 350%+ YoY revenue growth reported."
+    ],
+    "growth_signal": "Explosive growth trajectory: $210M total raised, 350% YoY growth, 52 open roles currently listed, and an explicit plan to 3x its 120-person team before end of 2026.",
+    "fit_for_lior": "A pure DevOps/cloud-infra B2B company with no product, AI-creative, or consumer-facing design surface \u2014 the Senior Creative & Motion Designer role would be an isolated brand/marketing seat with minimal overlap with Lior's Creative AI, Product Analyst, or Vibe Coder threads.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/skywz1dowe",
+      "https://thenextweb.com/news/scaleops-130m-series-c",
+      "https://techfundingnews.com/scaleops-130m-series-c-insight-partners-ai-infra/",
+      "https://www.trueup.io/co/scaleops/jobs",
+      "https://pitchbook.com/profiles/company/544724-29"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Omer Eden Levi",
+      "position": "Senior Creative & Motion Designer",
+      "linkedin": "https://www.linkedin.com/in/appleden",
+      "connected_on": "30 Oct 2022"
+    }
+  ],
+  "intro_count": 1
+}

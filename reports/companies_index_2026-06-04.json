@@ -1,0 +1,1495 @@
+{
+  "generated": "2026-06-04",
+  "companies": [
+    {
+      "slug": "argilla",
+      "name": "Argilla",
+      "tier": "T5 - Frontier Labs + Creative-AI",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "Argilla operates as a fully absorbed team within Hugging Face (acquired ~$10M, 2024), with no independent headcount or separate hiring; all roles flow through HF's Workable board.",
+      "fit_for_lior": "Argilla/HF is a direct fit for Lior's LoRA dataset work \u2014 the Synthetic Data Generator and distilabel pipelines are purpose-built for curating preference and instruction-tuning datasets (DPO, RLHF) used in fine-tuning creative and domain-specific models, and the no-code UI angle aligns with a Vibe Coder / Product Analyst profile.",
+      "has_research": true
+    },
+    {
+      "slug": "krea-ai",
+      "name": "krea.ai",
+      "tier": "T1 - Frontier AI Video/Image",
+      "priority": "Top Target",
+      "intro_count": 0,
+      "status_summary": "Actively hiring across ~7\u201314 open roles (engineering-heavy, all on-site SF) with no signals of layoffs, pauses, or acquisition \u2014 company is in aggressive post-Series-B product expansion mode.",
+      "fit_for_lior": "Extremely high creative-AI fit \u2014 Krea directly uses Flux (open-released their own FLUX.1 Krea weights), supports LoRA fine-tuning, real-time canvas, and agentic creative workflows, all squarely in Lior's Creative AI / Vibe Coder threads \u2014 but the hard on-site SF requirement is the primary barrier.",
+      "has_research": true
+    },
+    {
+      "slug": "sieve",
+      "name": "Sieve",
+      "tier": "T6 - Globally Distributed",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "Sieve (sievedata.com) is actively operating and hiring \u2014 a YC W22 video/multimodal data lab that publicly rebranded in March 2026 from a developer API platform into a petabyte-scale multimodal data supplier for frontier AI labs.",
+      "fit_for_lior": "Sieve sits at the intersection of Creative AI infrastructure and developer tooling \u2014 its video/audio API suite (dubbing, lipsync, scene detection, translation) and multimodal data platform are directly relevant to anyone building or analyzing AI-powered creative and media products, making it a strong match for Creative AI and Product Analyst threads.",
+      "has_research": true
+    },
+    {
+      "slug": "spotify",
+      "name": "Spotify",
+      "tier": "T5 - Frontier Labs + Creative-AI",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "Spotify is selectively active \u2014 profitable and growing users (761M MAU in Q1 2026), but in a post-layoff consolidation mode with targeted podcast-division cuts (March 2026) following the larger 2023 restructuring; net hiring posture is cautious with AI/product roles favored.",
+      "fit_for_lior": "Spotify is a high-signal fit for Lior's Creative AI thread \u2014 it is actively building licensed generative-AI music tools, AI-transparency/credits infrastructure, and agentic audio products, making it a natural home for a Product Analyst or Creative-AI builder who understands the intersection of music, user creativity, and responsible AI; the WFA policy is a plus but the absence of a TLV entity is a meaningful barrier for Israel-based sponsorship.",
+      "has_research": true
+    },
+    {
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "tier": "T5 - Frontier Labs + Creative-AI",
+      "priority": "Top Target",
+      "intro_count": 0,
+      "status_summary": "Actively hiring at scale \u2014 367\u2013416 open roles as of late May/June 2026, zero layoffs, and in hypergrowth mode following a $65B Series H and a confidential IPO filing on June 1, 2026.",
+      "fit_for_lior": "Anthropic is a near-perfect fit \u2014 it is the frontier lab most aggressively building creative-AI surfaces (Claude Design, Cowork, Claude Code), has active Product, UX Research, and Policy analyst openings, sponsors visas, and its IPO trajectory makes it a high-signal target for someone bridging Creative AI and Product Analysis.",
+      "has_research": true
+    },
+    {
+      "slug": "meta",
+      "name": "Meta (Tel Aviv)",
+      "tier": "T8 - Global Giants TLV Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "Active layoffs underway as of May 2026: ~100+ Israel employees cut (10% of local headcount of ~1,000), with ~200 more being reassigned into AI-focused units as part of Meta's global 8,000-person restructuring.",
+      "fit_for_lior": "Meta TLV is a strong match for Lior's Creative AI and Product Analyst threads \u2014 the office is actively hiring Data Scientists (Product Analytics) and AI Research Scientists, and sits at the intersection of generative AI, multimodal intelligence, and AR/VR product work under Reality Labs.",
+      "has_research": true
+    },
+    {
+      "slug": "snap",
+      "name": "Snap (Israel)",
+      "tier": "T8 - Global Giants TLV Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "Post-restructuring / cautiously selective hiring: Snap executed a major global layoff on April 15, 2026 \u2014 cutting ~1,000 employees (16% of full-time workforce) and closing 300+ open roles \u2014 with the TLV office retaining its AR/Lens Studio engineering function but showing near-zero open Israel-based roles on LinkedIn and Glassdoor as of June 2026.",
+      "fit_for_lior": "Strong long-term fit: Snap's TLV team sits at the exact intersection of Lior's Creative AI and AR/Lens Studio threads \u2014 the GenAI Suite (text-to-Lens, no-code AR creation) is a direct analogue to vibe-coding, and a Product Analyst or Creator-tools PM role would map tightly to her profile \u2014 but the current post-layoff hiring freeze means timing is poor until Q4 2026 at earliest.",
+      "has_research": true
+    },
+    {
+      "slug": "persefoni",
+      "name": "Persefoni",
+      "tier": "T7 - Science/Climate/Environment",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "Persefoni is independently operating and selectively hiring (~295 employees) after a significant strategic partnership with Diligent (Oct 2025) in which Diligent took an equity stake and transitioned its carbon accounting clients to Persefoni; internal Glassdoor reviews note recurring layoff cycles tied to market conditions.",
+      "fit_for_lior": "Weak fit \u2014 Persefoni is a compliance-driven B2B carbon SaaS with an embedded AI Copilot (LLM-based), which touches the AI-product angle, but the domain is ESG/climate regulatory reporting with no creative AI, consumer product, or vibe-coding surface; better as a market-awareness data point than an active application target.",
+      "has_research": true
+    },
+    {
+      "slug": "langchain",
+      "name": "LangChain",
+      "tier": "T5 - Frontier Labs + Creative-AI",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "Actively hiring and in strong growth mode \u2014 no layoffs, no acquisition; raised $125M Series B (Oct 2025) at $1.25B valuation with ~304 employees as of April 2026.",
+      "fit_for_lior": "LangChain is the dominant open-source agent orchestration layer (LangGraph, Deep Agents, LangSmith) that underpins much of the Creative-AI and vibe-coding toolchain Lior works in, making it a high-relevance target for a Product Analyst or Deployed/Solutions Engineer role bridging AI product intuition with hands-on agent-building.",
+      "has_research": true
+    },
+    {
+      "slug": "gitlab",
+      "name": "GitLab",
+      "tier": "T6 - Globally Distributed",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "Active restructuring/layoffs: GitLab cut ~14% of its workforce (~350 employees) as of June 3, 2026, exiting 22 countries and flattening management layers as part of its 'Act 2' agentic AI pivot \u2014 not actively hiring broadly.",
+      "fit_for_lior": "GitLab is a stretch right now \u2014 active layoffs and a narrowing remote-country footprint reduce near-term opportunity \u2014 but the analyst angle is viable given its DevSecOps platform complexity, agentic AI product roadmap (Duo), and publicly documented processes that suit a data-literate, product-analytical profile.",
+      "has_research": true
+    },
+    {
+      "slug": "tomorrow-io",
+      "name": "Tomorrow.io",
+      "tier": "T7 - Science/Climate/Environment",
+      "priority": "Top Target",
+      "intro_count": 0,
+      "status_summary": "Actively hiring and aggressively expanding post-unicorn status, having closed a $210M Series F (in two tranches: $175M in Feb 2026, +$35M in May 2026) with no reported layoffs in 2026 \u2014 though Glassdoor reviews cite two rounds of layoffs in the prior two years.",
+      "fit_for_lior": "Near-perfect fit: Israeli-founded (Boston HQ + ~150-person Israel team), deeply visualization-heavy weather/climate intelligence platform now building agentic AI and MCP-native tooling \u2014 ideal Creative AI / Product Analyst angle pitching data storytelling, climate dashboard UX, or AI-agent integration narratives across multi-city enterprise and government verticals.",
+      "has_research": true
+    },
+    {
+      "slug": "amphibio-ltd",
+      "name": "Amphibio Ltd",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "Operational and stable \u2014 no acquisitions, layoffs, or funding events detected; website active as of 2026 and company continues delivering environmental consulting and green-building projects in Israel.",
+      "fit_for_lior": "Weak fit \u2014 Amphibio is a domain-expert environmental consultancy with no technology product, no AI/data tooling track, and no indication of roles overlapping with Creative AI, Product Analysis, or Vibe Coding; the SPNI alignment is thematic but not actionable.",
+      "has_research": true
+    },
+    {
+      "slug": "mccann-tlv",
+      "name": "McCann TLV",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "McCann TLV is actively hiring (11+ open roles as of May 2026) and operationally stable, with no signals of layoffs or acquisition.",
+      "fit_for_lior": "McCann TLV's explicit AI-in-advertising narrative and its Creative/Strategy/Digital departments offer a realistic entry point for a Creative AI or Prompt-to-Campaign product role, but as a traditional Israeli ad agency it's better suited to Lior's 'Creative AI' thread than her Product Analyst or Vibe Coder tracks.",
+      "has_research": true
+    },
+    {
+      "slug": "amazon",
+      "name": "Amazon (Israel)",
+      "tier": "T8 - Global Giants TLV Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "Actively hiring across 160\u2013302 open roles in Israel (TLV + Haifa), spanning AWS ML, Agentic AI, Applied Science, Annapurna Labs chip design, Prime Video, and data center operations \u2014 no signs of pause or layoffs.",
+      "fit_for_lior": "Strong fit on the AWS Agentic AI and MLIL teams (open SDE roles in Agentic AI, Applied Scientist intern, RecsAI personalization SDE) and Amazon Stores Shopping Personalization AI \u2014 all squarely in Lior's Creative AI + Product Analyst sweet spot, with the Bedrock/GenAI ecosystem providing direct vibe-coding relevance.",
+      "has_research": true
+    },
+    {
+      "slug": "hugging-face",
+      "name": "Hugging Face",
+      "tier": "T5 - Frontier Labs + Creative-AI",
+      "priority": "Top Target",
+      "intro_count": 0,
+      "status_summary": "Actively hiring (open remote ML/EMEA roles on Workable/ZipRecruiter as of May\u2013Jun 2026), no major layoffs in 2026 \u2014 a small Feb 2025 GTM cut of ~10 people was isolated to the consulting/Expert Support Program and is resolved.",
+      "fit_for_lior": "Hugging Face is a direct landing zone for a Creative AI / Vibe Coder profile \u2014 its open-source ethos, Spaces (no-code/low-code app hosting), and LeRobot democratization narrative reward practitioners who build, ship, and share in public, and the EU Paris office plus distributed-default structure removes most relocation friction.",
+      "has_research": true
+    },
+    {
+      "slug": "finetuners-ai",
+      "name": "finetuners.ai",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "Operational but low-profile; no layoffs, acquisition, or formal hiring announcements detected as of June 2026 \u2014 company appears to be quietly active in a bootstrapped, boutique capacity.",
+      "fit_for_lior": "Strong overlap with Lior's Creative AI and Vibe Coder threads \u2014 finetuners.ai sits at the exact intersection of generative image models (Stable Diffusion / ComfyUI), production workflows for game studios, and hands-on AI tooling, making it a niche but well-aligned target for a creative-AI practitioner.",
+      "has_research": true
+    },
+    {
+      "slug": "google",
+      "name": "Google (Tel Aviv)",
+      "tier": "T8 - Global Giants TLV Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "Actively hiring across 90\u2013500+ open Israel roles (Tel Aviv + Haifa) as of June 2026, with no Israel-specific layoffs reported in 2026 \u2014 global Google layoffs (~1,500\u20133,000 cuts worldwide) have been U.S.-centric and focused on Android/Chrome/Pixel restructuring, not the Israel R&D org.",
+      "fit_for_lior": "Google TLV is a strong Creative AI fit \u2014 DeepMind's local presence ties directly to Gemini, Veo, and image-generation work, and the TAU partnership's GenAI evaluation and language-model research threads are natural entry points for a Product Analyst / Vibe Coder profile bridging AI research and product.",
+      "has_research": true
+    },
+    {
+      "slug": "stampli",
+      "name": "Stampli",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "Actively operating and hiring \u2014 no layoffs or acquisition signals; company reported its biggest Q1 and biggest March in company history as of early 2026.",
+      "fit_for_lior": "Weak fit for Lior \u2014 Stampli is a US-headquartered B2B fintech with no visible Israeli R&D hub, no EOR/international hiring signal, and its open roles skew toward US-based Sales and Customer Success rather than Creative AI, Product Analyst, or Vibe Coder profiles.",
+      "has_research": true
+    },
+    {
+      "slug": "mediaforce",
+      "name": "MediaForce",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "Operationally active and modestly expanding \u2014 no layoffs, acquisition, or funding news detected; continuing steady-state operations as a privately held Israeli ad-tech agency.",
+      "fit_for_lior": "Weak fit \u2014 roles like Video Editor and AI Content Creator align superficially with Lior's Creative AI thread, but the company's sub-$5M scale, Israel-only hiring posture, and absence of product/tech innovation signals make it a low-leverage target for her Product Analyst or Vibe Coder positioning.",
+      "has_research": true
+    },
+    {
+      "slug": "sweep",
+      "name": "Sweep",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "Sweep (sweep.io) is actively operating and hiring post-Series B, with ~82 employees as of April 2026 and open roles across sales, marketing, customer success, and R&D.",
+      "fit_for_lior": "Strong fit for Lior's Vibe Coder and Product Analyst threads \u2014 Sweep's agentic AI workspace for Salesforce/CRM automation is a no-code/low-code RevOps tool where a technically fluent, AI-native product thinker could contribute to roadmap, onboarding, or solutions architecture from Tel Aviv.",
+      "has_research": true
+    },
+    {
+      "slug": "openai",
+      "name": "OpenAI",
+      "tier": "T5 - Frontier Labs + Creative-AI",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "Actively and aggressively hiring \u2014 OpenAI is targeting a near-doubling of headcount from ~4,500 to ~8,000 employees by end of 2026, with no layoffs reported internally.",
+      "fit_for_lior": "OpenAI is a direct high-priority target for Lior: Sora 2, ChatGPT Images, and the Disney creative-IP deal sit squarely in her Creative AI thread, Codex + GPT-5.5 power her Vibe Coder angle, and the explosive enterprise + product analytics surface (900M weekly users, ads pilot, agentic workflows) maps perfectly onto a Product Analyst / AI Product role \u2014 especially given OpenAI's stated push to build out product development and 'technical ambassadorship' headcount.",
+      "has_research": true
+    },
+    {
+      "slug": "nautilus",
+      "name": "Nautilus",
+      "tier": "T7 - Science/Climate/Environment",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "Nautilus (nautil.us) science magazine is operational and actively publishing as of June 2026, with open editorial roles posted (Associate Editor, Newsletter Editor), and no signals of layoffs, acquisition, or shutdown.",
+      "fit_for_lior": "Very low fit \u2014 Nautilus hires editorial and journalism talent only (editors, writers), with no product, data, or AI-adjacent roles visible, making it a poor match for Creative AI, Product Analyst, or Vibe Coder profiles.",
+      "has_research": true
+    },
+    {
+      "slug": "zapier",
+      "name": "Zapier",
+      "tier": "T6 - Globally Distributed",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "Zapier is actively hiring (~21 open roles as of Apr 30, 2026) with no announced formal layoff event, though Glassdoor reviews note quiet rolling cuts at the team level; the company remains operationally profitable and independent.",
+      "fit_for_lior": "Zapier is a strong fit: its no-code/low-code AI orchestration platform (MCP, Agents, Guardrails) is exactly the Creative AI + Vibe Coder intersection, and a Product Analyst or AI-workflow builder role there would let Lior shape how non-technical users adopt agentic AI at scale.",
+      "has_research": true
+    },
+    {
+      "slug": "ted",
+      "name": "TED",
+      "tier": "T7 - Science/Climate/Environment",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "TED is actively hiring at a modest pace (roughly 3\u20136 open roles as of May 2026), with no announced layoffs, though employee reviews cite a history of past layoff rounds and financial strain.",
+      "fit_for_lior": "TED is a strong contextual fit for Lior's Creative AI thread (TEDAI conference, heavy AI content curation) and Product Analyst angle (audience growth, podcast analytics roles), but as a small nonprofit with limited engineering headcount and no clear visa/EOR pathway, direct employment prospects are narrow.",
+      "has_research": true
+    },
+    {
+      "slug": "microsoft",
+      "name": "Microsoft (Israel)",
+      "tier": "T8 - Global Giants TLV Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "Actively hiring (~600 open roles on LinkedIn/Glassdoor as of June 2026) but under significant internal governance turbulence: the Israel country GM was removed in May 2026 after an ethics probe, and oversight has been temporarily transferred to Microsoft France.",
+      "fit_for_lior": "Strong fit for the Creative AI and Vibe Coder threads given Israel's direct ownership of Copilot/Excel AI features (Formula Completion) and cybersecurity tooling, but the mid-2026 leadership gap and probe make timing uncertain\u2014worth leveraging the 2 LinkedIn contacts now to understand internal stability before applying.",
+      "has_research": true
+    },
+    {
+      "slug": "elementor",
+      "name": "Elementor",
+      "tier": "T4 - Israeli Local",
+      "priority": "Medium",
+      "intro_count": 1,
+      "status_summary": "Elementor is actively operating and shipping product \u2014 no 2025\u20132026 layoffs detected; headcount has grown to ~508 as of April 2026, with an active careers page and recent major product launches.",
+      "fit_for_lior": "Strong fit for Lior's Creative AI and Vibe Coder threads \u2014 Elementor is deep in agentic AI for no-code/low-code web creation (Angie, Sticklight, prompt-to-product), and its Product Analyst angle is relevant given rapid feature releases across Editor V4, AI credits, and a new SaaS subscription model that need instrumentation and funnel analysis.",
+      "has_research": true
+    },
+    {
+      "slug": "nvidia",
+      "name": "NVIDIA (Israel)",
+      "tier": "T8 - Global Giants TLV Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "Aggressively hiring and expanding \u2014 NVIDIA Israel is in full growth mode with 300\u2013400+ open roles live on LinkedIn/Glassdoor as of June 2026, a new Be'er Sheva R&D center that opened H1 2026, 18 floors leased in TLV's Rubinstein Twin Towers, and a landmark 160,000 sqm campus under planning in Kiryat Tivon.",
+      "fit_for_lior": "Strong fit on the Creative AI / Vibe Coder axis via the Run:ai (GPU orchestration) and Deci (model optimization) software teams in TLV, which are staffing AI product, research-engineering, and inference-tooling roles \u2014 exactly where a product-minded AI builder who can ship prototypes would stand out against pure hardware engineers.",
+      "has_research": true
+    },
+    {
+      "slug": "accenture-song",
+      "name": "Accenture Song",
+      "tier": "T6 - Globally Distributed",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "Accenture Song is actively hiring across AI, creative, and data roles in 2026, even as parent Accenture simultaneously executes an 11,000-person AI-restructuring layoff program targeting employees deemed 'unreskillable' for AI-era demands.",
+      "fit_for_lior": "Accenture Song is a strong thematic fit for Lior's Creative AI and Product Analyst threads \u2014 it actively recruits for GenAI-powered customer experience, data orchestration, and brand-tech roles \u2014 but the firm's explicit no-sponsorship stance on most US Song postings and tightly controlled cross-border remote policy make it a structurally difficult match unless she holds unrestricted US or EU work authorization.",
+      "has_research": true
+    },
+    {
+      "slug": "hogarth",
+      "name": "Hogarth (WPP)",
+      "tier": "T6 - Globally Distributed",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "Hogarth (WPP) was officially retired as a brand on February 23, 2026, absorbed into the newly launched WPP Production \u2014 a unified global platform of ~10,000 creative production specialists; no layoffs were announced as a direct result of the rebrand.",
+      "fit_for_lior": "WPP Production is a strong fit for Lior's Creative AI thread \u2014 it is explicitly building AI-native content pipelines using generative AI and agentic workflows (WPP Open), and its global scale and post-rebrand hiring push creates openings for creative technologists, AI production strategists, and product-adjacent roles bridging craft and automation.",
+      "has_research": true
+    },
+    {
+      "slug": "aporia",
+      "name": "Aporia",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "Fully acquired by Coralogix (Dec 23, 2024, ~$50M deal); Aporia no longer exists as a standalone entity \u2014 its team and technology are now operating as 'Coralogix AI,' an internal AI research and product division.",
+      "fit_for_lior": "Aporia is a dead end as a direct target \u2014 fully absorbed \u2014 but Coralogix (already in the DB) is the live opportunity, relevant to Lior's AI-adjacent and product analytics threads given its AI observability, guardrails, and GenAI monitoring product surface.",
+      "has_research": true
+    },
+    {
+      "slug": "demostack",
+      "name": "Demostack",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "Demostack appears operationally stable as of June 2026, with no layoffs or acquisition announcements detected \u2014 headcount sits at ~59 employees (down from ~93 at peak in 2022), indicating quiet contraction rather than active growth.",
+      "fit_for_lior": "Weak fit \u2014 Demostack is a niche B2B sales-demo tool with a shrinking team, no AI-first product pivot evident, and no signals of creative AI, product analytics innovation, or vibe-coding culture that would align with Lior's threads.",
+      "has_research": true
+    },
+    {
+      "slug": "midjourney",
+      "name": "Midjourney",
+      "tier": "T5 - Frontier Labs + Creative-AI",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "Actively hiring selectively for world-class engineers, researchers, and data engineers; no layoffs or acquisition \u2014 remains fully self-funded and independent as of June 2026.",
+      "fit_for_lior": "Midjourney is the canonical Creative-AI frontier lab \u2014 its portfolio-first hiring ethos, expanding image/video/world-model stack, and community-driven product culture are a direct match for someone threading Creative AI, prompt engineering, and product intuition.",
+      "has_research": true
+    },
+    {
+      "slug": "crazy-labs",
+      "name": "Crazy Labs",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "CrazyLabs is actively hiring (~26\u201329 open roles on LinkedIn as of June 2026) and remains an ongoing subsidiary of Embracer Group, which on May 20, 2026 announced a major split into two public companies \u2014 CrazyLabs stays with the retained 'Embracer' entity, not the Fellowship Entertainment spinoff.",
+      "fit_for_lior": "Very low fit \u2014 CrazyLabs is a UA-driven mobile publisher with gaming-first culture, Israeli office-centric footprint, no signal of creative AI / product analytics tooling roles open to international hires, and sits inside a parent company under strict cost-control with a compensation satisfaction decline; misaligns with Lior's Creative AI, Product Analyst, and Vibe Coder threads.",
+      "has_research": true
+    },
+    {
+      "slug": "tiktok-bytedance",
+      "name": "TikTok / ByteDance (Israel)",
+      "tier": "T8 - Global Giants TLV Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "TikTok/ByteDance Tel Aviv is actively hiring across Global Business Solutions, monetization, and brand partnerships roles, with 44\u201352 open Israel-linked positions visible on LinkedIn and Glassdoor as of June 2026.",
+      "fit_for_lior": "TikTok Israel's focus on creative monetization, brand partnerships, and the broader ByteDance bet on AI-native content creation tools (CapCut/Seedance 2.0/Coze) makes it a strong match for Lior's Creative AI, Product Analyst, and Vibe Coder threads \u2014 especially roles bridging creator ecosystems and data-driven performance insights.",
+      "has_research": true
+    },
+    {
+      "slug": "mistral",
+      "name": "Mistral",
+      "tier": "T5 - Frontier Labs + Creative-AI",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "Actively hiring and scaling aggressively \u2014 161+ open roles as of May 2026, zero layoffs since founding, and headcount now at 1,000 employees across Paris, London, Palo Alto, Singapore, and a planned India office.",
+      "fit_for_lior": "Mistral is a near-perfect fit across all three of Lior's threads: Vibe is literally named after vibe coding and is Mistral's flagship consumer/enterprise product, the open-weight model stack (Devstral 2, Small 4, Medium 3.5) is ideal Creative AI infrastructure to analyse and write about, and the company is actively hiring Product roles in Paris/London for someone who can bridge frontier model capabilities with real-world product storytelling.",
+      "has_research": true
+    },
+    {
+      "slug": "scaleops",
+      "name": "ScaleOps",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "Actively and aggressively hiring post-$130M Series C (Mar 30, 2026) at an $800M+ valuation \u2014 no layoffs, no acquisition, pure growth mode.",
+      "fit_for_lior": "Pure DevOps/cloud-infra B2B tooling with an overwhelmingly technical ICP \u2014 the Senior Creative & Motion Designer role is a rare marketing/brand hire in an engineering-first culture, which could suit someone who thrives as the sole creative voice but offers minimal overlap with Creative AI, Product Analyst, or Vibe Coder positioning.",
+      "has_research": true
+    },
+    {
+      "slug": "stigg",
+      "name": "Stigg",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "Actively operating post-Series A ($17.5M, Dec 2024); no layoffs or acquisition signals detected as of June 2026 \u2014 expanding GTM and engineering headcount.",
+      "fit_for_lior": "Stigg sits at the intersection of product strategy and developer infrastructure \u2014 a Product Analyst or Vibe Coder with AI monetization instincts would find direct leverage here, especially given its explicit focus on AI-native usage-based and credit-based pricing models.",
+      "has_research": true
+    },
+    {
+      "slug": "make",
+      "name": "Make (Integromat)",
+      "tier": "T6 - Globally Distributed",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "Make (formerly Integromat) is actively operating and shipping product \u2014 no layoffs, no acquisition signals \u2014 with a heavy 2025\u20132026 product push into AI agents, Make Grid, and Maia (conversational automation builder still in early access as of May 2026).",
+      "fit_for_lior": "Make is a direct fit for Lior's Vibe Coder and Creative AI threads: Maia's 'describe-it-in-natural-language, see-it-built-visually' paradigm is the canonical vibe-coding-meets-no-code story, and Make AI Agents across 3,000+ apps is a practical sandbox for AI-product exploration and workflow analysis content.",
+      "has_research": true
+    },
+    {
+      "slug": "adobe",
+      "name": "Adobe",
+      "tier": "T5 - Frontier Labs + Creative-AI",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "Adobe is actively hiring (796 H-1B LCAs filed in FY2026) but simultaneously conducting quiet, rolling restructuring via PIPs and attrition-without-backfill \u2014 no formal mass layoff or Cal-WARN filing, though CEO Shantanu Narayen stepped down in March 2026 amid investor pressure over AI execution.",
+      "fit_for_lior": "Highly relevant: Adobe is the defining Creative AI platform (Firefly, generative workflows, agentic tools), has a TLV office, sponsors visas, and is actively building product roles at the intersection of AI, content creation, and analytics \u2014 a direct match for Lior's Creative AI / Product Analyst / Vibe Coder profile.",
+      "has_research": true
+    },
+    {
+      "slug": "connecteam",
+      "name": "Connecteam",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "Actively hiring across sales, product, customer success, and AI development roles with no signals of layoffs or acquisition as of June 2026.",
+      "fit_for_lior": "Weak-to-moderate fit \u2014 Connecteam is hiring a Product Manager and AI Developer, but the domain (deskless workforce ops) is far from Creative AI or Vibe Coding; a Product Analyst hybrid bridging data/UX for frontline SaaS is the only plausible thread.",
+      "has_research": true
+    },
+    {
+      "slug": "walnut",
+      "name": "Walnut",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "Operational but lean \u2014 Walnut survived two rounds of layoffs (2023 and May 2024, cutting ~50% of headcount from ~120 to ~60) and is now running a smaller team of ~92 employees as of April 2026, with no signals of acquisition or shutdown.",
+      "fit_for_lior": "Walnut's shift to AI-generated interactive demos (AI Mode, StoryCaptureAI) and no-code storytelling tools sits squarely at the intersection of Creative AI and Vibe Coding \u2014 a Product Analyst or AI content role here would involve shaping how AI narrates product value, directly relevant to Lior's threads.",
+      "has_research": true
+    },
+    {
+      "slug": "playtika",
+      "name": "Playtika",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "Active restructuring / layoff mode \u2014 Playtika executed its 6th round of cuts in Jan 2026 (500 jobs, 15% of workforce), with continued subsidiary layoffs as recently as May 2026 at Wooga, even as Q1 2026 revenue showed YoY growth.",
+      "fit_for_lior": "Weak fit \u2014 Playtika is explicitly replacing creative/marketing headcount with AI automation ('do more with less'), making it a cautionary case study rather than an opportunity; the UA-creative and analyst angle is interesting for content but the company is in contraction mode and unlikely to hire externally for those functions soon.",
+      "has_research": true
+    },
+    {
+      "slug": "vox-media",
+      "name": "Vox Media (Future Perfect)",
+      "tier": "T7 - Science/Climate/Environment",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "Vox Media is mid-acquisition and in ongoing contraction \u2014 James Murdoch's Lupa Systems agreed in May 2026 to acquire Vox.com, New York Magazine, and the Vox Media Podcast Network (including Future Perfect's home) for ~$300M, while the remaining properties spin off under a new entity; Future Perfect itself is actively recruiting a new fellow cohort for July 2026\u2013June 2027.",
+      "fit_for_lior": "Weak fit \u2014 Future Perfect is journalism/editorial (fellows and editors), strictly US-only with no visa sponsorship or EOR, and has no product, engineering, or Creative AI tooling roles that would match Lior's Product Analyst / Vibe Coder / Creative AI threads.",
+      "has_research": true
+    },
+    {
+      "slug": "flytrex",
+      "name": "Flytrex",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "Flytrex is actively scaling \u2014 opening a new Texas drone manufacturing facility, launching the Sky2 drone, and hiring for operational and tech positions across its Israel HQ and DFW US operations as of May\u2013June 2026.",
+      "fit_for_lior": "Flytrex's Creative Marketing Manager seat and rapid consumer-brand expansion (Little Caesars, DoorDash, Uber Eats integrations) could use AI-driven content and product storytelling, but the role is Israel/Texas-onsite-skewed, operational in nature, and the company explicitly does not sponsor US work visas \u2014 making it a weak match unless Lior is Israel-based or already US-authorized.",
+      "has_research": true
+    },
+    {
+      "slug": "figma",
+      "name": "Figma (US)",
+      "tier": "T5 - Frontier Labs + Creative-AI",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "Actively hiring across engineering, AI product, and sales roles post-July 2025 IPO (NYSE: FIG), while navigating activist pressure from Findell Capital and a post-IPO stock decline of ~75% from peak.",
+      "fit_for_lior": "Figma is the canonical Creative-AI + Vibe Coding platform \u2014 its MCP server, Figma Make (prompt-to-code), AI canvas agents, and design-to-dev pipeline are exactly the intersection of Creative AI tools and 'vibe coder' workflows Lior covers, and with open roles in AI Product, Manager of Data Science \u2013 AI Product, and product analytics, there is direct overlap with her Product Analyst thread as well.",
+      "has_research": true
+    },
+    {
+      "slug": "guardio",
+      "name": "Guardio",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "Actively hiring across multiple functions (marketing, HR, IT, creative) with 24 open roles as of mid-2026, no layoffs or acquisition signals detected.",
+      "fit_for_lior": "The AI Creative Specialist role sits at the exact intersection of Lior's threads \u2014 using AI tooling to produce consumer-facing creative for a fast-scaling security brand that already partners with Lovable, making it a natural vibe-coding / creative AI narrative fit despite the non-obvious security wrapper.",
+      "has_research": true
+    },
+    {
+      "slug": "akeyless",
+      "name": "Akeyless",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "Actively operating and hiring \u2014 ~102 employees as of March 2026, no layoffs or acquisition signals, with open roles across engineering, product, sales, and customer success.",
+      "fit_for_lior": "Weak fit \u2014 Akeyless is a deep-infra cybersecurity/DevSecOps company targeting enterprise security engineers, with no Creative AI, product analytics, or vibe-coding adjacency in its product surface or open roles.",
+      "has_research": true
+    },
+    {
+      "slug": "replicate",
+      "name": "Replicate",
+      "tier": "T6 - Globally Distributed",
+      "priority": "Top Target",
+      "intro_count": 0,
+      "status_summary": "Replicate was acquired by Cloudflare in early 2026 (announced Nov 17, 2025) and is now operating as a distinct brand within Cloudflare's Workers AI platform, mid-integration \u2014 complicated by Cloudflare's May 7, 2026 company-wide 20% layoff (~1,100 roles), though cuts targeted 'measurers' (middle management, finance, legal) not builders/engineers.",
+      "fit_for_lior": "Strong fit: Replicate (now Cloudflare Workers AI) is the exact infrastructure powering Flux and LTX model deployments Lior already uses, making her a credible power-user candidate for product, developer-experience, or creative-AI-facing roles \u2014 especially as Cloudflare rebuilds around 'builders' post-layoff and needs AI-native product thinkers who live in the stack.",
+      "has_research": true
+    },
+    {
+      "slug": "botika",
+      "name": "Botika",
+      "tier": "T4 - Israeli Local",
+      "priority": "High",
+      "intro_count": 1,
+      "status_summary": "Botika (botika.io, Tel Aviv) is actively operating as a seed-funded AI fashion imagery SaaS, with no signals of layoffs, acquisition, or hiring freeze; the team publicly acknowledged high demand causing service delays and is actively building a next-generation AI engine (Botika 2.0 already shipped in Sept 2025).",
+      "fit_for_lior": "Strong fit \u2014 Botika sits exactly at the Creative AI \u00d7 e-commerce intersection (generative model photography, AI-directed visual production), making it a natural home for a Creative AI / Product Analyst profile who can bridge AI output quality, prompt/workflow design, and brand visual strategy.",
+      "has_research": true
+    },
+    {
+      "slug": "canva",
+      "name": "Canva",
+      "tier": "T5 - Frontier Labs + Creative-AI",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "Canva is actively hiring (300+ open roles globally as of Jan 2026) while simultaneously navigating selective AI-driven role cuts, notably eliminating nearly its entire technical writing team in Apr 2025 and restructuring after absorbing Leonardo.AI in early 2026.",
+      "fit_for_lior": "Canva is a direct bull's-eye for Lior \u2014 it is the defining Creative AI platform for marketing/design, is actively building agentic AI workflows (Canva AI 2.0, Code 2.0, Brand Intelligence) that map to both her Product Analyst and Vibe Coder angles, and its sponsor tier makes her a natural candidate for roles spanning AI product, growth analytics, or creative tooling.",
+      "has_research": true
+    },
+    {
+      "slug": "substack",
+      "name": "Substack",
+      "tier": "T6 - Globally Distributed",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "Actively hiring across ~17 open roles in engineering, product, design, and creator marketing, with no layoffs reported; company is in growth mode post-$100M Series C (July 2025, $1.1B valuation).",
+      "fit_for_lior": "Substack is an ideal match for Lior's Creative AI + Product Analyst threads \u2014 they are actively hiring a Product Analyst (metric definition, data strategy) and a Product Designer with explicit LLM/vibe-coding fluency, positioning her squarely at their stated hiring priorities.",
+      "has_research": true
+    },
+    {
+      "slug": "kurzgesagt",
+      "name": "Kurzgesagt",
+      "tier": "T7 - Science/Climate/Environment",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "Kurzgesagt (77 employees as of Apr 2026) is actively operating and content-producing, with open roles listed on its careers page including a Head of YouTube & Production, and no signals of layoffs, acquisition, or hiring freeze.",
+      "fit_for_lior": "Kurzgesagt's intersection of data-dense science storytelling, distinctive visual brand, and expanding digital products (game, shop, multilingual content) is a strong match for Lior's Creative AI + visual production + product thinking profile \u2014 especially as they appear to be formalizing production and YouTube operations roles.",
+      "has_research": true
+    },
+    {
+      "slug": "rounds",
+      "name": "Rounds",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "Rounds (rounds.com, Tel Aviv) is actively hiring across data, product, and engineering roles in Israel as of June 2026, with no signals of layoffs, acquisition, or pause.",
+      "fit_for_lior": "The open Product Analyst and Product Analytics Team Lead roles, combined with a VP Data contact, make Rounds a credible analyst-hybrid target for Lior \u2014 the ML-driven mobile monetization context also touches her data/product thread, though Creative AI is a thin fit.",
+      "has_research": true
+    },
+    {
+      "slug": "loadmill",
+      "name": "Loadmill",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "Loadmill is an active, bootstrapped Israeli-founded AI test automation startup (~16\u201320 employees) operating quietly with no recent funding rounds, acquisitions, or layoffs announced as of June 2026.",
+      "fit_for_lior": "Loadmill's MCP agentic testing product and plain-text test authoring ('describe what you want to test') overlap with Lior's Vibe Coder and AI-augmented product workflow threads, but the tiny team, low activity on G2/public channels, and absent hiring signal make it a weak near-term opportunity.",
+      "has_research": true
+    },
+    {
+      "slug": "sensi-ai",
+      "name": "Sensi.AI",
+      "tier": "T4 - Israeli Local",
+      "priority": "Medium",
+      "intro_count": 1,
+      "status_summary": "Actively hiring and expanding \u2014 Sensi.AI is in post-Series C growth mode with open roles in Product, Legal, Engineering, and Customer Success across both Austin, TX and Israel offices.",
+      "fit_for_lior": "Sensi's agentic OS for senior care \u2014 spanning audio AI, predictive analytics, and multi-agent automation \u2014 is a strong match for a Product Analyst or Creative AI practitioner who wants to work on high-stakes, mission-driven AI with real behavioral/sensor data; the Israel R&D office also aligns with her local-tier context.",
+      "has_research": true
+    },
+    {
+      "slug": "pachama",
+      "name": "Pachama",
+      "tier": "T7 - Science/Climate/Environment",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "Pachama no longer exists as an independent entity \u2014 it was fully acquired by Carbon Direct on November 10, 2025; its brand and platform are being absorbed into Carbon Direct's end-to-end carbon management offering.",
+      "fit_for_lior": "Very low fit \u2014 post-acquisition Pachama has no standalone product or hiring identity, and Carbon Direct's open roles skew toward climate scientists and power-systems engineers rather than Creative AI, Product Analyst, or Vibe Coder profiles.",
+      "has_research": true
+    },
+    {
+      "slug": "run-ai",
+      "name": "Run.ai",
+      "tier": "T4 - Israeli Local",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "Run.ai is fully absorbed into NVIDIA (acquisition closed Dec 2024, ~$700\u2013800M), operating as NVIDIA Run:ai \u2014 actively hiring through NVIDIA Israel's channel, with no layoffs reported and a live v2.25 platform release.",
+      "fit_for_lior": "Run:ai (now NVIDIA Run:ai) is a deep infrastructure/MLOps play \u2014 compelling for a Product Analyst angle on AI factory tooling or a Vibe Coder building on GPU orchestration APIs, but thin fit for Creative AI unless she targets the platform-side of generative AI compute workflows.",
+      "has_research": true
+    },
+    {
+      "slug": "briya",
+      "name": "Briya",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "Actively growing: hired a senior executive (Executive Director of Client Strategy) in Feb 2026 and is scaling U.S. presence, with no signs of layoffs or acquisition.",
+      "fit_for_lior": "Very low fit \u2014 Briya is a clinical-grade B2B data research platform targeting pharma/academia, with no creative AI, consumer product, or vibe-coding surface; roles are data engineering and enterprise client strategy-heavy.",
+      "has_research": true
+    },
+    {
+      "slug": "cyera",
+      "name": "Cyera",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "Actively hiring and aggressively expanding \u2014 finalizing a ~$300M round at a $12B valuation (June 2, 2026), just five months after its $400M Series F at $9B, with no layoffs or acquisition of the company itself reported.",
+      "fit_for_lior": "Cyera is a strong match on the AI-governance and data-security product axis \u2014 roles like Marketing Ops AI Manager, Senior Business Value Analyst, and Product Marketing align with Lior's Product Analyst / Vibe Coder threads, and the company's narrative around 'AI without guardrails = risk' maps well to Creative AI positioning.",
+      "has_research": true
+    },
+    {
+      "slug": "apple",
+      "name": "Apple (Israel)",
+      "tier": "T8 - Global Giants TLV Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "Actively hiring across 148+ open roles in Israel (Herzliya, Haifa, Tel Aviv, Jerusalem) as of June 2026, with no layoffs at the Israeli R&D centers \u2014 explicitly bucking the broader Big Tech layoff wave.",
+      "fit_for_lior": "Apple Israel's open 'Full Stack Engineer \u2013 Generative AI for Productivity' role (Haifa), the ML-Physics/physics-informed neural networks team (Herzliya), and the speech/audio AI pipeline flowing from the Q.ai acquisition are directly aligned with Lior's Creative AI and Vibe Coder threads, though the org skews toward deep-engineering profiles rather than pure product/analyst tracks.",
+      "has_research": true
+    },
+    {
+      "slug": "overwolf",
+      "name": "Overwolf",
+      "tier": "T4 - Israeli Local",
+      "priority": "Medium",
+      "intro_count": 1,
+      "status_summary": "Actively hiring (~25 open roles, 100% remote-listed) with no layoffs or acquisition signals; headcount sits at ~307 as of April 2026 and the company is in active product-launch mode.",
+      "fit_for_lior": "Strong fit: Overwolf sits at the intersection of creator-economy infrastructure, AI-powered ad tech (Gamer Grid/Scalibur), and UGC tooling for 178K gaming creators \u2014 directly aligned with Lior's Creative AI and Product Analyst angles, and the Israeli HQ removes relocation friction.",
+      "has_research": true
+    },
+    {
+      "slug": "n8n",
+      "name": "n8n",
+      "tier": "T6 - Globally Distributed",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "keshet-media-group",
+      "name": "Keshet Media Group",
+      "tier": "T4 - Israeli Local",
+      "priority": "Medium",
+      "intro_count": 2,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "google-deepmind",
+      "name": "Google DeepMind",
+      "tier": "T5 - Frontier Labs + Creative-AI",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "aidoc",
+      "name": "Aidoc",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "hornet",
+      "name": "Hornet",
+      "tier": "T6 - Globally Distributed",
+      "priority": "Medium",
+      "intro_count": 1,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "watershed",
+      "name": "Watershed",
+      "tier": "T7 - Science/Climate/Environment",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "voyantis",
+      "name": "Voyantis",
+      "tier": "T4 - Israeli Local",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "trigo",
+      "name": "Trigo",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "atera",
+      "name": "Atera",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "automattic",
+      "name": "Automattic",
+      "tier": "T6 - Globally Distributed",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "moon-active",
+      "name": "Moon Active",
+      "tier": "T4 - Israeli Local",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "walkme",
+      "name": "WalkMe",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "riverside",
+      "name": "Riverside",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Top Target",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "senai",
+      "name": "Senai",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "plarium",
+      "name": "Plarium",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "lemonade",
+      "name": "Lemonade",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "navan",
+      "name": "Navan",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 1,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "sett",
+      "name": "Sett",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "appsflyer",
+      "name": "AppsFlyer",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "base44",
+      "name": "Base44 (Wix)",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "tailor-brands",
+      "name": "Tailor Brands",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 1,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "optimove",
+      "name": "Optimove",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "glossai",
+      "name": "GlossAi",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "bizzabo",
+      "name": "Bizzabo",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "taboola",
+      "name": "Taboola",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 1,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "sentinelone",
+      "name": "SentinelOne",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "vimeo",
+      "name": "Vimeo",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "d-id",
+      "name": "D-ID",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "wix",
+      "name": "Wix",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 3,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "fiverr",
+      "name": "Fiverr",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 1,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "yotpo",
+      "name": "Yotpo",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 1,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "coralogix",
+      "name": "Coralogix",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "verbit",
+      "name": "Verbit",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "aiq",
+      "name": "AiQ",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "exodigo",
+      "name": "Exodigo",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 1,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "lightricks",
+      "name": "Lightricks",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 8,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "hibob",
+      "name": "HiBob",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "papaya-global",
+      "name": "Papaya Global",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "wiz",
+      "name": "Wiz",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "hour-one",
+      "name": "Hour One",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "innovid",
+      "name": "Innovid",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "tabnine",
+      "name": "Tabnine",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "monday-com",
+      "name": "Monday.com",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Top Target",
+      "intro_count": 13,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "applovin",
+      "name": "AppLovin",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "sisense",
+      "name": "Sisense",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "decart",
+      "name": "Decart",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Top Target",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "bria-ai",
+      "name": "Bria AI",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Top Target",
+      "intro_count": 1,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "gong",
+      "name": "Gong",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "melio",
+      "name": "Melio",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "anyword",
+      "name": "Anyword",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "eleos-health",
+      "name": "Eleos Health",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 1,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "augury",
+      "name": "Augury",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "simply",
+      "name": "Simply (JoyTunes)",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "kaltura",
+      "name": "Kaltura",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "figma-r-d-tel-aviv",
+      "name": "Figma R&D Tel Aviv",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Top Target",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "snappy",
+      "name": "Snappy",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "pinecone",
+      "name": "Pinecone",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "tipalti",
+      "name": "Tipalti",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Low",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "rivery",
+      "name": "Rivery",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "navina",
+      "name": "Navina",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Low",
+      "intro_count": 1,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "ai21",
+      "name": "AI21",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "outbrain",
+      "name": "Outbrain",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "roseberry",
+      "name": "RoseBerry",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "mixtiles",
+      "name": "Mixtiles",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 3,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "honeybook",
+      "name": "HoneyBook",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "wonderful",
+      "name": "Wonderful",
+      "tier": "T3 - Israeli HQ + US Office",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "ideogram",
+      "name": "Ideogram",
+      "tier": "T1 - Frontier AI Video/Image",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "pika-labs",
+      "name": "Pika Labs",
+      "tier": "T1 - Frontier AI Video/Image",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "heygen",
+      "name": "HeyGen",
+      "tier": "T2 - Established AI Video/Image",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "krea-ai",
+      "name": "Krea AI",
+      "tier": "T1 - Frontier AI Video/Image",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "Actively hiring across engineering, ML, and community roles as of June 2026, with no signals of layoffs, pauses, or acquisition.",
+      "fit_for_lior": "Near-perfect fit: Krea 2's LoRA/fine-tuning stack and FLUX.1 open release align directly with Lior's Flux expertise, and the rapid product surface expansion (nodes, realtime edit, moodboards, API) creates immediate openings for a Creative AI Product Analyst or Vibe Coder who can bridge generative model capabilities with UX and workflow design.",
+      "has_research": true
+    },
+    {
+      "slug": "argil",
+      "name": "Argil",
+      "tier": "T2 - Established AI Video/Image",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "topaz-labs",
+      "name": "Topaz Labs",
+      "tier": "T2 - Established AI Video/Image",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "luma-labs",
+      "name": "Luma Labs",
+      "tier": "T1 - Frontier AI Video/Image",
+      "priority": "Top Target",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "runway-ml",
+      "name": "Runway ML",
+      "tier": "T1 - Frontier AI Video/Image",
+      "priority": "Top Target",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "magnific-freepik",
+      "name": "Magnific / Freepik",
+      "tier": "T2 - Established AI Video/Image",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "stability-ai",
+      "name": "Stability AI",
+      "tier": "T2 - Established AI Video/Image",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "synthesia",
+      "name": "Synthesia",
+      "tier": "T2 - Established AI Video/Image",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "photoroom",
+      "name": "Photoroom",
+      "tier": "T2 - Established AI Video/Image",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "tavily",
+      "name": "Tavily",
+      "tier": "T1 - Frontier AI Video/Image",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "tavus",
+      "name": "Tavus",
+      "tier": "T1 - Frontier AI Video/Image",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "hedra",
+      "name": "Hedra",
+      "tier": "T1 - Frontier AI Video/Image",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "kaiber",
+      "name": "Kaiber",
+      "tier": "T2 - Established AI Video/Image",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "black-forest-labs",
+      "name": "Black Forest Labs",
+      "tier": "T1 - Frontier AI Video/Image",
+      "priority": "Top Target",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "elevenlabs",
+      "name": "ElevenLabs",
+      "tier": "T2 - Established AI Video/Image",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "recraft",
+      "name": "Recraft",
+      "tier": "T1 - Frontier AI Video/Image",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "comfy-org",
+      "name": "Comfy Org",
+      "tier": "T1 - Frontier AI Video/Image",
+      "priority": "Top Target",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "higgsfield",
+      "name": "Higgsfield",
+      "tier": "T1 - Frontier AI Video/Image",
+      "priority": "High",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    },
+    {
+      "slug": "captions",
+      "name": "Captions",
+      "tier": "T2 - Established AI Video/Image",
+      "priority": "Medium",
+      "intro_count": 0,
+      "status_summary": "\u2014",
+      "fit_for_lior": "\u2014",
+      "has_research": false
+    }
+  ]
+}

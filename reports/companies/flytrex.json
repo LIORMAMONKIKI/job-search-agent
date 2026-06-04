@@ -1,0 +1,43 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81a0-8998-c66e3006b06b",
+    "name": "Flytrex",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "Other",
+    "size": "Growth (51-200)",
+    "location": "Tel Aviv",
+    "notes": "Drone delivery. Has Creative Marketing Manager."
+  },
+  "research": {
+    "status_summary": "Flytrex is actively hiring and in aggressive expansion mode as of mid-2026, opening a new Texas manufacturing facility, launching new drone hardware (Sky2), and scaling commercial partnerships with Uber Eats, DoorDash, and Little Caesars.",
+    "hiring_policy": "Flytrex is actively hiring (~4\u20135 open positions on LinkedIn/Glassdoor) but operational US roles explicitly require candidates to be authorized to work in the US with no sponsorship provided; no EOR-friendly or remote-first posture is publicly stated for tech/corporate roles, though some support team roles have been described as remote.",
+    "recent_news": [
+      "May 21, 2026: Flytrex opened a drone manufacturing and maintenance facility in Pilot Point, Texas (~8,000 sq ft), targeting 60 DFW delivery sites and ~5M residents by mid-2027.",
+      "April 23, 2026: Flytrex launched its new Sky2 octocopter drone (8.8 lb payload \u2014 largest in food delivery) in partnership with Little Caesars in Wylie, TX, enabling two-large-pizza family meal delivery in ~4.5 minutes.",
+      "March 2026: Flytrex appointed former Waze CEO Noam Bardin as Executive Chairman, and announced geographic expansion to Little Elm, Holly Springs, and Granbury; a new airspace-sharing partnership with Wing (Google) was also highlighted."
+    ],
+    "growth_signal": "Strong upward trajectory: Flytrex has surpassed 200,000 US deliveries, secured Uber as its first-ever drone-delivery investor (Corporate Minority round, Sept 2025), is doubling headcount per Bardin's stated goal, and is building toward 60 DFW delivery hubs by 2027.",
+    "fit_for_lior": "Weak direct fit for Lior's Creative AI / Product Analyst / Vibe Coder profile \u2014 Flytrex's open roles are overwhelmingly operations/field-ops heavy (drone pilots, runners, delivery drivers), with the Creative Marketing Manager role already filled; no signals of AI-product or data analyst hiring.",
+    "sources": [
+      "https://www.businesswire.com/news/home/20260423234109/en/In-a-First-for-Drone-Delivery-Flytrex-and-Little-Caesars-Can-Now-Deliver-Two-Large-Pizzas-to-Your-Door",
+      "https://finance.yahoo.com/sectors/technology/articles/flytrex-opens-drone-manufacturing-facility-120000977.html",
+      "https://dronedj.com/2026/05/21/flytrex-drone-delivery-texas-factory/",
+      "https://dronelife.com/2026/05/08/drone-pizza-delivery-flytrex-little-caesars/",
+      "https://bouncewatch.com/explore/startup/flytrex",
+      "https://www.calcalistech.com/ctechnews/article/ryqv700ksxx"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Yuval Gilor",
+      "position": "Creative Marketing Manager",
+      "linkedin": "https://www.linkedin.com/in/yuval-gilor",
+      "connected_on": "08 Mar 2026"
+    }
+  ],
+  "intro_count": 1
+}

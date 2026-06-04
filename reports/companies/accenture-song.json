@@ -1,0 +1,43 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8177-8bf6-da591d07e094",
+    "name": "Accenture Song",
+    "tier": "T6 - Globally Distributed",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Sponsors visa",
+    "industry": "SaaS",
+    "size": "Enterprise",
+    "location": "Global",
+    "notes": "Accenture's creative-strategy arm. Massive."
+  },
+  "research": {
+    "status_summary": "Accenture Song is actively operating and investing in AI-driven creative/commerce capabilities, while parent Accenture simultaneously runs an AI-restructuring program that cut ~11,000 roles in 2025\u20132026 and is selectively rehiring for AI-skilled positions.",
+    "hiring_policy": "For US-based Accenture Song roles, job postings explicitly state applicants must have work authorization that does not require visa sponsorship now or in the future, making it non-EOR/visa-friendly for the US market; remote and hybrid roles do exist (Indeed lists active remote Song openings) but on-site or travel requirements (25\u201350%) are common for senior positions.",
+    "recent_news": [
+      "Feb 2026: Accenture Song formally tied staff promotions to AI adoption \u2014 associate directors and senior managers must demonstrate 'regular adoption' of AI tools to advance to leadership, per an internal email reported by the Financial Times.",
+      "March 2026: Accenture Ventures invested in DaVinci Commerce alongside a strategic partnership with Accenture Song, doubling down on AI-driven conversational and agentic commerce \u2014 CEO Julie Sweet called Song 'super well positioned' for this 'whole new market' on the Q2 FY26 earnings call.",
+      "March 2026: Ad Age published a rare inside profile of Accenture Song ('executives are finally opening up'), covering its media ambitions, new leadership lineup (Neil Heymann, Nick Law, Arun Kumar, Nevine El-Warraky among others), and its push to compete directly with legacy agency networks on AI-powered creative and media."
+    ],
+    "growth_signal": "Accenture overall posted record Q2 FY26 bookings of $22.1B (up 6% YoY) with $2.2B from advanced AI work, and plans to spend up to $5B on acquisitions in FY26, with Song specifically flagged as a growth vector for the fast-expanding agentic/conversational commerce market.",
+    "fit_for_lior": "Accenture Song sits precisely at the Creative AI + brand strategy intersection Lior operates in \u2014 its promotion-to-AI mandate, DaVinci Commerce partnership, and agentic commerce push make it a strong contextual fit for her Creative AI and Vibe Coder threads, though the no-visa-sponsorship US policy and consulting-heavy culture (not a product org) limit direct role fit.",
+    "sources": [
+      "https://www.campaignlive.com/article/accenture-song-links-staff-promotions-to-ai-use/1949329",
+      "https://finance.yahoo.com/markets/stocks/articles/accenture-acn-announces-investment-davinci-103549248.html",
+      "https://adage.com/agencies/aa-accenture-song-profile/",
+      "https://www.investing.com/news/transcripts/earnings-call-transcript-accenture-q2-2026-beats-forecasts-but-stock-dips-93CH-4570789",
+      "https://www.cxtoday.com/contact-center/accenture-lays-off-11000-staff-as-part-of-ai-reskilling-strategy/",
+      "https://www.indeed.com/q-accenture-song-l-remote-jobs.html"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Flutura Bardhi",
+      "position": "Director, Insights Strategy",
+      "linkedin": "https://www.linkedin.com/in/fluturabardhi",
+      "connected_on": "06 Jan 2026"
+    }
+  ],
+  "intro_count": 1
+}

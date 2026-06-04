@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-819a-bec6-db73062ad835",
+    "name": "Melio",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "L-1 lane",
+    "industry": "FinTech",
+    "size": "Mid (201-1000)",
+    "location": "Tel Aviv + New York",
+    "notes": "Fintech B2B payments."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

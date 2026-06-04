@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81ed-9a77-d4b81f4cab01",
+    "name": "RoseBerry",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "Multiple paths",
+    "industry": "Media/Content",
+    "size": "Startup (1-50)",
+    "location": "Tel Aviv + New York + London",
+    "notes": "Vertical TV studio launched May 2026. Video content production at scale. Creative-AI + video direct fit."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

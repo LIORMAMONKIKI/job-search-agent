@@ -1,0 +1,27 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81eb-88ac-cac2409c4d83",
+    "name": "Hornet",
+    "tier": "T6 - Globally Distributed",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Sponsors visa",
+    "industry": "Media/Content",
+    "size": "Mid (201-1000)",
+    "location": "New York + Los Angeles",
+    "notes": "Major animation/illustration studio. Big-name in motion."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [
+    {
+      "name": "Itay Tevel",
+      "position": "Creative Director",
+      "linkedin": "https://www.linkedin.com/in/itay-tevel-52aab290",
+      "connected_on": "24 Jul 2025"
+    }
+  ],
+  "intro_count": 1
+}

@@ -1,0 +1,44 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81ab-8a4b-e0eb24e4584f",
+    "name": "Botika",
+    "tier": "T4 - Israeli Local",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Startup (1-50)",
+    "location": "Tel Aviv",
+    "notes": "AI fashion/e-commerce imagery. Has an AI Director. Direct creative-AI fit."
+  },
+  "research": {
+    "status_summary": "Actively operating and product-shipping \u2014 no layoffs or acquisition signals; launched Botika 2.0 in early 2026 with an upgraded AI engine and video workflows, and is running a live Creative Partner Program.",
+    "hiring_policy": "No public job board postings found for mid-2026; the company is Tel Aviv-headquartered (Beit Hilel 7) with ~43 employees per PitchBook, and no explicit remote, EOR, or visa-sponsorship policy is published \u2014 outreach required to confirm.",
+    "recent_news": [
+      "Botika 2.0 launched (announced Jan 2026) featuring hyper-realistic AI fashion models, enhanced flat-lay workflows, and video generation capabilities.",
+      "Paris Fashion Week AW26 (Feb\u2013Mar 2026): HELIOT EMIL partnered with Botika to produce a fully custom branded AI model and on-brand video assets for their 'CYMATICS' collection showroom \u2014 the company's first luxury/runway-tier case study.",
+      "Botika Creative Partner Program officially launched in 2026, formalizing a community of creators, photographers, and stylists already integrating Botika into client workflows.",
+      "Shopify reply (Jan 22, 2026) confirmed the next-generation AI engine is in development, targeting reduced manual fixes and automated retouching."
+    ],
+    "growth_signal": "Headcount has grown to ~43 (PitchBook 2026) from ~19 in mid-2024, total funding stands at $15.9M across multiple seed rounds (latest publicly disclosed: $8M, Jan 2025, led by Stardom + Secret Chord Ventures), with product expansion into luxury brand partnerships and video suggesting Series A prep.",
+    "fit_for_lior": "Botika sits at the exact intersection of Lior's threads \u2014 it is a creative-AI product built for fashion visual direction, needs someone who can bridge generative AI tooling with brand storytelling and e-commerce workflow design, and its new Creative Partner Program and luxury pivot (HELIOT EMIL) signal appetite for AI-native creative strategists.",
+    "sources": [
+      "https://botika.com/resources/thethread/meet-the-new-botika-ai-for-fashion-teams-driving-quality-at-scale",
+      "https://botika.com/resources/thethread/inside-heliot-emils-bold-new-era-of-ai-driven-creativity",
+      "https://apps.shopify.com/botika",
+      "https://pitchbook.com/profiles/company/462459-43",
+      "https://www.finsmes.com/2025/01/botika-raises-8m-in-seed-funding.html",
+      "https://allthingsfashiontech.substack.com/p/ai-fashion-creatives"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Maxim Ronkin",
+      "position": "AI Director",
+      "linkedin": "https://www.linkedin.com/in/maxim-ronkin",
+      "connected_on": "14 Jan 2025"
+    }
+  ],
+  "intro_count": 1
+}

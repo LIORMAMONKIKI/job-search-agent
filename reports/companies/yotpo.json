@@ -1,0 +1,27 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8148-9295-c2756051c040",
+    "name": "Yotpo",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "L-1 lane",
+    "industry": "SaaS",
+    "size": "Large (1000+)",
+    "location": "Tel Aviv + New York",
+    "notes": "E-commerce content + AI."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [
+    {
+      "name": "Nir Ilan",
+      "position": "Director of Global Support",
+      "linkedin": "https://www.linkedin.com/in/nir-ilan-093548a7",
+      "connected_on": "03 Jan 2017"
+    }
+  ],
+  "intro_count": 1
+}

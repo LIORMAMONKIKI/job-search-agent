@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8133-b3b9-ee312189c8c0",
+    "name": "SentinelOne",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "L-1 lane",
+    "industry": "SaaS",
+    "size": "Large (1000+)",
+    "location": "Tel Aviv + San Francisco",
+    "notes": "Cybersecurity, public (S)."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

@@ -1,0 +1,35 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81c9-ab43-d7520d910a4d",
+    "name": "Pachama",
+    "tier": "T7 - Science/Climate/Environment",
+    "priority": "Low",
+    "status": "Acquired",
+    "hiring_policy": "Multiple paths",
+    "industry": "AI/ML",
+    "size": "Growth (51-200)",
+    "location": "San Francisco + remote",
+    "notes": "Carbon removal AI. Mission-driven. | ACQUIRED: Acquired by Carbon Direct. Carbon Direct not yet in this DB \u2014 consider adding if you want carbon-removal-tech roles."
+  },
+  "research": {
+    "status_summary": "Pachama no longer exists as a standalone entity \u2014 it was fully acquired by Carbon Direct on November 10, 2025, with its AI/satellite forest-carbon MRV platform absorbed into Carbon Direct's product suite; Pachama's own jobs page currently shows zero open roles.",
+    "hiring_policy": "Hiring now flows through Carbon Direct, which is remote-friendly and operates across 4 countries and 10+ U.S. states with offices in Seattle and Oakland; Carbon Direct has sponsored H1B visas in the past, though sponsorship is not guaranteed per role.",
+    "recent_news": [
+      "June 2025 \u2013 Pachama laid off ~20 employees (dropping headcount to ~35) as voluntary carbon markets softened under anti-ESG headwinds and shrinking corporate sustainability budgets, signaling financial distress before the sale.",
+      "November 10, 2025 \u2013 Carbon Direct acquired Pachama (undisclosed terms); Pachama co-founder/CEO Diego Saez Gil and key staff joined Carbon Direct, with Pachama's digital MRV platform integrated into Carbon Direct's advisory and diligence services.",
+      "March 31, 2026 \u2013 Crunchbase shows a paywalled news item about the combined entity, suggesting ongoing post-merger activity; pachama.com now redirects to Carbon Direct's site, confirming full brand absorption."
+    ],
+    "growth_signal": "As part of Carbon Direct (70+ scientists, 150+ global clients, $60.8M raised), Pachama's tech is being scaled into a broader carbon management platform, but the standalone Pachama brand and headcount are shrinking/gone \u2014 growth now lives at the Carbon Direct level.",
+    "fit_for_lior": "Weak fit as a direct job target since Pachama is absorbed and posts no open roles; Carbon Direct could be a pipeline entry for a data/product analyst or ML-adjacent role in climate tech, but it skews toward deep climate science over Creative AI or vibe-coding profiles.",
+    "sources": [
+      "https://www.carbon-direct.com/press/carbon-direct-acquires-pachama",
+      "https://techcrunch.com/2025/11/10/consolidation-begins-to-hit-the-carbon-credit-market/",
+      "https://trellis.net/article/pachama-layoffs-carbon-market/",
+      "https://www.carbon-direct.com/careers",
+      "https://jobs.lever.co/pachama"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

@@ -1,0 +1,42 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8161-90c9-fbae4741030e",
+    "name": "Stampli",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "FinTech",
+    "size": "Mid (201-1000)",
+    "location": "Tel Aviv",
+    "notes": "Accounts payable automation."
+  },
+  "research": {
+    "status_summary": "Actively operating and hiring \u2014 no layoffs or acquisition signals; company reported its biggest Q1 and biggest March in company history as of early 2026.",
+    "hiring_policy": "Stampli is actively adding staff (new hires in Sales, Customer Success, and Talent Acquisition as of Mar 2026), but no public evidence of visa sponsorship or EOR-friendly international hiring; roles appear US-based and the careers page does not mention remote-international or EOR arrangements.",
+    "recent_news": [
+      "Launched Stampli Deep Finance\u2122 on March 31, 2026 \u2014 an agentic AI layer that turns invoice/AP data into consultant-grade executive spend intelligence for CFOs and Controllers, surfacing vendor risk, spending shifts, and savings opportunities in minutes.",
+      "Recognized by Software Advice FrontRunners for Best Customer Satisfaction in Accounts Payable in 2026, continuing a streak of G2 and TrustRadius top-rated awards.",
+      "Doubled Procure-to-Pay wins QoQ in Q1 2026 per internal LinkedIn post from a sales leader, with Deep Finance cited as a key differentiator driving platform adoption over point solutions."
+    ],
+    "growth_signal": "Headcount stable at ~302\u2013303 (PitchBook/Tracxn, Feb\u20132026), no new funding round since $61M Series D (Oct 2023), but strong product velocity with Deep Finance launch and record Q1 revenue suggesting organic growth without fresh capital.",
+    "fit_for_lior": "Weak fit for Lior \u2014 Stampli is a US-headquartered B2B fintech with no visible Israeli R&D hub, no EOR/international hiring signal, and its open roles skew toward US-based Sales and Customer Success rather than Creative AI, Product Analyst, or Vibe Coder profiles.",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/stampli-launches-deep-finance-turning-invoice-data-into-executive-spend-intelligence-302729234.html",
+      "https://www.pymnts.com/news/b2b-payments/2026/stampli-debuts-deep-finance-for-better-invoice-data-insights/",
+      "https://tracxn.com/d/companies/stampli/__Yaqs5D_Sq7Ka1xxQTjqDQnLfLxGU6INZkKJn563g-jQ",
+      "https://www.zoominfo.com/c/stampli/373379236",
+      "https://pitchbook.com/profiles/company/166405-33"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Hila Gerzon",
+      "position": "Talent Acquisition & Technical Sourcer",
+      "linkedin": "https://www.linkedin.com/in/hila-gerzon",
+      "connected_on": "07 Feb 2018"
+    }
+  ],
+  "intro_count": 1
+}

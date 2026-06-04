@@ -1,0 +1,27 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8198-bcaf-d8e922fc10b1",
+    "name": "Bria AI",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "Top Target",
+    "status": "Researching",
+    "hiring_policy": "Multiple paths",
+    "industry": "AI/ML",
+    "size": "Growth (51-200)",
+    "location": "Tel Aviv",
+    "notes": "Visual GenAI for enterprises. $65M raised, $40M Series B. Won Hollywood Professional Association tech awards 2026. Direct stack fit."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [
+    {
+      "name": "Nirel Reinshmidt",
+      "position": "AI-Driven Marketing & Brand Designer",
+      "linkedin": "https://www.linkedin.com/in/nirel-reinshmidt-visual-designer",
+      "connected_on": "18 Dec 2025"
+    }
+  ],
+  "intro_count": 1
+}

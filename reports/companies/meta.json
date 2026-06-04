@@ -1,0 +1,37 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8129-a886-dd12e1f26752",
+    "name": "Meta (Tel Aviv)",
+    "tier": "T8 - Global Giants TLV Office",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Enterprise",
+    "location": "Tel Aviv",
+    "notes": "AI Research + Reality Labs presence."
+  },
+  "research": {
+    "status_summary": "Active layoffs in progress as of May 20, 2026 \u2014 Meta cut ~90\u2013100 employees (10% of ~900 Israeli headcount) at its Tel Aviv R&D center as part of a global 8,000-person reduction, while simultaneously shifting 7,000 employees globally into AI roles.",
+    "hiring_policy": "Meta Tel Aviv hires directly as a local legal entity (no EOR needed); roles listed on LinkedIn as 'Actively Hiring' include AI Research Scientist, Data Scientist \u2013 Product Analytics, ML Engineers, and Software Engineering Managers as of June 2026. No public EOR or remote-first policy for TLV roles \u2014 positions are listed as on-site or hybrid in Tel Aviv.",
+    "recent_news": [
+      "May 20, 2026: ~90\u2013100 Meta Israel employees received dismissal notices \u2014 10% of local ~900-person workforce \u2014 primarily from the Tel Aviv R&D/development center, mirroring a global 8,000-job cut (Times of Israel, Globes, Calcalist, May 2026).",
+      "April 2026: Meta announced a Reality Labs hardware reorganization, moving QA/dogfooding and platform foundations teams directly into wearables and VR units to 'adapt and execute faster,' per a memo from Applied AI Engineering head Maher Saba (PYMNTS, April 15, 2026).",
+      "Meta's FAIR (Fundamental AI Research) division \u2014 which has a Tel Aviv workspace \u2014 was folded under the newly formed Meta Superintelligence Labs (MSL), which expanded to 180 researchers across Menlo Park, London, and Tel Aviv, targeting AGI development (Wikipedia/FourWeekMBA, 2026).",
+      "A second layoff wave of ~10% is anticipated in August\u2013September 2026, ahead of Meta's annual Connect conference, per Globes/Bloomberg estimates."
+    ],
+    "growth_signal": "Despite layoffs, Meta is on an aggressive AI infrastructure trajectory \u2014 committing $100B+ in capex in 2026, signing a $100B multi-year GPU deal with AMD, and growing its Tel Aviv AI Research and Reality Labs teams as the R&D center remains one of Meta's largest strategic development hubs outside the US.",
+    "fit_for_lior": "Strong fit for Lior's Creative AI and Product Analyst threads \u2014 Tel Aviv roles actively open in Data Scientist (Product Analytics), Funnel Personalization PM, and AI Research Scientist align directly with her profile, though the 10% layoff wave signals a cautious entry window and a preference for AI-native candidates.",
+    "sources": [
+      "https://www.timesofisrael.com/meta-begins-job-cuts-in-israel-as-global-layoffs-in-the-name-of-ai-mount/",
+      "https://en.globes.co.il/en/article-meta-to-lay-off-100-employees-in-israel-1001540895",
+      "https://www.pymnts.com/meta/2026/meta-makes-major-changes-to-speed-reality-labs-progress/",
+      "https://il.linkedin.com/jobs/meta-jobs",
+      "https://en.wikipedia.org/wiki/Meta_Superintelligence_Labs",
+      "https://www.calcalistech.com/ctechnews/article/qh2b2uww3"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

@@ -1,0 +1,42 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81a4-8a5b-c2bfde1d5f9b",
+    "name": "Guardio",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "SaaS",
+    "size": "Mid (201-1000)",
+    "location": "Tel Aviv",
+    "notes": "Security but has an AI Creative Specialist role \u2014 non-obvious lead."
+  },
+  "research": {
+    "status_summary": "Guardio is actively hiring across multiple roles (24 open jobs as of mid-2026) with no layoffs reported, riding post-Series-B growth momentum following its $80M raise in November 2025.",
+    "hiring_policy": "All open roles are Israel-based (Tel Aviv HQ); roughly 71% of listed jobs carry some remote tag but the company recruits talent for Israel and does not publicly advertise visa sponsorship or EOR arrangements \u2014 no evidence of international sponsorship found in any job listing.",
+    "recent_news": [
+      "November 2025: Closed $80M Series B led by ION Crossover Partners (valuation tripled vs. 2021 Tiger Global round), targeting $100M ARR as early as 2026 after three consecutive years of 100%+ ARR growth.",
+      "Late 2025 / Jan 2026: Partnered with vibe-coding unicorn Lovable to embed Guardio's Safe Browsing detection engine into Lovable's GenAI chain, scanning every AI-generated site at the moment of creation \u2014 Guardio's first B2B deal and a marquee signal of its pivot toward AI-generated threat detection.",
+      "Headcount grew to ~144 employees (Tracxn, Feb 2026) with new senior hires including a Director of Data and a CMO; ZoomInfo signals more HR and IT roles open now than at any point in the past 12 months."
+    ],
+    "growth_signal": "Headcount at 144 (Feb 2026, up from ~127 mid-2025), $127M total funding, $100M ARR target for 2026, and a tripled valuation since 2021 all point to a company in aggressive but disciplined scale-up mode.",
+    "fit_for_lior": "The AI Creative Specialist role sits at the exact intersection of Lior's threads \u2014 Guardio is a consumer-brand cybersecurity company that explicitly blends 'world-class engineering with bold creativity,' is deep in the AI-generated-threat space (Lovable partnership), and needs creative AI execution to drive its US brand expansion post-Series-B.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/h1rgcvixzg",
+      "https://techcrunch.com/2025/11/19/security-startup-guardio-nabs-80m-from-ion-crossover-partners/",
+      "https://guard.io/blog/lovable-integrates-guardio-to-ensure-safe-responsible-ai-development",
+      "https://tracxn.com/d/companies/guardio/__YimVczYmVBwYc94sAsPvxuKjXac7D_wX5lvBlHOD-9w",
+      "https://trueup.io/co/guardio/jobs"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Guy Roitberg",
+      "position": "AI Creative Specialist",
+      "linkedin": "https://www.linkedin.com/in/guyroitberg",
+      "connected_on": "26 Feb 2026"
+    }
+  ],
+  "intro_count": 1
+}

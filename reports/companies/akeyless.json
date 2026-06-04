@@ -1,0 +1,37 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81a6-ae60-cb37eadb7c56",
+    "name": "Akeyless",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "SaaS",
+    "size": "Growth (51-200)",
+    "location": "Tel Aviv",
+    "notes": "Secrets management."
+  },
+  "research": {
+    "status_summary": "Actively hiring across engineering, product, sales, and customer success roles as of mid-2026, with no signals of layoffs or acquisition.",
+    "hiring_policy": "Open roles are Israel-HQ-based (Ramat Gan) with some remote positions listed globally; no explicit visa sponsorship or EOR-friendly language found in public job postings \u2014 typical for a ~100-person Israeli Series B company.",
+    "recent_news": [
+      "March 31, 2026: Launched 'Agentic Runtime Authority' and 'Agentic Identity Intelligence' \u2014 new runtime control capabilities for securing autonomous AI agents across production environments.",
+      "RSAC 2026 (April/May 2026): Won multiple industry awards including Global InfoSec 'Market Leader in Identity Management for AI Agents' and Cybersecurity Excellence Awards in AI Agent Identity Security, Machine Identity Security, and Secrets Management.",
+      "February 25, 2026: Joined VAST Cosmos as a Technology Partner, delivering validated zero-knowledge encryption and secrets management integration for high-performance AI workloads via VAST Data's AI Operating System.",
+      "April 8, 2026: Featured in Gartner 'Innovation Insights: Secrets Management' report, highlighting secretless architectures and workload identity federation as the next phase of the market Akeyless is positioning for."
+    ],
+    "growth_signal": "Headcount sits at ~102 employees (March 2026 per LeadIQ), total funding reaching ~$84\u201395M across rounds including a Series B (Oct 2024), with reported 560% YoY growth and revenue estimates ranging $50\u2013100M.",
+    "fit_for_lior": "Weak direct fit \u2014 Akeyless is a deep-infrastructure B2B security play (DevOps/machine identity) with no Creative AI, product analytics, or vibe-coding surface area; role openings are engineering- and sales-heavy with a Technical Product Manager role as the closest adjacent opportunity.",
+    "sources": [
+      "https://www.akeyless.io/press-release/akeyless-launches-runtime-authority-for-ai-agents/",
+      "https://leadiq.com/c/akeyless-security/5d5ec55f408f0cc3d9e4cd84",
+      "https://pitchbook.com/profiles/company/416655-91",
+      "https://www.akeyless.io/data-sheets/gartner-innovation-insights/",
+      "https://builtin.com/company/akeyless-security/jobs",
+      "https://www.cbinsights.com/company/akeyless"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

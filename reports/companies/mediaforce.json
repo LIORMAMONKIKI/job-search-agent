@@ -1,0 +1,41 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8161-a917-e2c3e75c1227",
+    "name": "MediaForce",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AdTech",
+    "size": "Mid (201-1000)",
+    "location": "Tel Aviv",
+    "notes": "Israeli media agency. Has Video Editor + AI Content Creator role."
+  },
+  "research": {
+    "status_summary": "MediaForce (Holon, Israel) is actively operating and shows incremental hiring signals as of early 2026, with no reports of layoffs, acquisition, or pauses.",
+    "hiring_policy": "No public visa sponsorship or EOR policy found; the company is Israel-based and in-office (Holon HQ), making remote/EOR arrangements unlikely for local roles like Video Editor and AI Content Creator. LinkedIn currently lists 3 open positions in Israel.",
+    "recent_news": [
+      "ZoomInfo signals (Feb 2026) show MediaForce actively researching 'Recruiting' topics, with a score of 86 and 4 signals detected, suggesting active headcount planning.",
+      "Most recent hire logged: Jim White (Senior Sales Director, joined Jan 1, 2026), indicating continued expansion into sales/BD functions into the new year.",
+      "No funding rounds, acquisitions, or restructuring events detected across Crunchbase, ZoomInfo, or LinkedIn in the Apr\u2013Jun 2026 window \u2014 company appears in steady-state operation."
+    ],
+    "growth_signal": "MediaForce remains a small-scale ad-tech operator (~111 employees, ~$5M revenue) with modest organic headcount growth and no external funding trajectory visible.",
+    "fit_for_lior": "The Video Editor + AI Content Creator role directly maps to Lior's Creative AI thread \u2014 MediaForce's performance-marketing / native-ad focus would leverage AI video tooling and content iteration skills, though the small company size and Israel-only on-site setup are limiting factors.",
+    "sources": [
+      "https://www.zoominfo.com/c/mediaforce/371098177",
+      "https://rocketreach.co/mediaforce-profile_b5ecb4d0f42e7c51",
+      "https://il.linkedin.com/jobs/media-force-jobs",
+      "https://mediaforce.com/careers/index.php"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Oded Cohen",
+      "position": "Video Editor & AI Content Creator",
+      "linkedin": "https://www.linkedin.com/in/odedcm",
+      "connected_on": "24 Oct 2023"
+    }
+  ],
+  "intro_count": 1
+}

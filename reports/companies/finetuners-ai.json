@@ -1,0 +1,43 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-815e-9785-d7a9580796bb",
+    "name": "finetuners.ai",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Startup (1-50)",
+    "location": "Israel",
+    "notes": "Generative AI boutique. Small but specialized."
+  },
+  "research": {
+    "status_summary": "Operational but low-profile; no layoffs, acquisition, or formal hiring announcements detected as of June 2026 \u2014 company appears to be quietly active in a bootstrapped, boutique capacity.",
+    "hiring_policy": "No public job postings or visa/remote policy statements found. As a small unfunded Tel Aviv-based boutique (Tracxn: 'unfunded'), EOR or remote arrangements are unconfirmed; outreach directly to founder Dori Adar would be needed to establish terms.",
+    "recent_news": [
+      "Founder/CEO Dori Adar posted a LinkedIn teaser ('New office. Big news coming soon. Stay tuned. #finetuners') \u2014 timing unclear but signals activity, not shutdown.",
+      "GitHub org (FinetunersAI) maintains active public repos including ComfyUI_Finetuners_Suite and a custom ComfyUI fast-group-link plugin, indicating ongoing technical development.",
+      "Company use-cases page touts AI art training for top mobile game developers \u2014 character models, event-tailored skins, live-ops asset automation \u2014 with no removal or pivot signals detected.",
+      "No appearance in Calcalist's 2026 Israeli high-tech funding round tracker, consistent with its unfunded/bootstrapped status."
+    ],
+    "growth_signal": "Remains unfunded and founder-led since its 2022 founding in Tel Aviv, with product and GitHub activity suggesting organic growth rather than VC-backed scaling.",
+    "fit_for_lior": "Strong overlap with Lior's Creative AI and Vibe Coder threads \u2014 finetuners.ai sits at the exact intersection of generative image models (Stable Diffusion / ComfyUI), production workflows for game studios, and hands-on AI tooling, making it a niche but well-aligned target for a creative-AI practitioner.",
+    "sources": [
+      "https://tracxn.com/d/companies/finetuners.ai/__EpdpDNdSOS4ZlNqembtN7N7FrKoQsJfOvbnEsRFNpBU",
+      "https://github.com/FinetunersAI",
+      "https://www.finetuners.ai/usecases",
+      "https://www.linkedin.com/in/dori-adar-48532b55/",
+      "https://www.youtube.com/@finetuners/"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Gull Sheer",
+      "position": "Generative AI specialist",
+      "linkedin": "https://www.linkedin.com/in/gull-sheer-887426233",
+      "connected_on": "21 Apr 2025"
+    }
+  ],
+  "intro_count": 1
+}

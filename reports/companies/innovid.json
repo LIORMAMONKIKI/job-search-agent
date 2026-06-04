@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-817d-a258-dabfb1dad796",
+    "name": "Innovid",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "L-1 lane",
+    "industry": "AdTech",
+    "size": "Mid (201-1000)",
+    "location": "Tel Aviv + New York",
+    "notes": "AI video advertising."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

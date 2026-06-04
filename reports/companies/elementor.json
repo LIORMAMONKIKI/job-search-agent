@@ -1,0 +1,43 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8172-ac6a-df1161e8ca20",
+    "name": "Elementor",
+    "tier": "T4 - Israeli Local",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "SaaS",
+    "size": "Large (1000+)",
+    "location": "Tel Aviv",
+    "notes": "WordPress page builder. AI content surfaces. Consumer brand."
+  },
+  "research": {
+    "status_summary": "Elementor is actively product-shipping and hiring (careers page open), with no 2025\u20132026 layoff signals; the last known layoff was a 2022 marketing-department cut of ~60 staff amid recession fears.",
+    "hiring_policy": "Elementor is an Israeli-headquartered company (Ramat Gan) with a global distributed workforce; no public 2026 statements on visa sponsorship or EOR policy were found, but prior remote-friendly posture and Israeli R&D core suggest limited visa sponsorship and cautious EOR openness for non-Israel roles.",
+    "recent_news": [
+      "May 12, 2026 \u2013 Elementor officially launched 'Angie,' billed as the world's first agentic AI plugin for WordPress; Angie Code lets users build custom widgets, snippets, and apps from plain-language prompts with a sandboxed test environment before going live.",
+      "June 2, 2026 \u2013 Elementor shipped another Angie update ('Angie in the Atomic Editor'), enabling AI generation of Forms, Variables, and Classes directly inside the new V4 Atomic Editor system, deepening the no-code/AI-assisted workflow.",
+      "2026 \u2013 Elementor launched 'Elementor One' ($168/yr unified subscription), bundling Editor Pro, AI Site Planner, managed cloud hosting, and 25,000 monthly AI credits into a single workspace, signaling a platform consolidation strategy."
+    ],
+    "growth_signal": "Headcount sits at ~508 employees as of April 2026 (up from ~466 in 2025 per PitchBook), the platform powers 13%+ of the web and 21M+ sites, and the company is aggressively expanding its AI surface area with Angie, Elementor One, and the V4 Atomic Editor \u2014 all shipped within a 6-month window with no new external funding announced.",
+    "fit_for_lior": "Strong fit for Lior's Creative AI and Vibe Coder threads \u2014 Elementor's Angie agent (prompt-to-production-code, no coding required) and Elementor One's AI content/image surfaces are exactly the 'AI co-pilot for creators' category she covers, and a Product Analyst or AI content role here would sit at the intersection of WordPress ecosystem analytics and generative-AI UX evaluation.",
+    "sources": [
+      "https://elementor.com/blog/introducing-angie-agentic-ai-for-wordpress/",
+      "https://elementor.com/blog/angie-in-the-atomic-editor/",
+      "https://elementor.com/blog/elementor-free/",
+      "https://tracxn.com/d/companies/elementor/__JyKfLETx52iLBiP7wqXzGV-2jVSGWzB8Eem2XQt0Yis",
+      "https://webhosting.today/2026/05/04/the-agentic-shift-how-elementor-one-and-angie-are-redefining-the-wordpress-economy/",
+      "https://www.therepository.email/elementor-launches-angie-a-free-ai-plugin-for-building-custom-wordpress-functionality"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Gili Noy",
+      "position": "Product Content Design Lead",
+      "linkedin": "https://www.linkedin.com/in/gilinoy",
+      "connected_on": "27 Feb 2026"
+    }
+  ],
+  "intro_count": 1
+}

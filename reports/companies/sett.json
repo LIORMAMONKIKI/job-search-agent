@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8110-be89-e3ad91a33c16",
+    "name": "Sett",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "L-1 lane",
+    "industry": "AI/ML",
+    "size": "Growth (51-200)",
+    "location": "Tel Aviv",
+    "notes": "Autonomous AI marketing agents. $57M raised, Bessemer-backed. Gaming UA focus expanding to fintech/e-commerce. Agentic + creative fit."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

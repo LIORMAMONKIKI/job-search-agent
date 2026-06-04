@@ -1,0 +1,42 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81c8-8ad3-c112abeb4b05",
+    "name": "Sensi.AI",
+    "tier": "T4 - Israeli Local",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Startup (1-50)",
+    "location": "Tel Aviv",
+    "notes": "AI for elder care. Mission-driven."
+  },
+  "research": {
+    "status_summary": "Actively hiring and expanding \u2014 Sensi.AI is post-Series C, growing headcount, launching new community initiatives, and opening multiple roles across product, legal, and operations as of mid-2026.",
+    "hiring_policy": "Roles are split between Austin, TX (US) and Israel, suggesting a dual-hub model with no clear public stance on full remote or EOR; US-based roles likely require local presence, and Israel-based roles (Controller, Director of Product) suggest direct Israeli entity hiring rather than EOR dependency.",
+    "recent_news": [
+      "May 21, 2026: Sensi launched 'Project Uplift,' a nationwide initiative to spotlight and recognize home care agencies across North America helping seniors age with dignity.",
+      "January 20, 2026: Sensi hosted 'Sensi by the Riviera,' a retreat for home care and senior living leaders positioned as both a community-building and brand-expansion play.",
+      "Oct 2025 (still resonating in 2026): Closed $45M Series C led by Qumra Capital, bringing total raised to ~$98\u2013102M, with plans to build a full AI Operating System for senior care and expand into assisted living and CCRCs."
+    ],
+    "growth_signal": "116 employees as of 2026 (up from earlier stages), 400% revenue growth reported in the prior year, and coverage of 80%+ of North America's largest home care networks signals strong upward trajectory post-Series C.",
+    "fit_for_lior": "Strong fit for her Product Analyst and Creative AI threads \u2014 Sensi is hiring a Senior Product Manager and conducting market/customer research roles that blend AI product strategy with mission-driven storytelling, ideal for someone who combines analytical depth with care for human impact.",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/sensi-launches-project-uplift-to-recognize-americas-home-care-agencies-helping-seniors-age-with-dignity-302778416.html",
+      "https://techfundingnews.com/sensiai-raises-45m-series-c-to-accelerate-ai-care-intelligence-for-seniors/",
+      "https://www.calcalistech.com/ctechnews/article/hyawomspex",
+      "https://pitchbook.com/profiles/company/439833-79",
+      "https://builtin.com/company/sensiai/jobs"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Anthony Damski",
+      "position": "VP of Sales",
+      "linkedin": "https://www.linkedin.com/in/anthony-damski-50378625",
+      "connected_on": "29 Oct 2023"
+    }
+  ],
+  "intro_count": 1
+}

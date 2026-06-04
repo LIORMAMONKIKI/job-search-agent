@@ -1,0 +1,39 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81f2-9519-e1253d55c4ba",
+    "name": "Mixtiles",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "L-1 lane",
+    "industry": "E-Commerce",
+    "size": "Growth (51-200)",
+    "location": "Tel Aviv + New York",
+    "notes": "Consumer photo-printing with AI features. 3 LinkedIn contacts incl. a Creative AI Specialist \u2014 direct social proof."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [
+    {
+      "name": "Tom Riechart",
+      "position": "Creative AI Specialist",
+      "linkedin": "https://www.linkedin.com/in/tom-riechart-93b6439a",
+      "connected_on": "23 Feb 2026"
+    },
+    {
+      "name": "Eden Levy",
+      "position": "Creative Lead",
+      "linkedin": "https://www.linkedin.com/in/eden-levy-938872214",
+      "connected_on": "28 Dec 2025"
+    },
+    {
+      "name": "Uzi Mor",
+      "position": "Head of Creative Productions",
+      "linkedin": "https://www.linkedin.com/in/uzi-mor-25a5b878",
+      "connected_on": "12 Mar 2023"
+    }
+  ],
+  "intro_count": 3
+}

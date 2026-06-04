@@ -1,0 +1,38 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8180-ba99-f4384490c402",
+    "name": "Midjourney",
+    "tier": "T5 - Frontier Labs + Creative-AI",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Unknown - needs research",
+    "industry": "AI/ML",
+    "size": "Startup (1-50)",
+    "location": "San Francisco (remote-friendly)",
+    "notes": "Famously small team, hires selectively."
+  },
+  "research": {
+    "status_summary": "Actively hiring in a highly selective, no-open-listings mode \u2014 Midjourney's careers page states no formal positions are posted but explicitly invites exceptional candidates to reach out, with a focus on research and data engineering.",
+    "hiring_policy": "Visa sponsorship confirmed (yes, per official careers page); Bay Area and London are preferred but remote work is accepted; no mention of EOR but the openness to remote suggests flexibility for the right candidate.",
+    "recent_news": [
+      "V8.1 model released April 30, 2026 \u2014 described as Midjourney's fastest model ever, with 4\u20135x faster generation, HD 2K image output, improved prompt adherence, and Raw mode; V7 remains the default for most users.",
+      "Crossed $200M ARR as of March 2026 (reported by The Information) with ~40\u2013100 employees and zero outside investors, yielding a stunning ~$5M revenue-per-employee ratio \u2014 8x Apple's efficiency.",
+      "Meta partnership (Aug 2025) to license Midjourney's aesthetic technology for future Meta models; separately, Warner Bros. Discovery and Disney/Universal filed copyright infringement suits in mid-2025, creating ongoing legal overhang.",
+      "Secret hardware division active since Aug 2024, led by former Apple Vision Pro engineering manager; Midjourney office hours (Jan\u2013Feb 2026) referenced real-time 3D research and mobile app plans \u2014 products still unannounced."
+    ],
+    "growth_signal": "Revenue trajectory is steep ($50M \u2192 $200M \u2192 $300M \u2192 $500M projected across 2022\u20132025) and self-funded with no VC dilution; headcount appears to be quietly growing (Tracxn counts 192 employees as of Apr 2026 vs. the oft-cited ~40\u2013100 figure), and the product is expanding from images into video, 3D, and hardware.",
+    "fit_for_lior": "Midjourney is the canonical Creative-AI platform \u2014 building the frontier of image/video/world models with a tiny team and portfolio-first hiring \u2014 making it a near-perfect fit for a Creative AI / Product Analyst / Vibe Coder profile who can demo exceptional taste and output over credentials.",
+    "sources": [
+      "https://www.midjourney.com/careers",
+      "https://aiforautomation.io/news/2026-03-30-midjourney-200m-revenue-no-investors",
+      "https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version",
+      "https://pixverse.ai/en/blog/midjourney-ai-image-generator-review",
+      "https://sacra.com/c/midjourney/",
+      "https://tracxn.com/d/companies/midjourney/__GR9t44EIV5pqc4nTibLDEVtkjQpZX20dNnG0sqaJSSQ",
+      "https://www.gradually.ai/en/midjourney-statistics/"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

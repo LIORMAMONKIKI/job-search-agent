@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8160-b787-e009f46f3be0",
+    "name": "Runway ML",
+    "tier": "T1 - Frontier AI Video/Image",
+    "priority": "Top Target",
+    "status": "Researching",
+    "hiring_policy": "Sponsors visa",
+    "industry": "AI/ML",
+    "size": "Growth (51-200)",
+    "location": "New York",
+    "notes": "Generative video pioneer (Gen-3). Sponsors. Active Creative AI / Technical Artist roles."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

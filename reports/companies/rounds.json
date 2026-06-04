@@ -1,0 +1,42 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81c5-9c34-e3d4a4e83af8",
+    "name": "Rounds",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "SaaS",
+    "size": "Startup (1-50)",
+    "location": "Tel Aviv",
+    "notes": "Analyst hybrid possible (VP Data contact)."
+  },
+  "research": {
+    "status_summary": "Rounds (rounds.com, Herzliya/Tel Aviv) is a privately-held Israeli mobile-app acquisition and optimization company operating under an ongoing business model; it was formerly the Israeli video-chat startup acquired by Kik in 2017 and has since pivoted to a mobile-asset-to-business operation \u2014 no recent layoffs, shutdown, or new funding announced as of June 2026.",
+    "hiring_policy": "Active open roles posted on Comeet and Glassdoor include a Business Data Analyst and HR Manager, both listed as hybrid/Tel Aviv-based; no public indication of visa sponsorship or EOR-friendly remote policy, and all visible postings are Israel-local.",
+    "recent_news": [
+      "Rounds (rounds.com) describes itself as using 'proprietary AI/ML technology' to identify and optimize mobile assets for acquisition and subscription monetization, with a Vietnam market expansion of $20M in app acquisitions noted for 2025 \u2014 the most recent strategic signal found.",
+      "No funding rounds, layoffs, or acquisitions involving Rounds have surfaced in Israeli tech press trackers (Calcalist/CTech) covering the wave of 31 Israel-related layoff events in 2026 \u2014 Rounds is notably absent from that list.",
+      "A Business Data Analyst role is live on Comeet (rounds.com careers page), with the job spec calling for someone to 'analyze performance data, create dashboards, and provide insights' \u2014 consistent with the VP Data contact noted in your context."
+    ],
+    "growth_signal": "Headcount sits at ~118 per PitchBook with no disclosed new funding since a $22M total raise; the Vietnam app-acquisition push ($20M, 2025) suggests expansion-by-acquisition rather than organic headcount growth.",
+    "fit_for_lior": "Rounds' data-driven mobile-app optimization model and open Business Data Analyst role align with Lior's Product Analyst thread, and the VP Data contact gives a warm entry point for a hybrid analyst-side conversation.",
+    "sources": [
+      "https://pitchbook.com/profiles/company/53322-40",
+      "https://www.comeet.com/jobs/rounds/59.005/business-data-analyst/62.75B",
+      "https://www.crunchbase.com/organization/rounds",
+      "https://tracxn.com/d/companies/rounds/__hAQPI9tGUHG1MBGJ7aUT1xzXBP_OiwwmOyYNIINaj2w",
+      "https://builtin.com/company/rounds-1/jobs"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Liat Ashkenazi",
+      "position": "VP Data",
+      "linkedin": "https://www.linkedin.com/in/liat-ashkenazi-2296a722",
+      "connected_on": "09 Aug 2025"
+    }
+  ],
+  "intro_count": 1
+}

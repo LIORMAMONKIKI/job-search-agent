@@ -1,0 +1,35 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8104-9932-fe7fd2b2b029",
+    "name": "Sieve",
+    "tier": "T6 - Globally Distributed",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Unknown - needs research",
+    "industry": "AI/ML",
+    "size": "Startup (1-50)",
+    "location": "San Francisco",
+    "notes": "AI video/image API. Newer, growing fast."
+  },
+  "research": {
+    "status_summary": "Actively operating and hiring \u2014 Sieve pivoted in early 2026 from a developer-facing video API platform to a full multimodal data lab supplying petabyte-scale training datasets to frontier AI labs, with 8 open roles on YC as of mid-2026.",
+    "hiring_policy": "Roles listed on YC and Wellfound are in-office San Francisco at $150k\u2013$300k, suggesting no remote policy and likely no EOR-friendliness; no public mention of visa sponsorship found.",
+    "recent_news": [
+      "March 4, 2026: Published 'Reintroducing Sieve' blog post detailing the pivot from video APIs to supplying multimodal data at petabyte-scale to frontier AI labs and Fortune 100 companies.",
+      "Sieve now operates on hundreds of petabytes of video (every 100 PB \u2248 75M hours of 1080p content) with fully software-driven collection, indexing, filtering, QA, and annotation systems \u2014 not manual service workflows.",
+      "The company's current product scope spans media generation/editing, visual understanding, robotics, world models, and computer use datasets, moving well beyond its original video-editing API roots."
+    ],
+    "growth_signal": "Headcount sits at ~18\u201322 employees (per YC and PitchBook), with $12M total raised (per StartupHub, detected May 2026), 8 active YC job listings, and rapidly expanding scope from single-product API to full multimodal data infrastructure lab serving frontier AI customers.",
+    "fit_for_lior": "Strong fit for Lior's Creative AI and Vibe Coder threads \u2014 Sieve sits at the infrastructure layer powering generative video/image models, and its developer-facing API roots (dubbing, lipsync, scene detection, auto-crop) offer natural overlap with creative tooling and product experimentation.",
+    "sources": [
+      "https://www.sieve.ai/blog/reintro",
+      "https://www.ycombinator.com/companies/sieve",
+      "https://www.startuphub.ai/startups/sieve",
+      "https://wellfound.com/company/sieve-8",
+      "https://pitchbook.com/profiles/company/491409-37"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

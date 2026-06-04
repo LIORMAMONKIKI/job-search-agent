@@ -1,0 +1,39 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8185-b0ec-e7daa036525a",
+    "name": "Mistral",
+    "tier": "T5 - Frontier Labs + Creative-AI",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "EOR-friendly",
+    "industry": "AI/ML",
+    "size": "Growth (51-200)",
+    "location": "Paris",
+    "notes": "Major French AI lab. EU-real."
+  },
+  "research": {
+    "status_summary": "Actively hiring at scale \u2014 1,000 employees as of June 2026, 161+ open roles in Europe alone, and on a hiring spree in Silicon Valley and New York, with no signs of slowdown post-$830M debt round.",
+    "hiring_policy": "Visa sponsorship is explicitly offered for both French and US roles (H-1B, TN, and relocation assistance confirmed on live job postings); remote is very limited \u2014 only ~5 of 161 EU roles are remote-flexible, with most requiring physical presence in Paris or London, and no EOR-friendly signal.",
+    "recent_news": [
+      "June 2026 \u2014 AI NOW Summit: Mistral launched 'Mistral for Industrial Engineering,' a full-stack AI platform via its May 2026 acquisition of Emmi AI (30+ researchers absorbed), with headline customers Airbus, BMW, and ASML.",
+      "May 2026 \u2014 Le Chat rebranded to 'Vibe,' with new product lines: Vibe for Work (productivity), Vibe for Code (cloud coding agents powered by Mistral Medium 3.5, async/parallel, auto-PR to GitHub), and Vibe Chat (legacy).",
+      "March 2026 \u2014 Raised $830M in debt financing from a consortium of 7 banks (BNP Paribas, HSBC, Cr\u00e9dit Agricole, MUFG, etc.) to fund new data centers near Paris (Les Ulis, Q3 2026 open) and Borl\u00e4nge, Sweden (Vera Rubin GPUs, 2027).",
+      "March 2026 \u2014 Shipped 6 products in 15 days: Mistral Small 4 (unified reasoning+vision+coding model at $0.15/M tokens), Voxtral TTS, Leanstral formal-proof agent, Forge enterprise training platform, Spaces CLI, and joined NVIDIA Nemotron Coalition as founding member.",
+      "February 2026 \u2014 Acquired Koyeb (Paris-based AI infra startup) and announced multi-year Accenture partnership for sovereign AI deployment at enterprise scale."
+    ],
+    "growth_signal": "Headcount hit 1,000 (from ~15 in 2023), ARR surpassed $400M in January 2026 on a trajectory to $1B by year-end, valuation at ~$13.8B, and total funding over $4B \u2014 Europe's most valuable AI company by a wide margin.",
+    "fit_for_lior": "Mistral is a strong fit across all three threads: Vibe (formerly Le Chat) is a live creative-AI + vibe-coding product with a public API, Forge and Small 4 are ideal for Product Analyst experimentation on open-weight models, and the EU-sovereign angle plus open Apache 2.0 licensing make it a differentiated research and portfolio signal for a Creative AI operator.",
+    "sources": [
+      "https://venturebeat.com/technology/mistral-ai-launches-vibe-expands-into-industrial-ai-and-announces-data-center-push-to-challenge-openai",
+      "https://www.cnbc.com/2026/05/19/mistral-cnbc-disruptor-50-ranking.html",
+      "https://devops.com/mistral-moves-coding-agents-to-the-cloud-and-gets-out-of-your-way/",
+      "https://serenitiesai.com/articles/mistral-ai-models-2026-complete-guide",
+      "https://blog.worktugal.com/mistral-ai-jobs-europe/",
+      "https://jobs.lever.co/mistral/675b7f06-a76b-4144-af0c-4dd3282ef489",
+      "https://techfundingnews.com/why-did-mistrals-co-founders-back-a-e6m-funding-round-in-ai-simulation-startup-days-after-acquiring-its-competitor/"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

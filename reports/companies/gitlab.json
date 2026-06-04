@@ -1,0 +1,38 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-813f-93f5-ff86bd7ada10",
+    "name": "GitLab",
+    "tier": "T6 - Globally Distributed",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "EOR-friendly",
+    "industry": "SaaS",
+    "size": "Enterprise",
+    "location": "Fully distributed",
+    "notes": "DevOps. Hires anywhere. Less creative, analyst angle possible."
+  },
+  "research": {
+    "status_summary": "GitLab is undergoing active restructuring layoffs \u2014 cutting ~14% of staff (~350 employees) as of June 3, 2026, following a May 2026 'Act 2' announcement to exit ~22 countries and flatten management, while selectively reopening remote roles globally.",
+    "hiring_policy": "GitLab is all-remote since inception with team members in 65+ countries, but is actively shrinking its country footprint by ~30% (exiting ~18-22 countries); it hires via local entities and historically files minimal H-1B LCAs (0 in FY2025), making it more EOR/contractor-friendly than visa-sponsorship-friendly for non-US candidates.",
+    "recent_news": [
+      "June 3, 2026 (TechCrunch): GitLab confirmed ~14% workforce reduction (~350 employees) on its Q1 FY2027 earnings call, with $30\u201335M in restructuring charges expected.",
+      "Q1 FY2027 revenue hit $264M (+23% YoY) with 88% gross margins, but FY2027 full-year guidance of $1.10\u20131.12B implies a deceleration to ~15-17% growth \u2014 down from 26% in FY2026.",
+      "May 11, 2026 ('GitLab Act 2'): CEO Bill Staples announced R&D reorganization into ~60 autonomous teams, removal of up to 3 management layers, and a strategic pivot to agentic AI \u2014 stock dropped ~8% after hours, extending a 12-month slide from $52 to ~$26.",
+      "GitLab Duo (its AI coding platform) only reached general availability on January 15, 2026, putting it behind GitHub Copilot (20M users) and Cursor ($2B ARR) in the AI dev tools race.",
+      "GitLab crossed $1B ARR and $955M revenue in FY2026 (+26% YoY), with free cash flow up 80%+ to ~$220M \u2014 financially solid despite the restructuring optics."
+    ],
+    "growth_signal": "Revenue growing 23% YoY to $264M in Q1 FY2027 with 88% gross margins, but headcount is being cut and country footprint reduced, signaling a profitability-over-growth phase.",
+    "fit_for_lior": "Strong analyst-angle fit \u2014 GitLab is a publicly traded DevSecOps platform (NASDAQ: GTLB) in mid-transformation, with open Data Analyst, FP&A analytics, and platform product roles that suit a structured, data-literate profile; creative AI or vibe-coding threads are weak here, but DevOps tooling and agentic-AI product analysis are genuinely relevant.",
+    "sources": [
+      "https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/",
+      "https://www.metaintro.com/blog/gitlab-layoffs-may-2026",
+      "https://thenextweb.com/news/gitlab-cuts-7-of-workforce-and-flattens-management-in-sweeping-agentic-era-restructuring",
+      "https://byteiota.com/gitlab-layoffs-2026-agentic-era-or-ai-washing/",
+      "https://finance.yahoo.com/markets/stocks/articles/gitlab-q1-earnings-call-highlights-220854918.html",
+      "https://about.gitlab.com/jobs/"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

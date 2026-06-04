@@ -1,0 +1,37 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8180-a688-c78194a26728",
+    "name": "Demostack",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "SaaS",
+    "size": "Startup (1-50)",
+    "location": "Tel Aviv",
+    "notes": "Sales demo platform."
+  },
+  "research": {
+    "status_summary": "Demostack appears operational and modestly active as of mid-2026, with no signals of acquisition, layoffs, or shutdown \u2014 headcount sits at ~59 employees, down from a peak of ~93 at its 2022 Series B.",
+    "hiring_policy": "Demostack lists open roles on its careers page and ZoomInfo notes an active Tel Aviv-based Technical Product Manager search, suggesting an Israel R&D presence; no public evidence of visa sponsorship or explicit EOR-friendly policy for international candidates was found.",
+    "recent_news": [
+      "Last confirmed funding is the $34M Series B (April 2022, Tiger Global + Bessemer), with no new round publicly announced through June 2026 \u2014 over 4 years since last raise.",
+      "Headcount has contracted from ~93 (2022) to ~59 as of April 30, 2026, per Tracxn \u2014 a ~37% reduction with no public layoff announcement.",
+      "Demostack joined the HubSpot App Marketplace (noted in April 2025 CBInsights update) and previously launched an AI Data Generator (Dec 2023); no major product announcements in Apr\u2013Jun 2026.",
+      "CBInsights ranked Demostack as an 'Outperformer' in the interactive demo platforms ESP matrix, alongside Arcade, Consensus, and Instruqt.",
+      "CEO Jonathan Friedman recognized on a 'Top 25 Sales Enablement Software Companies of 2025' list per ZoomInfo data."
+    ],
+    "growth_signal": "Flat-to-declining trajectory: headcount has shrunk ~37% since the 2022 Series B peak, no new funding in 4+ years, and the demo-automation space is crowding with better-funded rivals like Storylane and Navattic.",
+    "fit_for_lior": "Weak fit \u2014 the company is a niche B2B sales demo tool in a contracting headcount phase with no AI-native product thread, no recent funding, and limited alignment with Lior's Creative AI, Product Analyst, or Vibe Coder positioning.",
+    "sources": [
+      "https://tracxn.com/d/companies/demostack/__WVndk-AfT10b7TAB0psnUO7RFIdAmtE6npVMPld9ZlM",
+      "https://www.zoominfo.com/c/demostack-inc/535742589",
+      "https://www.cbinsights.com/company/demostack",
+      "https://www.demostack.com/careers",
+      "https://pitchbook.com/profiles/company/459839-98"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

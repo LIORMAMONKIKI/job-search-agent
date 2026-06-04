@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81ae-84ac-fd7eb4789adb",
+    "name": "Figma R&D Tel Aviv",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "Top Target",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Startup (1-50)",
+    "location": "Tel Aviv",
+    "notes": "NEW R&D center via Weavy acquisition ($200M deal). Creative AI design platform. Bullseye \u2014 prestigious brand, local hire, no visa needed. Active hiring as center scales."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

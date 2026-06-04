@@ -1160,42 +1160,17 @@
       },
       {
         "skill": "Agent workflows",
-        "demand_count": 29,
-        "lior_level": "Not listed"
-      },
-      {
-        "skill": "Python",
-        "demand_count": 23,
-        "lior_level": "Not listed"
+        "demand_count": 25,
+        "lior_level": "Learning"
       },
       {
         "skill": "LoRA dataset design",
         "demand_count": 15,
-        "lior_level": "Not listed"
-      },
-      {
-        "skill": "Video production",
-        "demand_count": 13,
-        "lior_level": "Not listed"
+        "lior_level": "Gap"
       },
       {
         "skill": "Enterprise sales engineering",
         "demand_count": 13,
-        "lior_level": "Not listed"
-      },
-      {
-        "skill": "Python (Pandas / NumPy / Scikit-learn)",
-        "demand_count": 11,
-        "lior_level": "Not listed"
-      },
-      {
-        "skill": "Automation",
-        "demand_count": 11,
-        "lior_level": "Not listed"
-      },
-      {
-        "skill": "AI image / video generation",
-        "demand_count": 7,
         "lior_level": "Not listed"
       },
       {
@@ -1227,6 +1202,31 @@
         "skill": "Bangkok relocation readiness",
         "demand_count": 3,
         "lior_level": "Not listed"
+      },
+      {
+        "skill": "Financial services domain knowledge",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "product management",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "B2B sales / account management",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Marketing attribution modeling",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Fraud domain knowledge",
+        "demand_count": 2,
+        "lior_level": "Not listed"
       }
     ],
     "israel": [
@@ -1236,29 +1236,19 @@
         "lior_level": "Gap"
       },
       {
-        "skill": "Python (Pandas / NumPy / Scikit-learn)",
-        "demand_count": 8,
-        "lior_level": "Not listed"
-      },
-      {
-        "skill": "Agent workflows",
-        "demand_count": 5,
-        "lior_level": "Not listed"
-      },
-      {
         "skill": "LoRA dataset design",
         "demand_count": 5,
-        "lior_level": "Not listed"
-      },
-      {
-        "skill": "Python",
-        "demand_count": 4,
-        "lior_level": "Not listed"
+        "lior_level": "Gap"
       },
       {
         "skill": "Pricing analytics",
         "demand_count": 4,
         "lior_level": "Not listed"
+      },
+      {
+        "skill": "Agent workflows",
+        "demand_count": 4,
+        "lior_level": "Learning"
       },
       {
         "skill": "Data pipelines",
@@ -1281,11 +1271,6 @@
         "lior_level": "Not listed"
       },
       {
-        "skill": "Automation",
-        "demand_count": 2,
-        "lior_level": "Not listed"
-      },
-      {
         "skill": "Fraud domain knowledge",
         "demand_count": 2,
         "lior_level": "Not listed"
@@ -1304,6 +1289,16 @@
         "skill": "B2B SaaS product ownership",
         "demand_count": 2,
         "lior_level": "Not listed"
+      },
+      {
+        "skill": "AI governance / control plane concepts",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Gaming domain knowledge",
+        "demand_count": 2,
+        "lior_level": "Not listed"
       }
     ],
     "international": [
@@ -1315,12 +1310,7 @@
       {
         "skill": "Agent workflows",
         "demand_count": 20,
-        "lior_level": "Not listed"
-      },
-      {
-        "skill": "Python",
-        "demand_count": 18,
-        "lior_level": "Not listed"
+        "lior_level": "Learning"
       },
       {
         "skill": "Enterprise sales engineering",
@@ -1328,24 +1318,9 @@
         "lior_level": "Not listed"
       },
       {
-        "skill": "Video production",
-        "demand_count": 9,
-        "lior_level": "Not listed"
-      },
-      {
-        "skill": "Automation",
-        "demand_count": 9,
-        "lior_level": "Not listed"
-      },
-      {
         "skill": "LoRA dataset design",
         "demand_count": 9,
-        "lior_level": "Not listed"
-      },
-      {
-        "skill": "AI image / video generation",
-        "demand_count": 4,
-        "lior_level": "Not listed"
+        "lior_level": "Gap"
       },
       {
         "skill": "Higher education account management",
@@ -1353,18 +1328,8 @@
         "lior_level": "Not listed"
       },
       {
-        "skill": "ElevenLabs",
-        "demand_count": 3,
-        "lior_level": "Not listed"
-      },
-      {
         "skill": "B2B sales / account management",
         "demand_count": 3,
-        "lior_level": "Not listed"
-      },
-      {
-        "skill": "Creative strategy",
-        "demand_count": 2,
         "lior_level": "Not listed"
       },
       {
@@ -1379,6 +1344,36 @@
       },
       {
         "skill": "L&D program design",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "product management",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Enterprise sales / engagement management",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Product design (UX/UI)",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Design systems",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "CAPI / tracking infrastructure",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Japanese language proficiency",
         "demand_count": 2,
         "lior_level": "Not listed"
       }

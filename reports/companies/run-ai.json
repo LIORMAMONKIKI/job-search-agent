@@ -1,0 +1,37 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81ca-b1f3-d568b86a1bc8",
+    "name": "Run.ai",
+    "tier": "T4 - Israeli Local",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Mid (201-1000)",
+    "location": "Tel Aviv",
+    "notes": "Now under NVIDIA Israel. Hires through NVIDIA channel."
+  },
+  "research": {
+    "status_summary": "Fully acquired and integrated into NVIDIA Israel as of December 2024 (~$700\u2013800M deal); operating as NVIDIA Run:ai, actively hiring through NVIDIA's standard recruitment channel with no separate Run:ai brand hiring.",
+    "hiring_policy": "All hiring flows through NVIDIA's global Workday portal; NVIDIA sponsors H-1B visas (1,200+ certifications in FY2026, up from ~1,000 YoY) and has a large Israel-based R&D footprint (5,000+ employees, 7 centers), making local Israeli hires the primary path \u2014 EOR arrangements are not typical for NVIDIA direct roles.",
+    "recent_news": [
+      "Run:ai's ~150 employees were absorbed into NVIDIA's Tel Aviv and Yokne'am offices post-acquisition close (Dec 2024); the team is now part of NVIDIA Israel's 5,000+ person R&D org.",
+      "NVIDIA Run:ai SaaS is now bundled into NVIDIA AI Enterprise licenses (PB6 release, May 2026), signaling deep product integration rather than standalone operation.",
+      "NVIDIA is tripling its Beersheba R&D center (to 3,000 sqm, operational by end of H1 2026) and planning a 160,000 sqm campus in Kiryat Tivon expected to employ ~10,000 \u2014 Run:ai talent pool is part of this expansion.",
+      "Post-acquisition, Run:ai's platform was open-sourced so it can orchestrate non-NVIDIA hardware too, broadening its enterprise TAM under NVIDIA's stewardship.",
+      "NVIDIA also acquired SchedMD (Slurm) in Dec 2025, signaling a continued stack-up in AI workload scheduling \u2014 complementary to Run:ai's orchestration layer."
+    ],
+    "growth_signal": "NVIDIA Israel is in aggressive expansion mode \u2014 new campuses, hundreds of open reqs, and Run:ai's GPU orchestration tech now baked into the flagship AI Enterprise product suite \u2014 headcount and scope are clearly growing.",
+    "fit_for_lior": "Run:ai / NVIDIA's AI infrastructure and GPU orchestration platform is a strong backdrop for a Product Analyst or Creative AI operator who wants to sit at the intersection of large-scale AI compute, enterprise tooling, and the Israeli deep-tech scene \u2014 especially relevant if Lior's 'Vibe Coder' thread touches on AI-native developer tooling or MLOps workflows.",
+    "sources": [
+      "https://www.jns.org/nvidia-finalizes-800m-purchase-of-israeli-ai-firm-runai/",
+      "https://docs.nvidia.com/ai-enterprise/index.html",
+      "https://www.timesofisrael.com/us-chipmaker-nvidia-scouts-for-israeli-ai-talent-in-expansion-of-rd-hub-in-south/",
+      "https://www.calcalistech.com/ctechnews/article/hkrcgl5dbx",
+      "https://americanbazaaronline.com/2026/06/02/nvidia-tackles-tech-layoffs-with-high-paying-ai-hiring-481993/"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

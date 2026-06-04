@@ -1,0 +1,35 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-818e-8e2f-eff1af0ba42e",
+    "name": "Stigg",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "SaaS",
+    "size": "Startup (1-50)",
+    "location": "Tel Aviv",
+    "notes": "Pricing infrastructure."
+  },
+  "research": {
+    "status_summary": "Actively operating and hiring \u2014 Stigg is a post-Series-A Israeli startup (~48 employees, Tel Aviv HQ) with no signs of layoffs, acquisition, or pause; open roles in Engineering, Marketing, and Sales are at 12-month highs.",
+    "hiring_policy": "No explicit visa sponsorship or EOR policy is publicly stated; the careers page notes hybrid flexibility ('whether you work from home or join us in the office'), suggesting some remote tolerance, but the company is Israel-headquartered and appears to hire primarily locally.",
+    "recent_news": [
+      "Stigg sponsored the HumanX 2026 AI conference (San Francisco, Apr 6\u20139, 2026), signaling active GTM push into the US AI market.",
+      "Open headcount in Engineering, Marketing, and Sales are all at their highest levels in the past 12 months as of mid-2026 (ZoomInfo signal).",
+      "Total funding reported at ~$21\u201324M (Seed + Series A Dec 2024 led by Red Dot Capital); no new funding round announced in 2026 \u2014 company appears to be deploying Series A capital."
+    ],
+    "growth_signal": "Post-Series-A with ~48 employees and growing hiring across all departments, managing billions of API calls and tens of millions of monthly subscriptions for enterprise customers including Miro, Webflow, PagerDuty, and AI21 Labs.",
+    "fit_for_lior": "Stigg sits at the intersection of AI product monetization and developer tooling \u2014 a Product Analyst or Vibe Coder who understands AI-native pricing models (usage-based, credit-based, outcome-based) could contribute directly to Stigg's core product and GTM, making it a niche but genuine fit for her product/AI thread.",
+    "sources": [
+      "https://www.zoominfo.com/c/stigg-inc/564889588",
+      "https://pitchbook.com/profiles/company/495543-52",
+      "https://siliconangle.com/2024/12/11/stigg-raises-17-5m-simplify-saas-platform-feature-pricing-models/",
+      "https://clawandtalon.capital/startup-stigg",
+      "https://www.stigg.io/careers"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

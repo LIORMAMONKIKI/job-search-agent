@@ -1,0 +1,42 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-819b-8752-de28dbc074bf",
+    "name": "Playtika",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "Gaming",
+    "size": "Large (1000+)",
+    "location": "Tel Aviv",
+    "notes": "Gaming (public PLTK). UA-creative + analyst angle. You hate gaming."
+  },
+  "research": {
+    "status_summary": "Actively restructuring post-layoffs: Playtika completed its 6th round of layoffs in Jan 2026 (cutting ~500 employees, 15% of workforce) and subsidiary Wooga conducted another small round in May 2026; hiring is minimal and highly selective (~8-90 open roles visible externally).",
+    "hiring_policy": "No public visa sponsorship or EOR policy stated; open roles are primarily Israel-HQ and studio-specific (Berlin/Kyiv/etc.) with no evidence of remote-first or EOR-friendly hiring \u2014 Glassdoor lists only 7-8 open positions globally as of Jun 2026.",
+    "recent_news": [
+      "Jan 14, 2026 \u2014 Playtika announced its 6th round of layoffs since 2022, cutting 500 employees (15% of global workforce) and filing an SEC 8-K disclosing $12\u201315M in restructuring costs; CEO Antokol cited AI/automation as the replacement strategy ('do more with less').",
+      "May 7, 2026 \u2014 Q1 2026 earnings: revenue $744.7M (+5.5% YoY), driven by Disney Solitaire ($123.3M, +72.1% sequentially) and record DTC revenue of $291.8M (+62.8% YoY); net loss of $57.5M due to $461M SuperPlay earn-out; dividend suspended; full-year guidance raised to $2.75\u20132.85B.",
+      "May 14, 2026 \u2014 Playtika-owned Berlin studio Wooga completed yet another small round of layoffs (~12 roles across design, art, QA), with ex-staff publicly citing 'abysmal management decisions'; Wooga's June's Journey remains a top performer at $76M/quarter."
+    ],
+    "growth_signal": "Headcount is shrinking (from ~3,500 toward ~3,000) while revenue is recovering (+5.5% YoY in Q1 2026), but the company is betting growth on AI-driven UA, the SuperPlay/Disney Solitaire franchise, and a DTC platform now approaching a $1.2B annual run rate \u2014 not on hiring.",
+    "fit_for_lior": "Weak fit: Playtika is explicitly replacing human UA and creative teams with AI/automation, making it a cautionary case study rather than an employer \u2014 useful as a 'UA-creative + AI displacement' analyst angle or competitive intelligence reference, but not a live opportunity given frozen hiring and no EOR posture.",
+    "sources": [
+      "https://www.calcalistech.com/ctechnews/article/bkl6xzhswe",
+      "https://mobilegamer.biz/another-round-of-layoffs-at-playtika-owned-wooga/",
+      "https://www.globenewswire.com/news-release/2026/05/07/3289754/0/en/playtika-holding-corp-reports-q1-2026-financial-results.html",
+      "https://www.fool.com/earnings/call-transcripts/2026/06/01/playtika-pltk-q1-2026-earnings-transcript/",
+      "https://www.glassdoor.com/Jobs/Playtika-Jobs-E584487.htm"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Rinat Goldberger",
+      "position": "Content Operations Specialist",
+      "linkedin": "https://www.linkedin.com/in/rinatgoldberger",
+      "connected_on": "25 Feb 2026"
+    }
+  ],
+  "intro_count": 1
+}

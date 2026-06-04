@@ -1,0 +1,33 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81e7-ae7c-ce82ceffd450",
+    "name": "Keshet Media Group",
+    "tier": "T4 - Israeli Local",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "Media/Content",
+    "size": "Large (1000+)",
+    "location": "Tel Aviv",
+    "notes": "Israeli media giant. 2 LinkedIn contacts incl. Creative Manager."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [
+    {
+      "name": "Aya Gilad",
+      "position": "Creative Manager",
+      "linkedin": "https://www.linkedin.com/in/aya-gilad",
+      "connected_on": "07 Mar 2026"
+    },
+    {
+      "name": "Rony Yitzhaki",
+      "position": "Head of Production, Uvda",
+      "linkedin": "https://www.linkedin.com/in/rony-yitzhaki-53910a27",
+      "connected_on": "22 Feb 2026"
+    }
+  ],
+  "intro_count": 2
+}

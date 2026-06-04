@@ -1,0 +1,36 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-812d-a9b7-f727ac88545a",
+    "name": "Persefoni",
+    "tier": "T7 - Science/Climate/Environment",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Unknown - needs research",
+    "industry": "SaaS",
+    "size": "Growth (51-200)",
+    "location": "New York + remote",
+    "notes": "Climate accounting. Analyst angle."
+  },
+  "research": {
+    "status_summary": "Persefoni is independently operating and selectively hiring (~295 employees) after a significant strategic partnership with Diligent (Oct 2025) in which Diligent took an equity stake and transitioned its carbon accounting clients to Persefoni; internal Glassdoor reviews note recurring layoff cycles tied to market conditions.",
+    "hiring_policy": "Persefoni lists only ~6 open roles globally (per LinkedIn) as of June 2026, suggesting a lean/selective hiring posture; the company has offices in the US, UK, Singapore, Japan, Canada, and Germany but no confirmed public stance on visa sponsorship or EOR arrangements \u2014 candidates should verify directly.",
+    "recent_news": [
+      "Named to TIME's list of America's Top GreenTech Companies 2026 (March 26, 2026)",
+      "Strategic partnership with Diligent (Oct 2025): Diligent took an equity position in Persefoni and transitioned its carbon accounting client base to Persefoni's platform, expanding Persefoni's enterprise reach",
+      "Targeting profitability in H2 2026 after raising $195M total; no new funding round announced in 2026 to date"
+    ],
+    "growth_signal": "Persefoni is pushing toward profitability in H2 2026, has absorbed Diligent's carbon accounting client base as a strategic influx, and is ranked among top carbon accounting platforms in 2026 market comparisons, but headcount remains flat at ~295 and open roles are sparse.",
+    "fit_for_lior": "Weak fit \u2014 Persefoni is a compliance-driven B2B carbon SaaS with an embedded AI Copilot (LLM-based), which touches the AI-product angle, but the domain is ESG/climate regulatory reporting with no creative AI, consumer product, or vibe-coding surface; better as a market-awareness data point than an active application target.",
+    "sources": [
+      "https://pitchbook.com/profiles/company/434133-73",
+      "https://www.persefoni.com/blog/diligent-persefoni-form-strategic-partnership",
+      "https://esgtechreport.com/esg/persefoni-esg-carbon-accounting-software-overview/",
+      "https://www.glassdoor.com/Reviews/Persefoni-Reviews-E3405996.htm",
+      "https://normative.io/insight/the-5-best-carbon-accounting-software-platforms-2026/",
+      "https://www.persefoni.com/blog/new-cmap-platform"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

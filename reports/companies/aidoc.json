@@ -1,0 +1,27 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81e9-a737-f3620902d341",
+    "name": "Aidoc",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Mid (201-1000)",
+    "location": "Tel Aviv",
+    "notes": "Medical AI (less creative)."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [
+    {
+      "name": "Hagar Mizrachi",
+      "position": "Vice President Legal",
+      "linkedin": "https://www.linkedin.com/in/hagar-mizrachi",
+      "connected_on": "25 May 2021"
+    }
+  ],
+  "intro_count": 1
+}

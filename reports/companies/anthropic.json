@@ -1,0 +1,40 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8123-975e-d16aa2154232",
+    "name": "Anthropic",
+    "tier": "T5 - Frontier Labs + Creative-AI",
+    "priority": "Top Target",
+    "status": "Researching",
+    "hiring_policy": "Sponsors visa",
+    "industry": "AI/ML",
+    "size": "Large (1000+)",
+    "location": "San Francisco + global",
+    "notes": "Sponsors. Frontier lab. Has creative-AI surfaces."
+  },
+  "research": {
+    "status_summary": "Actively and aggressively hiring with 367\u2013416 open roles across research, engineering, product, and sales \u2014 zero layoffs in 2026, headcount has tripled since 2023, and the company filed confidentially for a U.S. IPO on June 1, 2026.",
+    "hiring_policy": "Anthropic confirms visa sponsorship (H-1B, H-1B1, E-3) and green card support for eligible full-time roles, retaining an immigration lawyer; the company is office-first (SF HQ with NYC, Seattle, London, Dublin, and new EU offices), expecting staff in-office at least 25% of the time, with only ~7\u20138% of open roles listed as remote-friendly \u2014 no EOR/fully-remote-from-abroad option exists.",
+    "recent_news": [
+      "June 1 2026: Anthropic confidentially filed a draft S-1 with the SEC for a U.S. IPO, targeting a public debut as early as fall 2026 at a ~$1 trillion valuation.",
+      "May 28 2026: Closed a $65B Series H led by Altimeter, Dragoneer, Greenoaks, and Sequoia at a $965B post-money valuation \u2014 surpassing OpenAI as the most valuable AI startup; total funding since 2021 now ~$125B.",
+      "May 2026: Launched Claude Design (a creative visual-work product via Anthropic Labs), released Claude Opus 4.8, previewed Claude Mythos (advanced cybersecurity model), and hired Andrej Karpathy onto the pre-training team; also opened a Milan office and announced Paris/Munich expansion.",
+      "Run-rate revenue hit $47B as of late May 2026 (up from $30B earlier in the year), driven heavily by Claude Code which had reached $2.5B run-rate by February 2026.",
+      "Anthropic is currently in a legal battle with the U.S. government after the Pentagon designated it a supply-chain risk, which the company says could jeopardize billions in revenue."
+    ],
+    "growth_signal": "Explosive hypergrowth trajectory: headcount ~3,000\u20135,000 (up from ~800 in early 2024), revenue run-rate at $47B and accelerating, valuation nearly tripled in three months from $380B to $965B, with an IPO on deck for fall 2026.",
+    "fit_for_lior": "Anthropic is a top-tier fit across all three of Lior's threads \u2014 Claude Design and Claude.ai are live creative-AI surfaces, Claude Code is the dominant vibe-coding/agentic-coding product in the market, and the company is actively hiring product-adjacent roles (UX research, product comms, data science) where a Creative AI Product Analyst skill set maps directly.",
+    "sources": [
+      "https://fortune.com/2026/06/01/anthropic-confidentially-files-ipo-965-billion-valuation/",
+      "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
+      "https://news.crunchbase.com/ai/anthropic-nears-1t-valuation-65b-seriesh/",
+      "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+      "https://www.techtimes.com/articles/317530/20260601/anthropic-enterprise-hiring-tops-research-ipo-filing-reveals-commercial-shift.htm",
+      "https://www.anthropic.com/news",
+      "https://www.anthropic.com/careers",
+      "https://jobsbyculture.com/blog/anthropic-remote-work-policy-2026"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

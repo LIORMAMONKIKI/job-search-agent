@@ -1,0 +1,39 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8138-a403-ccb23e2c64cd",
+    "name": "LangChain",
+    "tier": "T5 - Frontier Labs + Creative-AI",
+    "priority": "High",
+    "status": "Researching",
+    "hiring_policy": "Multiple paths",
+    "industry": "AI/ML",
+    "size": "Growth (51-200)",
+    "location": "San Francisco + remote-friendly",
+    "notes": "Agent orchestration framework (you're learning their tools). Brand-strong."
+  },
+  "research": {
+    "status_summary": "Actively hiring and in strong growth mode \u2014 no layoffs, no acquisition; raised $125M Series B (Oct 2025) at $1.25B valuation with ~304 employees as of April 2026.",
+    "hiring_policy": "LangChain self-describes as a small, remote-friendly team with roles across SF, Austin, Charlotte, NYC, and London; visa sponsorship is rare in the broader LangChain ecosystem (tracked at ~3.3% of agentic-AI listings industry-wide) and no explicit EOR policy is advertised, making direct sponsorship a confirm-first item.",
+    "recent_news": [
+      "March 2026: Comprehensive NVIDIA enterprise partnership announced \u2014 LangChain joined the Nemotron Coalition and combined LangSmith + Deep Agents + LangGraph with NVIDIA Agent Toolkit, Nemotron models, and NVIDIA Dynamo for a full-stack enterprise agent platform.",
+      "March 2026: LangSmith Fleet launch (rebrand of Agent Builder) added agent identity management, sandboxed execution environments, RBAC/ABAC controls, and 7,500+ Arcade.dev tools \u2014 targeting enterprise production deployments.",
+      "May 2026 (Interrupt conference): Shipped LangSmith Engine (autonomous trace monitoring + PR-generating fixes), Managed Deep Agents, SmithDB (92ms P50 trace loads, 15x perf gain), Context Hub, and LLM Gateway \u2014 all aimed at closing the prototype-to-production gap.",
+      "April 2026: State of Agent Engineering report (1,300+ respondents) found 57% of orgs now have agents in production (up from 51%), with quality (32%) and latency (20%) as top barriers.",
+      "DataCamp partnership (March 2026) to launch an AI Engineering learning track, broadening LangChain's developer mindshare."
+    ],
+    "growth_signal": "Headcount ~304 (Apr 2026, Tracxn), $260M total funding, $1.25\u20131.5B valuation, 1B+ cumulative framework downloads, 100M monthly downloads, and 300+ enterprise LangSmith customers \u2014 all pointing to rapid upward trajectory.",
+    "fit_for_lior": "LangChain is the dominant open-source agent orchestration layer (LangGraph, Deep Agents, LangSmith) that underpins much of the Creative-AI and vibe-coding toolchain Lior works in, making it a high-relevance target for a Product Analyst or Deployed/Solutions Engineer role bridging AI product intuition with hands-on agent-building.",
+    "sources": [
+      "https://www.langchain.com/blog/series-b",
+      "https://www.langchain.com/blog/nvidia-enterprise",
+      "https://ai2.work/blog/langchain-ships-langsmith-engine-and-managed-deep-agents-at-interrupt",
+      "https://tracxn.com/d/companies/langchain/__O9N2dOHcgRE9Nbcn5BFfkUHn-rVk6GTbq8oY-UJ0Ba4",
+      "https://news.mkncrypto.com/langchain-unveils-fleet-platform-nvidia-partnership-for-enterprise-ai-agents/",
+      "https://agentic-engineering-jobs.com/langchain-job-market-2026",
+      "https://www.langchain.com/state-of-agent-engineering"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

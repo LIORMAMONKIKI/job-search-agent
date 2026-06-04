@@ -1,0 +1,37 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-817b-92c9-fc9708efaafb",
+    "name": "Hogarth (WPP)",
+    "tier": "T6 - Globally Distributed",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Sponsors visa",
+    "industry": "Media/Content",
+    "size": "Enterprise",
+    "location": "Global (London HQ + worldwide)",
+    "notes": "Massive creative production network. Hires worldwide."
+  },
+  "research": {
+    "status_summary": "Hogarth (WPP) was formally retired as a brand on February 23, 2026, folded into the newly launched WPP Production \u2014 a ~10,000-person unified global production entity under WPP's broader Elevate28 restructuring, which includes confirmed but unquantified headcount reductions alongside active hiring for AI-native and analytics roles.",
+    "hiring_policy": "WPP Production is actively posting roles globally (40+ cities, including US, Canada, APAC) with remote/freelance options available for some positions; no explicit EOR or visa sponsorship policy is publicly stated, but WPP's global footprint and 'borderless collaboration' positioning suggest openness to international talent \u2014 candidates should verify per role.",
+    "recent_news": [
+      "Hogarth brand officially retired Feb 23, 2026; replaced by WPP Production uniting ~10,000 creatives across 40+ cities under former Hogarth CEO Richard Glasson.",
+      "WPP's Elevate28 plan (announced Feb 26, 2026) targets \u00a3500M in annual cost savings by 2028, with CFO Joanne Wilson confirming savings will 'mean a reduction of certain heads' while reinvesting in AI-native, analytics, and commerce talent.",
+      "Q1 2026 revenue fell 6.7% YoY; WPP lost FTSE 100 membership in Dec 2025 after market cap dropped below \u00a33B \u2014 CEO Cindy Rose (ex-Microsoft) is betting on WPP Open, an agentic AI marketing platform, as the turnaround engine with \u00a3250M/year AI investment.",
+      "Shareholders approved Cindy Rose's pay package of up to $14.8M (May 8, 2026 AGM), framing her explicitly as a tech-transformation hire, not a caretaker."
+    ],
+    "growth_signal": "Headcount is contracting overall (down ~9,400 in 2025 to ~98,655), but WPP Production itself is being positioned as a strategic growth core with new studio openings globally and heavy AI/generative workflow investment \u2014 a consolidation play, not a wind-down.",
+    "fit_for_lior": "Strong fit on the Creative AI thread \u2014 WPP Production is explicitly building AI-powered content workflows (generative AI, virtual production, WPP Open agentic platform) and actively seeking talent who can bridge craft and AI tooling, which maps directly to Lior's Creative AI and Vibe Coder positioning.",
+    "sources": [
+      "https://www.adweek.com/agencies/wpp-centralizes-production-capabilities-retiring-hogarth-worldwide/",
+      "https://www.campaignasia.com/article/wpp-retires-hogarth-and-launches-wpp-production/qxkptfm1c3oaxmqkz6g7hp38tz",
+      "https://www.marketingdive.com/news/wpp-rolls-production-capabilities-into-new-wpp-production-unit/810502/",
+      "https://www.campaignlive.com/article/wpp-launches-new-elevate28-strategy-four-core-divisions-676-million-savings/1949809",
+      "https://missionmedia.asia/wpp-ai-transformation-strategy/",
+      "https://www.wppproduction.com/careers"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

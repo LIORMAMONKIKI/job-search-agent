@@ -1,0 +1,43 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8198-9a78-dd9620e8ff38",
+    "name": "Connecteam",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "SaaS",
+    "size": "Mid (201-1000)",
+    "location": "Tel Aviv",
+    "notes": "Workforce SaaS. Analyst hybrid possible."
+  },
+  "research": {
+    "status_summary": "Connecteam is actively hiring across sales, product, AI engineering, and customer success roles with no signals of layoffs or acquisition as of June 2026.",
+    "hiring_policy": "US-based remote roles are restricted to specific states (TX, NY, SC, NC, CO, FL, UT, GA) with no public mention of visa sponsorship or EOR friendliness; Israel-side roles are hybrid out of Tel Aviv/Rishon LeZion, making direct EOR engagement unlikely without a local entity.",
+    "recent_news": [
+      "March 4, 2026: Connecteam announced a strategic integration with Accu-Time Systems, connecting their workforce platform with Accu-Time's stride80 biometric/physical time clocks for real-time payroll data sync.",
+      "March 2026 product release: Launched a built-in applicant tracking/hiring flow, starred messages in comms, mobile scheduling templates, and Account Safe Mode for suspicious activity.",
+      "January 2026: New VP of R&D (Eliran Goldsteine) and a Senior Talent Acquisition Partner joined, signaling deliberate senior-level buildout on both product and recruiting sides."
+    ],
+    "growth_signal": "Headcount sits at ~500 employees (Tracxn: 504 as of Feb 2026), up from 311 cited in earlier 2026 estimates, with $157\u2013169M total raised (Series C last in March 2022) and 80,000+ business customers; no new funding round announced but partnership and product velocity remain high.",
+    "fit_for_lior": "Weak fit overall \u2014 Connecteam is a deskless/frontline workforce SaaS with US-state-restricted remote roles and an Israel hybrid R&D base; no explicit Product Analyst or Creative AI mandate surfaced, though an open AI Developer role (Tel Aviv hybrid) and Product Manager role could loosely align with her vibe-coding and product threads if she targets the Israel-side pipeline.",
+    "sources": [
+      "https://www.newswire.com/news/accu-time-systems-announces-strategic-integration-with-connecteam-for-22737267",
+      "https://releases.connecteam.com/",
+      "https://tracxn.com/d/companies/connecteam/__kxUHdDO-KYV5AYYQUalaQ4iO97HkUuKUoAHhUmHKRUI",
+      "https://www.indeed.com/q-connecteam-l-remote-jobs.html",
+      "https://builtin.com/company/connecteam/jobs",
+      "https://www.zoominfo.com/c/mobilesson-ltd/384571013"
+    ]
+  },
+  "warm_intros": [
+    {
+      "name": "Nitay Fisher",
+      "position": "Creative Lead",
+      "linkedin": "https://www.linkedin.com/in/nitay-fisher-a891a94b",
+      "connected_on": "09 Aug 2025"
+    }
+  ],
+  "intro_count": 1
+}

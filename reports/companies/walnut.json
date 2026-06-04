@@ -1,0 +1,35 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8199-977b-c2fb6badeaa1",
+    "name": "Walnut",
+    "tier": "T4 - Israeli Local",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "SaaS",
+    "size": "Growth (51-200)",
+    "location": "Tel Aviv",
+    "notes": "Sales demo platform (Series B)."
+  },
+  "research": {
+    "status_summary": "Walnut is operational and actively maintaining its platform with new AI features, but has been in a prolonged post-layoff stabilization phase since 2023\u20132024, with headcount roughly halved from ~120 to ~60\u201392 employees and no new funding since its January 2022 Series B.",
+    "hiring_policy": "Walnut's jobs page is active (last updated Jan 2026) and ZoomInfo notes at least one open role (Assistant Controller, Israel); no public evidence of visa sponsorship or explicit EOR-friendly policy, and Wellfound lists offices only in New York City and Tel Aviv-Yafo, suggesting limited remote-first posture.",
+    "recent_news": [
+      "AI push: Walnut repositioned as an 'AI-powered interactive demo platform' with new features including AI Mode (generate a full demo from a single prompt), StoryCaptureAI, and Smart Suggestions rolled out in 2025 and teased for further expansion in 2026.",
+      "Product expansion: Platform evolved beyond demo creation into a full revenue/GTM layer \u2014 adding Salesforce integration, PLG Journeys, Onboarding Flows, and Customer Success Hubs (2025 Wrapped blog, Jan 2026).",
+      "Headcount contraction history: A May 2024 Calcalist report noted a 20% workforce cut (\u224815 people), the second round of layoffs since 2023, reducing total staff by ~50% from peak of 120 to ~60; as of April 2026 LeadIQ estimates ~92 employees, suggesting modest recovery."
+    ],
+    "growth_signal": "No new funding since the $35M Series B in January 2022 (total ~$56M raised); headcount appears to have partially recovered to ~92 (LeadIQ, April 2026) from a post-layoff low, and product cadence is active with AI feature releases, but the company remains at Series B with no public signals of a new round.",
+    "fit_for_lior": "Weak fit \u2014 Walnut is a sales-demo SaaS tool, not a Creative AI or generative product, and its current lean headcount (~92 employees), Israeli HQ, post-layoff cost discipline, and no fresh funding round make it a low-priority prospect for a Creative AI / Product Analyst / Vibe Coder profile.",
+    "sources": [
+      "https://leadiq.com/c/walnut/5f85c22b12990524e747128a",
+      "https://www.calcalistech.com/ctechnews/article/hj71t1b4r",
+      "https://www.walnut.io/blog/walnut-news/your-year-in-demos-2025-wrapped-%F0%9F%8E%81/",
+      "https://www.walnut.io/",
+      "https://wellfound.com/company/walnut-6"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

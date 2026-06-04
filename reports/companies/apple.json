@@ -1,0 +1,36 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81d5-babd-fbe10bc4159b",
+    "name": "Apple (Israel)",
+    "tier": "T8 - Global Giants TLV Office",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "Israel-local",
+    "industry": "AI/ML",
+    "size": "Enterprise",
+    "location": "Tel Aviv + Herzliya",
+    "notes": "Onavo + AI/ML teams."
+  },
+  "research": {
+    "status_summary": "Actively hiring across 148+ open roles in Israel (Herzliya, Haifa, Tel Aviv, Jerusalem) as of June 2026, with no layoffs at the Israeli R&D centers \u2014 explicitly bucking the broader Big Tech layoff wave.",
+    "hiring_policy": "Roles are on-premises or hybrid (at least 3 days/week in Tel Aviv office); Apple Israel hires directly as a local legal entity \u2014 no EOR arrangement needed \u2014 and does not sponsor relocation visas for most Israel-based roles, which are designed for local Israeli talent.",
+    "recent_news": [
+      "Jan 2026 \u2014 Apple acquired Tel Aviv-based AI startup Q.ai (~$2B, Apple's largest deal since Beats 2014); ~100 employees + founders Aviad Maizels, Yonatan Wexler, Avi Barliya absorbed into Apple Israel, deepening audio/ML and silent-speech AI capabilities.",
+      "Mar 2026 \u2014 iPhone 17e launched with C1X cellular modem and N1 wireless chip (Wi-Fi 7 + Bluetooth), both developed with significant engineering input from Apple's Israel R&D centers in Haifa and Herzliya.",
+      "Apr 2026 \u2014 Johny Srouji (who oversees Israel engineering teams) promoted to Chief Hardware Officer, signaling elevated strategic importance of Apple's Israeli semiconductor and hardware operations."
+    ],
+    "growth_signal": "Apple Israel's R&D centers in Herzliya, Haifa, and Jerusalem remain stable and actively hiring across silicon, ML/AI, and generative AI roles while peer companies (Meta, Intuit, ZoomInfo) are cutting Israeli headcount \u2014 a clear counter-cyclical expansion signal.",
+    "fit_for_lior": "Apple Israel's open 'Full Stack Engineer \u2013 Generative AI for Productivity' role (Haifa), the ML-Physics/physics-informed neural networks team (Herzliya), and the speech/audio AI pipeline flowing from the Q.ai acquisition are directly aligned with Lior's Creative AI and Vibe Coder threads, though the org skews toward deep-engineering profiles rather than pure product/analyst tracks.",
+    "sources": [
+      "https://www.ynetnews.com/tech-and-digital/article/r1dgkzugzg",
+      "https://techcrunch.com/2026/01/29/apple-buys-israeli-startup-q-ai-as-the-ai-race-heats-up/",
+      "https://www.timesofisrael.com/apple-buys-israeli-startup-reportedly-for-2-billion-that-reads-facial-micro-movements/",
+      "https://www.jpost.com/consumerism/article-888680",
+      "https://english.factcrescendo.com/2026/05/14/no-evidence-apple-deal-israel-chip-iphone-17s/",
+      "https://jobs.apple.com/en-il/search?location=israel-ISR"
+    ]
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

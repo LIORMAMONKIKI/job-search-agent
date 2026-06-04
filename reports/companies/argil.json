@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8145-8dc0-fbbe208f7584",
+    "name": "Argil",
+    "tier": "T2 - Established AI Video/Image",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "EOR-friendly",
+    "industry": "AI/ML",
+    "size": "Startup (1-50)",
+    "location": "Paris",
+    "notes": "AI clones/video. EU-friendly. French Y Combinator startup, based in Neuilly-sur-Seine, France. Founded 2023 by Laodis Menard + Brivael Le Pogam. ~50 employees, raised \u20ac4.9M from Seedcamp. NO public careers page \u2014 apply via LinkedIn (linkedin.com/company/argilai). Note: distinct from \"Argilla\" (data labeling, acquired by HF)."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

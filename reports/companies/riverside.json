@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-8102-b916-e373fdc99a2f",
+    "name": "Riverside",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "Top Target",
+    "status": "Researching",
+    "hiring_policy": "L-1 lane",
+    "industry": "Media/Content",
+    "size": "Growth (51-200)",
+    "location": "Tel Aviv + New York",
+    "notes": "Podcast/video AI, creator-economy, brand-strong."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

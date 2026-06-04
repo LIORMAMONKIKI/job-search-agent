@@ -1,0 +1,20 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-81eb-904a-c8f7c9dad892",
+    "name": "Watershed",
+    "tier": "T7 - Science/Climate/Environment",
+    "priority": "Low",
+    "status": "Researching",
+    "hiring_policy": "Unknown - needs research",
+    "industry": "SaaS",
+    "size": "Growth (51-200)",
+    "location": "San Francisco",
+    "notes": "Climate accounting. Analyst angle."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [],
+  "intro_count": 0
+}

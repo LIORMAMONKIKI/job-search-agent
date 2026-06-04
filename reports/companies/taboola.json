@@ -1,0 +1,27 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-812b-9af1-e98a8104274d",
+    "name": "Taboola",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "Medium",
+    "status": "Researching",
+    "hiring_policy": "L-1 lane",
+    "industry": "AdTech",
+    "size": "Large (1000+)",
+    "location": "Tel Aviv + New York",
+    "notes": "Content recommendation + AI."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [
+    {
+      "name": "Lior Papirblat",
+      "position": "Product Manager",
+      "linkedin": "https://www.linkedin.com/in/lior-papirblat-871a9172",
+      "connected_on": "07 Feb 2018"
+    }
+  ],
+  "intro_count": 1
+}

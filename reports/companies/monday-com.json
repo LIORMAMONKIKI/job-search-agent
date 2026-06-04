@@ -1,0 +1,99 @@
+{
+  "generated": "2026-06-04",
+  "company": {
+    "id": "3658fd95-1b02-817f-8ed3-e2dd6066893b",
+    "name": "Monday.com",
+    "tier": "T3 - Israeli HQ + US Office",
+    "priority": "Top Target",
+    "status": "Researching",
+    "hiring_policy": "L-1 lane",
+    "industry": "SaaS",
+    "size": "Large (1000+)",
+    "location": "Tel Aviv + New York",
+    "notes": "13 LinkedIn contacts (strong warm-intro coverage). Public, brand-strong."
+  },
+  "research": {
+    "error": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purcha"
+  },
+  "warm_intros": [
+    {
+      "name": "Keren Koshman",
+      "position": "Internal AI Innovation Lead",
+      "linkedin": "https://www.linkedin.com/in/keren-koshman",
+      "connected_on": "15 Mar 2026"
+    },
+    {
+      "name": "Matan Arbel",
+      "position": "Design Operations Lead",
+      "linkedin": "https://www.linkedin.com/in/matanarbel",
+      "connected_on": "25 Feb 2026"
+    },
+    {
+      "name": "Rebecca Mekonen",
+      "position": "Talent Acquisition Partner",
+      "linkedin": "https://www.linkedin.com/in/rebecca-mekonen",
+      "connected_on": "24 Feb 2026"
+    },
+    {
+      "name": "Daniela Dremer",
+      "position": "Senior Talent Acquisition Partner",
+      "linkedin": "https://www.linkedin.com/in/danieladremer",
+      "connected_on": "24 Feb 2026"
+    },
+    {
+      "name": "Omri Shafran",
+      "position": "Senior Video Creator",
+      "linkedin": "https://www.linkedin.com/in/omri-shafran-57875465",
+      "connected_on": "04 Jan 2026"
+    },
+    {
+      "name": "Rebecca Helfenbaum",
+      "position": "Content Marketing Manager",
+      "linkedin": "https://www.linkedin.com/in/rebeccahelfenbaum",
+      "connected_on": "02 Jan 2026"
+    },
+    {
+      "name": "Daniel Millet",
+      "position": "Data Product Manager",
+      "linkedin": "https://www.linkedin.com/in/daniel-millet-62732a137",
+      "connected_on": "01 Jan 2026"
+    },
+    {
+      "name": "Yoni Golan",
+      "position": "IC Content Creator",
+      "linkedin": "https://www.linkedin.com/in/yoni-golan-18911617",
+      "connected_on": "01 Jan 2026"
+    },
+    {
+      "name": "Rafael Aginyan",
+      "position": "Senior Product Analyst",
+      "linkedin": "https://www.linkedin.com/in/rafael-aginyan",
+      "connected_on": "09 Aug 2025"
+    },
+    {
+      "name": "Eli Znaty",
+      "position": "Senior Video Creator",
+      "linkedin": "https://www.linkedin.com/in/eli-znaty-13a310219",
+      "connected_on": "11 Feb 2025"
+    },
+    {
+      "name": "Dafna Weinreb",
+      "position": "Partner Success Manager",
+      "linkedin": "https://www.linkedin.com/in/dafnaweinreb",
+      "connected_on": "30 Oct 2022"
+    },
+    {
+      "name": "Lior Ankory (Einhorn)",
+      "position": "Senior Product Analytics Group Manager",
+      "linkedin": "https://www.linkedin.com/in/lior-ankory-einhorn-016185b",
+      "connected_on": "30 Oct 2022"
+    },
+    {
+      "name": "Amir Matalon",
+      "position": "Senior Product Manager",
+      "linkedin": "https://www.linkedin.com/in/amir-matalon-04628957",
+      "connected_on": "25 Jan 2017"
+    }
+  ],
+  "intro_count": 13
+}

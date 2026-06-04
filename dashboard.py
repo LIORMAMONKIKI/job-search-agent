@@ -137,6 +137,7 @@ def fetch_sourced_roles():
         return df
     df["Date Sourced"] = pd.to_datetime(df["Date Sourced"], errors="coerce")
     df["Date Posted"] = pd.to_datetime(df["Date Posted"], errors="coerce")
+    df["Date Applied"] = pd.to_datetime(df["Date Applied"], errors="coerce")
     return df
 
 
@@ -491,8 +492,15 @@ with tab_roles:
                         f"Friction: {clean_value(r['Friction']) or '?'}",
                     ]
                     posted = r["Date Posted"].strftime("%Y-%m-%d") if pd.notna(r["Date Posted"]) else None
+                    sourced = r["Date Sourced"].strftime("%Y-%m-%d") if pd.notna(r["Date Sourced"]) else None
                     if posted:
                         meta.append(f"Posted: {posted}")
+                    else:
+                        meta.append("Posted: —")
+                    if sourced:
+                        meta.append(f"Sourced: {sourced}")
+                    if pd.notna(r["Date Applied"]):
+                        meta.append(f"Applied: {r['Date Applied'].strftime('%Y-%m-%d')}")
                     st.caption(" · ".join([m for m in meta if m]))
                     if r["JD Link"]:
                         st.markdown(f"[Open job description ↗]({r['JD Link']})")

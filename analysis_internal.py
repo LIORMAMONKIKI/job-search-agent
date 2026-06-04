@@ -173,15 +173,19 @@ def gap_by_demand(agg, min_count=2):
     skills_text = skills_path.read_text() if skills_path.exists() else ""
 
     # Parse SKILLS.md table lines like: | Skill name | Level | ...
+    # Strip markdown bold (**foo**) — Lior marks priority skills with bold,
+    # which would otherwise leak into the lookup key and cause every bolded
+    # skill to be tagged "Not listed".
     lior_level = {}
     for line in skills_text.splitlines():
-        m = re.match(r"\|\s*([^|]+?)\s*\|\s*(Expert|Proficient|Familiar|Learning|Gap)[^|]*\|", line)
+        m = re.match(r"\|\s*([^|]+?)\s*\|\s*\*{0,2}(Expert|Proficient|Familiar|Learning|Gap)[^|]*\|", line)
         if m:
-            name = m.group(1).strip()
+            name = m.group(1).strip().strip("*").strip()
             lvl = m.group(2).strip()
-            # Also index by the first token (e.g. "Python (Pandas, NumPy ...)" → "python")
+            # Index by full name AND first token (handles "Python (Pandas, NumPy ...)" → "python"
+            # and "LoRA dataset design / captioning strategy" → "lora dataset design").
             lior_level[name.lower()] = lvl
-            first_tok = re.split(r"\s*\(", name)[0].lower().strip()
+            first_tok = re.split(r"\s*[\(/]", name)[0].lower().strip()
             if first_tok and first_tok not in lior_level:
                 lior_level[first_tok] = lvl
 

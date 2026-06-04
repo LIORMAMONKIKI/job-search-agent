@@ -362,6 +362,16 @@ def main():
     if not args.dry_run:
         print_daily_digest(notion)
 
+    # Stage 5: regenerate insights for the dashboard's Insights tab.
+    # Cheap (~$0.50) and survives if it crashes — pipeline is already done.
+    if not args.dry_run:
+        try:
+            print("\n=== Stage 5: Regenerate insights ===")
+            from analysis_internal import run as run_insights
+            run_insights()
+        except Exception as e:
+            print(f"  ! insights regen failed: {e}")
+
 
 if __name__ == "__main__":
     main()

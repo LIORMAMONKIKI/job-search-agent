@@ -405,8 +405,8 @@ with col6:
 
 # ---- Tabs -------------------------------------------------------------------
 
-tab_roles, tab_companies, tab_gap, tab_network = st.tabs(
-    ["Sourced Roles", "Companies", "Gap Analysis", "Network / Outreach"]
+tab_roles, tab_companies, tab_insights, tab_gap, tab_network = st.tabs(
+    ["Sourced Roles", "Companies", "Insights & Research", "Gap Analysis", "Network / Outreach"]
 )
 
 
@@ -665,6 +665,45 @@ def fetch_warm_intros():
 
 
 OUTREACH_STATUSES = ["New", "Drafted", "Sent", "Replied", "Met", "No Response", "Skip"]
+
+
+# === Tab: Insights & Research =================================================
+
+with tab_insights:
+    reports_dir = Path(__file__).parent / "reports"
+
+    insight_files = sorted(reports_dir.glob("insights_*.md"), reverse=True) if reports_dir.exists() else []
+    market_files = sorted(reports_dir.glob("market_*.md"), reverse=True) if reports_dir.exists() else []
+    discovery_files = sorted(reports_dir.glob("discovery_*.md"), reverse=True) if reports_dir.exists() else []
+
+    section = st.radio(
+        "Section",
+        ["Internal analysis (your DB)", "Market trends (Israel + US)", "Watch list (new companies)"],
+        horizontal=True,
+        label_visibility="collapsed",
+    )
+
+    if section == "Internal analysis (your DB)":
+        if not insight_files:
+            st.info("No internal-analysis report yet. Runs as Stage 5 of the Monday cron, or kick off manually: `.venv/bin/python analysis_internal.py`")
+        else:
+            latest = insight_files[0]
+            picked = st.selectbox("Report date", insight_files, format_func=lambda p: p.stem.replace("insights_", ""), index=0)
+            st.markdown(picked.read_text())
+    elif section == "Market trends (Israel + US)":
+        if not market_files:
+            st.info("Market-trend research not generated yet (Phase 2). Will land here after the next pipeline run.")
+        else:
+            latest = market_files[0]
+            st.caption(f"Showing {latest.name}")
+            st.markdown(latest.read_text())
+    else:
+        if not discovery_files:
+            st.info("Watch-list / new-company discovery not generated yet (Phase 4). Will land here after the next pipeline run.")
+        else:
+            latest = discovery_files[0]
+            st.caption(f"Showing {latest.name}")
+            st.markdown(latest.read_text())
 
 
 # === Tab: Gap Analysis =======================================================

@@ -25,7 +25,7 @@ enrichment_*.csv
 enrichment_*.md
 qa_results_*.csv
 qa_results_*.md
-reports/
+# reports/ — NOT gitignored: dashboard reads these on Streamlit Cloud
 
 # OS
 .DS_Store

@@ -87,8 +87,12 @@ def classify(url):
     return "alive"
 
 
+STALE_AT_STRIKES = 2  # mark Stale on the 2nd consecutive dead check
+
+
 def fetch_active_roles(notion):
-    """All roles with Action in ACTIVE_ACTIONS and a non-empty JD Link."""
+    """All roles with Action in ACTIVE_ACTIONS and a non-empty JD Link.
+    Also returns current Verification Strikes (None → treat as 0)."""
     rows, cursor = [], None
     or_filters = [{"property": "Action", "select": {"equals": a}} for a in ACTIVE_ACTIONS]
     while True:
@@ -118,15 +122,21 @@ def fetch_active_roles(notion):
             continue
         title_items = p.get("Role Title", {}).get("title", [])
         title = "".join(i.get("plain_text", "") for i in title_items) or "(no title)"
-        out.append({"id": row["id"], "title": title, "url": url})
+        strikes = (p.get("Verification Strikes", {}) or {}).get("number")
+        out.append({
+            "id": row["id"],
+            "title": title,
+            "url": url,
+            "strikes": int(strikes) if isinstance(strikes, (int, float)) else 0,
+        })
     return out
 
 
-def mark_stale(notion, page_id):
-    notion.pages.update(
-        page_id=page_id,
-        properties={"Action": {"select": {"name": "Stale"}}},
-    )
+def update_role(notion, page_id, strikes, mark_stale_now=False):
+    props = {"Verification Strikes": {"number": strikes}}
+    if mark_stale_now:
+        props["Action"] = {"select": {"name": "Stale"}}
+    notion.pages.update(page_id=page_id, properties=props)
 
 
 def verify_links(notion=None, verbose=True, limit=None, dry_run=False, max_workers=12):
@@ -143,7 +153,7 @@ def verify_links(notion=None, verbose=True, limit=None, dry_run=False, max_worke
         print(f"  Checking {len(todo)} active roles' JD Links")
 
     alive, dead, unknown = 0, 0, 0
-    dead_rows = []
+    verdicts = {}  # role id → ("alive"|"dead"|"unknown", role dict)
 
     # Concurrent HEAD probes
     with ThreadPoolExecutor(max_workers=max_workers) as pool:
@@ -151,11 +161,11 @@ def verify_links(notion=None, verbose=True, limit=None, dry_run=False, max_worke
         for i, f in enumerate(as_completed(futures), 1):
             r = futures[f]
             verdict = f.result()
+            verdicts[r["id"]] = (verdict, r)
             if verdict == "alive":
                 alive += 1
             elif verdict == "dead":
                 dead += 1
-                dead_rows.append(r)
             else:
                 unknown += 1
             if verbose and i % 50 == 0:
@@ -164,24 +174,38 @@ def verify_links(notion=None, verbose=True, limit=None, dry_run=False, max_worke
     if verbose:
         print(f"  → {alive} alive · {dead} dead · {unknown} transient/unknown")
 
-    # Mark dead ones as Stale
-    marked, errors = 0, 0
-    if dead_rows and not dry_run:
-        if verbose:
-            print(f"  Marking {len(dead_rows)} dead roles as Stale...")
-        for r in dead_rows:
+    # Apply strike-based rule:
+    #   alive → reset strikes to 0 (only if currently non-zero, to save writes)
+    #   dead  → strikes += 1; if new count >= STALE_AT_STRIKES, mark Stale
+    #   unknown → no change (don't penalize transient failures)
+    marked, reset, errors = 0, 0, 0
+    if not dry_run:
+        for verdict, r in verdicts.values():
             try:
-                mark_stale(notion, r["id"])
-                marked += 1
+                if verdict == "alive":
+                    if r["strikes"] > 0:
+                        update_role(notion, r["id"], strikes=0)
+                        reset += 1
+                elif verdict == "dead":
+                    new_strikes = r["strikes"] + 1
+                    if new_strikes >= STALE_AT_STRIKES:
+                        update_role(notion, r["id"], strikes=new_strikes, mark_stale_now=True)
+                        marked += 1
+                    else:
+                        update_role(notion, r["id"], strikes=new_strikes)
+                # unknown → no write
             except Exception as e:
                 errors += 1
                 if verbose:
                     print(f"    FAIL {r['title'][:55]} — {str(e)[:60]}")
-            time.sleep(0.2)  # gentle Notion rate limit
+            time.sleep(0.15)
 
     if verbose:
-        print(f"  → {marked} marked Stale, {errors} write errors")
-    return {"alive": alive, "dead": dead, "unknown": unknown, "marked": marked, "errors": errors}
+        print(f"  → {marked} newly Stale (2-strike), {reset} strikes reset, {errors} write errors")
+    return {
+        "alive": alive, "dead": dead, "unknown": unknown,
+        "marked": marked, "strikes_reset": reset, "errors": errors,
+    }
 
 
 def main():

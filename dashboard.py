@@ -1016,3 +1016,150 @@ with tab_agents:
 
                     if full.get("error"):
                         st.error(f"Error: {full['error']}")
+
+                    # ---- Revision capture (the learning loop) --------------
+                    # Show only for completed runs that produced a text-y output.
+                    # Outputs that are dicts get JSON-serialized so Lior can
+                    # edit them too (rare for V0 — the research agent's brief).
+                    if full.get("status") == "completed" and full.get("final_output"):
+                        _render_revision_capture(full)
+
+
+def _render_revision_capture(trace_data: dict) -> None:
+    """Inline revision + observer flow for one trace.
+
+    Streamlit session state keys:
+      revising_<trace_id>     : bool, True while editor is open
+      hypothesis_<trace_id>   : dict, the observer's proposal once it fires
+      done_<trace_id>         : bool, True after confirm/reject
+    """
+    import json as _json
+    from agents.observer import observe_revision, confirm_rule, reject_rule
+
+    trace_id = trace_data.get("trace_id", "")
+    agent_name = trace_data.get("agent", "unknown")
+
+    st.markdown("---\n#### ✍️ Teach the agent")
+    st.caption(
+        "If this output is close-but-not-quite, edit it. The observer agent "
+        "will hypothesize ONE rule from your edit and ask you to confirm. "
+        "Confirmed rules land in `voice_corpus/lior_preferences.md` and "
+        "future drafts honor them."
+    )
+
+    # Get the editable original text
+    fo = trace_data.get("final_output", "")
+    if isinstance(fo, dict):
+        if "brief" in fo:
+            original_text = _json.dumps(fo["brief"], indent=2)
+        else:
+            original_text = _json.dumps(fo, indent=2)
+    else:
+        original_text = str(fo)
+
+    done_key = f"revdone_{trace_id}"
+    hyp_key = f"hyp_{trace_id}"
+
+    if st.session_state.get(done_key):
+        st.success("Revision recorded. Refresh to inspect or revise again.")
+        return
+
+    # Stage 1: editor (always visible, no separate "open editor" click — friction)
+    edited = st.text_area(
+        "Your edited version",
+        value=original_text,
+        height=200,
+        key=f"edit_{trace_id}",
+    )
+    comment = st.text_input(
+        "Optional: what bothered you? (one line — feeds the observer)",
+        key=f"comment_{trace_id}",
+        placeholder="e.g. too formal · wrong angle · missing recent signal",
+    )
+
+    # Stage 2: run observer
+    run_col, _ = st.columns([1, 3])
+    with run_col:
+        run_obs = st.button(
+            "🔍 Run observer",
+            key=f"runobs_{trace_id}",
+            help="Calls the observer agent (~$0.01, 1-3s). Returns ONE proposed rule.",
+            type="primary",
+        )
+
+    if run_obs:
+        if edited.strip() == original_text.strip() and not comment.strip():
+            st.warning("No edits or comment — nothing for the observer to learn from.")
+        else:
+            with st.spinner("Observer reading your edit…"):
+                hyp = observe_revision(
+                    original=original_text,
+                    edited=edited,
+                    source_agent=agent_name,
+                    source_trace_id=trace_id,
+                    lior_comment=comment.strip(),
+                )
+            st.session_state[hyp_key] = hyp
+
+    # Stage 3: display hypothesis + confirm/reject
+    hyp = st.session_state.get(hyp_key)
+    if hyp:
+        st.markdown("---\n#### 💡 Observer's hypothesis")
+        conf = hyp.get("confidence", "low")
+        conf_emoji = {"high": "🟢", "medium": "🟡", "low": "🔴"}.get(conf, "⚪")
+        st.markdown(f"**Confidence:** {conf_emoji} {conf}")
+        st.markdown(f"**Reasoning:** {hyp.get('reasoning', '—')}")
+
+        # Editable rule text — Lior can rephrase before confirming
+        rule_text = st.text_area(
+            "Rule text (edit before confirming if needed)",
+            value=hyp.get("rule_text", ""),
+            height=80,
+            key=f"rule_{trace_id}",
+        )
+        scope_options = ["universal", "researcher", "outreach", "cv", "cover_letter", "other"]
+        default_scope = hyp.get("scope", "universal")
+        if default_scope not in scope_options:
+            default_scope = "other"
+        scope = st.selectbox(
+            "Scope",
+            scope_options,
+            index=scope_options.index(default_scope),
+            key=f"scope_{trace_id}",
+        )
+
+        b1, b2, b3 = st.columns(3)
+        with b1:
+            if st.button("✅ Confirm — save as rule", key=f"confirm_{trace_id}"):
+                try:
+                    confirm_rule(
+                        revision_id=hyp.get("_revision_id", ""),
+                        rule_text=rule_text,
+                        scope=scope,
+                    )
+                    st.session_state[done_key] = True
+                    st.session_state.pop(hyp_key, None)
+                    st.success(f"Rule added under `{scope}`. Future drafts will honor it.")
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"Could not save: {e}")
+        with b2:
+            if st.button("⏭ Just this case", key=f"skip_{trace_id}", help="Save the revision as data but don't generalize."):
+                try:
+                    reject_rule(hyp.get("_revision_id", ""), reason="just_this_case")
+                    st.session_state[done_key] = True
+                    st.session_state.pop(hyp_key, None)
+                    st.info("Saved as data only. No rule added.")
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"Could not save: {e}")
+        with b3:
+            if st.button("❌ Wrong inference", key=f"reject_{trace_id}"):
+                try:
+                    reject_rule(hyp.get("_revision_id", ""), reason="wrong_inference")
+                    st.session_state[done_key] = True
+                    st.session_state.pop(hyp_key, None)
+                    st.warning("Rejected — observer's prompt will need tuning if this keeps happening.")
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"Could not save: {e}")

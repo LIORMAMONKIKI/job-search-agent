@@ -24,6 +24,7 @@ from anthropic import Anthropic
 
 from .runner import run_agent
 from .trace import Trace
+from . import preferences
 
 
 # ---------- System prompt ---------------------------------------------------
@@ -192,10 +193,16 @@ def research(target: str, *, max_iterations: int = 8) -> Trace:
         f"Produce the structured brief by calling finalize() when ready."
     )
 
+    # Append any learned preferences relevant to research briefs. Starts empty;
+    # grows as Lior confirms rules from her revisions.
+    system_prompt = SYSTEM_PROMPT + preferences.render_for_system_prompt(
+        ["universal", "researcher"]
+    )
+
     trace = run_agent(
         agent_name="researcher",
         brief=brief,
-        system_prompt=SYSTEM_PROMPT,
+        system_prompt=system_prompt,
         tool_specs=_make_tool_specs(),
         tool_handlers=handlers,
         subject_slug=target,

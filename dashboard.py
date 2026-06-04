@@ -9,6 +9,8 @@ Run:
   cd job-search-agent
   .venv/bin/streamlit run dashboard.py
 """
+import json
+import re
 from datetime import date
 from pathlib import Path
 
@@ -612,6 +614,40 @@ with tab_companies:
                         st.markdown(f"[Open careers page ↗]({c['Careers URL']})")
                     if c["Notes"]:
                         st.markdown(f"**Notes.** {c['Notes']}")
+
+                    # Phase 3 — per-company research (if file exists)
+                    research_path = Path(__file__).parent / "reports" / "companies" / f"{re.sub(r'[^a-z0-9]+', '-', c['Company'].lower()).strip('-')}.json"
+                    if research_path.exists():
+                        try:
+                            data = json.loads(research_path.read_text())
+                            r_data = data.get("research", {}) or {}
+                            if r_data and "error" not in r_data:
+                                st.markdown(
+                                    f"**Status:** {r_data.get('status_summary','—')}  \n"
+                                    f"**Hiring policy:** {r_data.get('hiring_policy','—')}  \n"
+                                    f"**Growth:** {r_data.get('growth_signal','—')}  \n"
+                                    f"**Fit for you:** {r_data.get('fit_for_lior','—')}"
+                                )
+                                news = r_data.get("recent_news") or []
+                                if news:
+                                    st.markdown("**Recent news:**")
+                                    for n in news[:5]:
+                                        st.markdown(f"- {n}")
+                                srcs = r_data.get("sources") or []
+                                if srcs:
+                                    st.caption("Sources: " + " · ".join(f"[link]({s})" for s in srcs[:5]))
+                            intros = data.get("warm_intros") or []
+                            if intros:
+                                st.markdown(f"**Warm intros ({len(intros)}):**")
+                                for it in intros:
+                                    line = f"- **{it.get('name','?')}** — {it.get('position','—')}"
+                                    if it.get("linkedin"):
+                                        line += f" · [LinkedIn]({it['linkedin']})"
+                                    st.markdown(line)
+                            else:
+                                st.caption("_No warm intros at this company._")
+                        except Exception as e:
+                            st.caption(f"_research file unreadable: {e}_")
 
                     # Roles list (sorted High → Medium → Low)
                     co_roles = roles_by_company.get(c["id"])

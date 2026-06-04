@@ -16,6 +16,7 @@ Flags:
   --tiers T1,T3       only judge roles from companies in these tiers (DB lookup)
 """
 import argparse
+import os
 import re
 import sys
 import time
@@ -362,15 +363,40 @@ def main():
     if not args.dry_run:
         print_daily_digest(notion)
 
-    # Stage 5: regenerate insights for the dashboard's Insights tab.
-    # Cheap (~$0.50) and survives if it crashes — pipeline is already done.
+    # Stage 5: regenerate insights / market research / discovery for the dashboard.
+    # Each guarded — if one crashes, the rest still run.
     if not args.dry_run:
         try:
-            print("\n=== Stage 5: Regenerate insights ===")
+            print("\n=== Stage 5a: Internal insights ===")
             from analysis_internal import run as run_insights
             run_insights()
         except Exception as e:
             print(f"  ! insights regen failed: {e}")
+
+        try:
+            print("\n=== Stage 5b: Market research (web search) ===")
+            from market_research import run as run_market
+            run_market()
+        except Exception as e:
+            print(f"  ! market research failed: {e}")
+
+        try:
+            print("\n=== Stage 5c: New-company discovery (web search) ===")
+            from discovery import run as run_discovery
+            run_discovery()
+        except Exception as e:
+            print(f"  ! discovery failed: {e}")
+
+        # Phase 3 (per-company deep dive of 148 companies) is opt-in only —
+        # too expensive (~$10) for every weekly cron. Trigger via:
+        #   REGENERATE_COMPANIES=true python main.py
+        if os.getenv("REGENERATE_COMPANIES", "").lower() in ("1", "true", "yes"):
+            try:
+                print("\n=== Stage 5d: Per-company deep dive ===")
+                from company_research import run as run_co_research
+                run_co_research()
+            except Exception as e:
+                print(f"  ! company research failed: {e}")
 
 
 if __name__ == "__main__":

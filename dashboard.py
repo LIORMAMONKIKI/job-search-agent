@@ -407,8 +407,15 @@ with col6:
 
 # ---- Tabs -------------------------------------------------------------------
 
-tab_roles, tab_companies, tab_insights, tab_gap, tab_network = st.tabs(
-    ["Sourced Roles", "Companies", "Insights & Research", "Gap Analysis", "Network / Outreach"]
+tab_roles, tab_companies, tab_insights, tab_gap, tab_network, tab_agents = st.tabs(
+    [
+        "Sourced Roles",
+        "Companies",
+        "Insights & Research",
+        "Gap Analysis",
+        "Network / Outreach",
+        "Agent Runs",
+    ]
 )
 
 
@@ -877,3 +884,135 @@ with tab_network:
                         save_outreach_state(outreach_state)
                         st.success("Saved.")
                         st.rerun()
+
+
+# === Tab: Agent Runs =========================================================
+# Renders trace JSONs from agents/traces/ — read-only view, source of truth
+# is the files on disk. See agents/trace.py for the schema.
+
+with tab_agents:
+    try:
+        from agents.trace import list_traces, load_trace
+    except Exception as e:
+        st.error(f"Could not import agents.trace: {e}")
+    else:
+        st.markdown(
+            "Every agent run is a JSON trace on disk under `agents/traces/`. "
+            "Expand a run to see the agent's reasoning, tool calls, and outputs "
+            "step by step. **The 💭 reasoning lines are the gold** — that's where "
+            "you catch bad logic and decide what to tune."
+        )
+
+        # ---- Controls -------------------------------------------------------
+        col1, col2, col3 = st.columns([2, 2, 1])
+        with col1:
+            agent_filter = st.selectbox(
+                "Agent",
+                ["(all)", "researcher", "outreach_drafter", "observer", "smoketest"],
+                index=0,
+                help="Filter to one agent type.",
+            )
+        with col2:
+            limit = st.slider("Show last N runs", min_value=5, max_value=100, value=25, step=5)
+        with col3:
+            if st.button("🔄 Refresh", help="Re-scan agents/traces/ for new runs"):
+                st.rerun()
+
+        agent_arg = None if agent_filter == "(all)" else agent_filter
+        runs = list_traces(agent=agent_arg, limit=limit)
+
+        if not runs:
+            st.info(
+                "No agent runs yet. Try:\n\n"
+                "```bash\n"
+                "python -m agents.researcher \"Lightricks\"\n"
+                "```\n"
+                "Then hit Refresh."
+            )
+        else:
+            # ---- Summary metrics --------------------------------------------
+            ok = sum(1 for r in runs if r.get("status") == "completed")
+            err = sum(1 for r in runs if r.get("status") == "error")
+            maxit = sum(1 for r in runs if r.get("status") == "max_iterations")
+            total_cost = sum(r.get("cost_usd", 0.0) for r in runs)
+            mc1, mc2, mc3, mc4 = st.columns(4)
+            mc1.metric("Runs shown", len(runs))
+            mc2.metric("Completed", ok)
+            mc3.metric("Failed / capped", err + maxit)
+            mc4.metric("Total cost", f"${total_cost:.3f}")
+
+            # ---- Run list ---------------------------------------------------
+            for run in runs:
+                if "error" in run and "trace_id" not in run:
+                    st.warning(f"Broken trace file: {run['path']} — {run['error']}")
+                    continue
+
+                status_emoji = {
+                    "completed": "✓",
+                    "error": "✗",
+                    "max_iterations": "⚠",
+                    "running": "⋯",
+                }.get(run.get("status", ""), "·")
+                header = (
+                    f"{status_emoji}  **{run.get('agent', '?')}** · "
+                    f"{run.get('brief', '')[:80]} · "
+                    f"{run.get('iterations', 0)} iters · "
+                    f"${run.get('cost_usd', 0.0):.3f} · "
+                    f"{(run.get('started_at') or '')[:19].replace('T', ' ')}"
+                )
+                with st.expander(header):
+                    full = load_trace(run["path"])
+
+                    # Top-line metadata
+                    m1, m2, m3, m4 = st.columns(4)
+                    m1.metric("Status", full.get("status", "?"))
+                    m2.metric("Iterations", len(full.get("iterations", [])))
+                    m3.metric("Tokens", f"{full.get('tokens_in', 0):,} in / {full.get('tokens_out', 0):,} out")
+                    m4.metric("Cost", f"${full.get('cost_usd', 0.0):.4f}")
+
+                    st.caption(f"Trace ID: `{full.get('trace_id')}`  ·  File: `{run['path']}`")
+
+                    # Brief
+                    st.markdown("**Brief:**")
+                    st.code(full.get("brief", ""), language="text")
+
+                    # Iterations
+                    for it in full.get("iterations", []):
+                        st.markdown(f"---\n#### Iteration {it.get('n')}  ·  stop: `{it.get('stop_reason', '?')}`")
+                        if it.get("thinking"):
+                            st.markdown("**💭 Reasoning**")
+                            st.markdown(it["thinking"])
+                        for tc in it.get("tool_calls", []):
+                            tname = tc.get("name", "?")
+                            tinput = tc.get("input", {})
+                            tresult = tc.get("result", {})
+                            st.markdown(f"**🔧 Tool call → `{tname}`**")
+                            input_preview = (
+                                f"{tinput.get('query', '')!r}" if tname == "web_search"
+                                else f"{tinput.get('category', '')} — {tinput.get('finding', '')[:120]!r}"
+                                if tname == "take_note"
+                                else f"category={tinput.get('category','')!r}" if "category" in tinput
+                                else str(tinput)[:200]
+                            )
+                            st.markdown(f"input: `{input_preview}`")
+                            with st.expander("result", expanded=False):
+                                if isinstance(tresult, dict):
+                                    st.json(tresult)
+                                else:
+                                    st.code(str(tresult)[:2000], language="json")
+
+                    # Final output
+                    if full.get("final_output"):
+                        st.markdown("---\n**🏁 Final output**")
+                        fo = full["final_output"]
+                        if isinstance(fo, dict) and "brief" in fo:
+                            st.json(fo["brief"])
+                            with st.expander("Notebook (agent's working memory)", expanded=False):
+                                st.json(fo.get("notebook", {}))
+                        elif isinstance(fo, dict):
+                            st.json(fo)
+                        else:
+                            st.markdown(str(fo))
+
+                    if full.get("error"):
+                        st.error(f"Error: {full['error']}")

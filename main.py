@@ -40,6 +40,7 @@ from careers_scraper import scrape_careers_page
 from gmail_scraper import scrape_gmail_job_alerts
 from judge import judge_role
 from digest import print_daily_digest
+from verify_links import verify_links
 
 
 # ---- Helpers ----------------------------------------------------------------
@@ -110,6 +111,19 @@ def stage_gmail_scrape():
     roles = scrape_gmail_job_alerts(verbose=True)
     print(f"  → {len(roles)} roles from Gmail")
     return roles
+
+
+def stage_verify_existing_links(notion):
+    """Stage 0: check every existing active role's JD Link is still alive.
+    Dead listings (404/410, LinkedIn redirect to generic page) → Action=Stale.
+    Date-based cleanup doesn't work — jobs can be relevant for months. Only
+    liveness is a reliable signal."""
+    print("\n=== Stage 0: Verify existing roles' JD Links ===")
+    try:
+        stats = verify_links(notion=notion, verbose=True)
+        print(f"  → {stats['marked']} roles marked Stale (dead JD Links)")
+    except Exception as e:
+        print(f"  ! link-verification stage failed: {e}")
 
 
 def stage_careers_scrape(all_companies):
@@ -225,6 +239,10 @@ def main():
     if args.tiers:
         tier_filter = {t.strip() for t in args.tiers.split(",") if t.strip()}
         print(f"  → tier filter: {tier_filter}")
+
+    # Stage 0: prune dead listings from the active view before scraping new ones.
+    if not args.dry_run:
+        stage_verify_existing_links(notion)
 
     linkedin_roles = [] if args.skip_linkedin else stage_linkedin_scrape()
     careers_roles = [] if args.skip_careers else stage_careers_scrape(all_companies)

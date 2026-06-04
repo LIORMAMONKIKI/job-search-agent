@@ -162,7 +162,12 @@ def aggregate(roles, label):
 def gap_by_demand(agg, min_count=2):
     """Skills appearing in ≥ min_count roles where Lior is Gap/Familiar/Learning.
 
-    Reads SKILLS.md to know Lior's level per skill.
+    Reads SKILLS.md. Only uses gap_skills as the demand signal (skills the
+    judge specifically flagged as gaps for Lior on a particular role) — NOT
+    matched_skills. Otherwise skills she's strong at get counted as "demanded"
+    and matched against SKILLS.md as if they were gaps, which produces false
+    positives (e.g. Python in matched_skills but SKILLS.md lists it as
+    "Python (Pandas, NumPy, Scikit-learn)" — fuzzy match fails → false gap).
     """
     skills_path = Path(__file__).parent / "SKILLS.md"
     skills_text = skills_path.read_text() if skills_path.exists() else ""
@@ -174,26 +179,28 @@ def gap_by_demand(agg, min_count=2):
         if m:
             name = m.group(1).strip()
             lvl = m.group(2).strip()
+            # Also index by the first token (e.g. "Python (Pandas, NumPy ...)" → "python")
             lior_level[name.lower()] = lvl
+            first_tok = re.split(r"\s*\(", name)[0].lower().strip()
+            if first_tok and first_tok not in lior_level:
+                lior_level[first_tok] = lvl
 
-    # The "demand" comes from matched_skills + gap_skills combined
+    # The "demand" for gap analysis comes ONLY from gap_skills (judge's verdict),
+    # not matched_skills. That's the whole point of the field.
     demand = Counter()
-    for name, n in agg["top_matched_skills"]:
-        demand[name] += n
     for name, n in agg["top_gap_skills"]:
         demand[name] += n
 
-    # Which demanded skills is Lior Gap/Familiar/Learning level on?
     real_gaps = []
     for name, n in demand.most_common():
         if n < min_count:
-            break  # below threshold
+            break
         lvl = lior_level.get(name.lower())
         if lvl in ("Familiar", "Learning", "Gap"):
             real_gaps.append({"skill": name, "demand_count": n, "lior_level": lvl})
         elif lvl is None:
-            # Not in SKILLS.md at all → real gap
             real_gaps.append({"skill": name, "demand_count": n, "lior_level": "Not listed"})
+        # Skip Expert/Proficient — judge made a mistake on those rows, don't aggregate them
     return real_gaps[:15]
 
 

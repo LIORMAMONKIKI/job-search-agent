@@ -39,3 +39,11 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Agent traces (personal, can grow large; cloud Streamlit doesn't need them)
+agents/traces/
+# Revision records (personal raw data — observer prompts learn from them locally)
+agents/revisions/*.json
+!agents/revisions/.gitkeep
+# Editor backups
+*.bak

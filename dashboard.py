@@ -1080,13 +1080,20 @@ def _render_revision_capture(trace_data: dict) -> None:
     edited = st.text_area(
         "Your edited version",
         value=original_text,
-        height=200,
+        height=320,
         key=f"edit_{trace_id}",
     )
-    comment = st.text_input(
-        "Optional: what bothered you? (one line — feeds the observer)",
+    comment = st.text_area(
+        "Optional: what bothered you? (free text — feeds the observer)",
         key=f"comment_{trace_id}",
-        placeholder="e.g. too formal · wrong angle · missing recent signal",
+        placeholder=(
+            "Short comments work — 'too formal', 'wrong angle', "
+            "'missing recent signal'.\n\n"
+            "Long context also works — paste your entire cowork conversation, "
+            "an editor's review, or your reasoning notes here. The observer "
+            "reads all of it as context for inferring the rule."
+        ),
+        height=120,
     )
 
     # ---- Stage 2: kick off round 1 -----------------------------------------

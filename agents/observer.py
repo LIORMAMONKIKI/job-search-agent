@@ -129,7 +129,14 @@ def _client() -> Anthropic:
     return Anthropic()
 
 
-def _diff_summary(original: str, edited: str, max_len: int = 1200) -> str:
+def _diff_summary(original: str, edited: str, max_len: int = 3000) -> str:
+    """Build the (original, edited) context block fed to the observer.
+
+    Default 3000 chars per side comfortably fits a 350-word cover letter
+    (~2000 chars) without truncation. Truncates only on very long pastes
+    to keep observer input cost predictable (~2x max_len chars = ~1500
+    input tokens worst case).
+    """
     o = (original or "").strip()
     e = (edited or "").strip()
     if len(o) + len(e) <= max_len * 2:

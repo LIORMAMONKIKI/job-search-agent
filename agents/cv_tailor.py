@@ -50,11 +50,31 @@ import config
 _REPO_ROOT = Path(__file__).resolve().parent.parent
 _SKILLS_PATH = _REPO_ROOT / "SKILLS.md"
 
+# Lior's CV-process training material — lives OUTSIDE the repo (personal,
+# not committed). Consolidated guide + the Wiz worked example.
+_TRAINING_DIR = _REPO_ROOT.parent / "AGENT_TRAINING"
+_TRAINING_FILES = [
+    _TRAINING_DIR / "Lior_CV_Agent_Training.md",
+    _TRAINING_DIR / "wiz_worked_example" / "STYLE_REASONING.md",
+    _TRAINING_DIR / "wiz_worked_example" / "EDITING_PROCESS_Wiz_CV.md",
+    _TRAINING_DIR / "wiz_worked_example" / "JOB_DESCRIPTION_Wiz.md",
+]
+
 
 def _load_skills() -> str:
     if _SKILLS_PATH.exists():
         return _SKILLS_PATH.read_text()
     return ""
+
+
+def _load_training() -> str:
+    """Concatenate the AGENT_TRAINING corpus. Empty string if absent —
+    the drafter still works, just without the learned voice/process."""
+    parts = []
+    for p in _TRAINING_FILES:
+        if p.exists():
+            parts.append(f"\n### {p.name}\n\n{p.read_text()}")
+    return "\n".join(parts)
 
 
 def _slugify_company(name: str) -> str:
@@ -94,59 +114,50 @@ def _load_company_research(company_name: str) -> dict | None:
 
 SYSTEM_PROMPT_BASE = """You are a careful CV / cover letter drafter for Lior Mamon.
 
-YOUR JOB
-Read the role description, the optional company research, Lior's profile,
-and her skills inventory. Produce:
-  1. A tailored CV diff — concrete suggested bullet edits, reorderings, or
-     additions, NOT a full rewrite. Each change references a specific
-     section and includes one-sentence reasoning tied to the role.
-  2. A tailored cover letter — full text, 250-350 words, ready to send.
-     Personal, specific, and grounded in Lior's actual experience.
-  3. An honest list of gaps — areas where the role asks for something Lior
-     doesn't have. The cover letter should either acknowledge these
-     honestly or sidestep cleanly (never paper over them).
+You have been given her CV-PROCESS TRAINING MATERIAL below (consolidated
+guide + the Wiz worked example). That material IS your instruction set —
+read it as reasoning, not rulebook. The meta-rule there overrides
+everything: every choice is a deliberate authored fit to ONE specific
+role; never harden a one-off into a law.
 
-GROUND RULES
-- Stay strictly inside the truth of Lior's documented experience. Never
-  invent skills, projects, employers, or numbers. If she's "Learning" on
-  a skill per SKILLS.md, do not claim "Proficient" in the cover letter.
-- Honor the engineer-role anti-pattern from her profile: Lior is NOT an
-  engineer applying for engineering-heavy roles. If the JD is heavily
-  engineering, flag that in honest_gaps and shape the cover letter around
-  her actual strengths (Creative AI, analytics, vibe-coding, agent
-  workflows applied to real-world problems).
-- Lead the cover letter with concrete company-specific signal in line 1
-  (a recent launch, news, research direction) when the company research
-  provides one. Generic openers ("I hope this finds you well", "I am
-  writing to express my interest...") are forbidden.
-- Cite the warm intro by name in the cover letter IF the company research
-  surfaced a relevant warm contact AND the role is a plausible match for
-  that contact's department.
-- Match the company's voice. A tech-creative co like Lightricks reads a
-  different register than a bank. Use the company research to calibrate.
+YOUR JOB (follow her documented workflow)
+  1. Read the role's signals — the JD, and the recruiter post if given.
+     They often pull different directions; find what the role REALLY wants.
+  2. Map every JD requirement → Strong / Adjacent / Gap against her real
+     experience, with a framing decision per row. This map is part of
+     your output — the reasoning must be auditable.
+  3. Propose a TITLE — how she identifies herself, broad and true to her
+     first, only a light lean toward the role. Not keyword bait. Kill
+     echoes across adjacent words.
+  4. Draft the ABSTRACT — her honest answer to what the JD is after, in
+     her own true terms (never their words), ordered to foreground their
+     priorities. Complete connected sentences with flow; no chopping, no
+     narrative scaffolding. Title + abstract carry the voice — spend your
+     effort there.
+  5. Suggest EXPERIENCE / SKILLS edits — re-angle real bullets, reorder
+     so the role's headline skill leads, thicken from documented facts.
+     Never invent. Lead each role with its most role-relevant bullet.
+  6. Draft the COVER LETTER (if the application calls for one) — 150-300
+     words, in her voice per the training material, close casual
+     ("Thanks,"). Grounded in what's true; gaps acknowledged in one
+     honest sentence max or left alone, never over-explained.
+  7. List HONEST GAPS — where she doesn't fit. Adjacent → named in real
+     context. Gap → left alone on the CV; flagged here for her awareness.
+
+HARD RULES (from her honesty guidelines — these are NOT vibe)
+- Never invent skills, projects, employers, titles, or numbers.
+- Never claim: ML/AI engineering, "designer" as identity/title,
+  cross-functional-with-product-and-engineering, or anything she
+  hasn't done. "Design foundations" is acceptable; "designer" is not.
+- Honesty outranks keyword-matching. A JD-prioritized tool she only
+  touched stays in the skills line as used — never dressed up as a
+  strength.
+- Use her real outcomes and numbers (from profile/skills/CV), not
+  generic activity claims.
 
 PROCESS
-You will have all inputs in the user turn below. Think through them, then
-call the finalize tool exactly ONCE with the structured JSON output. Do
-not call finalize multiple times.
-
-OUTPUT SCHEMA (passed to finalize)
-{
-  "company_name": "...",
-  "role_title": "...",
-  "cv_changes": [
-    {
-      "section": "Summary | Experience | Skills | Projects | Education | Other",
-      "type": "add | edit | reorder | remove",
-      "original": "...",     // empty string for 'add'
-      "tailored": "...",     // empty string for 'remove'
-      "reasoning": "one sentence — tie to the role"
-    },
-    ...
-  ],
-  "cover_letter": "Full 250-350 word text, ready to send",
-  "honest_gaps": ["one-line each — where Lior doesn't fit the role"]
-}
+All inputs are in the user turn. Think through them, then call the
+finalize tool exactly ONCE with the structured output.
 """
 
 
@@ -157,7 +168,7 @@ def _make_tool_specs() -> list[dict]:
         {
             "name": "finalize",
             "description": (
-                "Emit the final tailored CV diff + cover letter and end the run. "
+                "Emit the final tailored application bundle and end the run. "
                 "Call this exactly ONCE. After this call, the agent terminates."
             ),
             "input_schema": {
@@ -165,6 +176,30 @@ def _make_tool_specs() -> list[dict]:
                 "properties": {
                     "company_name": {"type": "string"},
                     "role_title": {"type": "string"},
+                    "title_suggestion": {
+                        "type": "string",
+                        "description": "CV subtitle/headline — identity-first, light lean to role",
+                    },
+                    "abstract": {
+                        "type": "string",
+                        "description": "CV summary — her honest answer to the JD's core ask, in her voice",
+                    },
+                    "matching_map": {
+                        "type": "array",
+                        "description": "JD requirement → fit + framing decision (auditable reasoning)",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "requirement": {"type": "string"},
+                                "fit": {
+                                    "type": "string",
+                                    "enum": ["Strong", "Adjacent", "Gap"],
+                                },
+                                "framing": {"type": "string"},
+                            },
+                            "required": ["requirement", "fit", "framing"],
+                        },
+                    },
                     "cv_changes": {
                         "type": "array",
                         "items": {
@@ -182,7 +217,10 @@ def _make_tool_specs() -> list[dict]:
                             "required": ["section", "type", "reasoning"],
                         },
                     },
-                    "cover_letter": {"type": "string"},
+                    "cover_letter": {
+                        "type": "string",
+                        "description": "Empty string if the application doesn't call for one",
+                    },
                     "honest_gaps": {
                         "type": "array",
                         "items": {"type": "string"},
@@ -191,6 +229,9 @@ def _make_tool_specs() -> list[dict]:
                 "required": [
                     "company_name",
                     "role_title",
+                    "title_suggestion",
+                    "abstract",
+                    "matching_map",
                     "cv_changes",
                     "cover_letter",
                     "honest_gaps",
@@ -224,15 +265,22 @@ def draft(
     *,
     role_text: str,
     company_name: str,
+    current_cv_text: str = "",
+    recruiter_post: str = "",
     company_research: dict | None = None,
     max_iterations: int = 3,
 ) -> Trace:
-    """Draft tailored CV diff + cover letter for one role.
+    """Draft a tailored application bundle for one role.
 
     Args:
       role_text: JD / role description as plain text. Paste the full posting.
       company_name: used for trace slugging and to load per-company research
         from reports/companies/{slug}.json if no override provided.
+      current_cv_text: the CV she's editing FROM (plain text / markdown).
+        Strongly recommended — without it the agent works off profile +
+        skills only and can't propose surgical bullet edits.
+      recruiter_post: optional recruiter LinkedIn post — often reveals the
+        real priority vs the formal JD.
       company_research: pre-loaded company research dict (the shape returned
         by _load_company_research). If None, attempt to load by company_name.
       max_iterations: safety cap on the model's tool-use loop. Should never
@@ -252,13 +300,18 @@ def draft(
     if research_blob is None:
         research_blob = _load_company_research(company_name)
 
-    # Build the system prompt: base + profile + skills + learned preferences
+    # System prompt: base + training corpus + profile + skills + learned prefs
     skills_md = _load_skills()
+    training = _load_training()
     prefs_block = preferences.render_for_system_prompt(
         ["universal", "cv", "cover_letter"]
     )
 
     system_prompt_parts = [SYSTEM_PROMPT_BASE]
+    if training:
+        system_prompt_parts.append(
+            "\n## LIOR'S CV-PROCESS TRAINING MATERIAL\n" + training
+        )
     if getattr(config, "LIOR_PROFILE", None):
         system_prompt_parts.append("\n## LIOR_PROFILE\n" + config.LIOR_PROFILE)
     if skills_md:
@@ -267,12 +320,19 @@ def draft(
         system_prompt_parts.append(prefs_block)
     system_prompt = "\n".join(system_prompt_parts)
 
-    # Build the brief (user message): role + company research
+    # Brief (user message): role + recruiter post + current CV + research
     brief_parts = [
-        f"Tailor a CV diff + cover letter for the following role at "
+        f"Tailor an application bundle for the following role at "
         f"**{company_name}**. Today's date: {date.today().isoformat()}.",
         f"\n## ROLE DESCRIPTION\n{role_text.strip()}",
     ]
+    if recruiter_post.strip():
+        brief_parts.append(f"\n## RECRUITER POST\n{recruiter_post.strip()}")
+    if current_cv_text.strip():
+        brief_parts.append(
+            f"\n## CURRENT CV (edit FROM this — propose changes against it)\n"
+            f"{current_cv_text.strip()}"
+        )
     if research_blob:
         research_json = json.dumps(research_blob, indent=2, default=str)
         # Cap to keep token count predictable
@@ -323,6 +383,16 @@ if __name__ == "__main__":
         help="Company name (used for trace + research lookup)",
     )
     parser.add_argument(
+        "--cv-file",
+        default=None,
+        help="Path to the current CV as text/markdown (edit-from baseline)",
+    )
+    parser.add_argument(
+        "--recruiter-file",
+        default=None,
+        help="Path to a text file with the recruiter's LinkedIn post (optional)",
+    )
+    parser.add_argument(
         "--no-research",
         action="store_true",
         help="Skip loading per-company research even if present",
@@ -335,6 +405,20 @@ if __name__ == "__main__":
         raise SystemExit(2)
     role_text = role_path.read_text()
 
+    cv_text = ""
+    if args.cv_file:
+        cv_path = Path(args.cv_file)
+        if not cv_path.exists():
+            print(f"cv file not found: {cv_path}")
+            raise SystemExit(2)
+        cv_text = cv_path.read_text()
+
+    recruiter_text = ""
+    if args.recruiter_file:
+        rp = Path(args.recruiter_file)
+        if rp.exists():
+            recruiter_text = rp.read_text()
+
     # Allow explicit research suppression for testing
     research = None
     if not args.no_research:
@@ -344,6 +428,8 @@ if __name__ == "__main__":
     trace = draft(
         role_text=role_text,
         company_name=args.company,
+        current_cv_text=cv_text,
+        recruiter_post=recruiter_text,
         company_research=research,
     )
 

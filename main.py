@@ -373,19 +373,28 @@ def main():
         except Exception as e:
             print(f"  ! insights regen failed: {e}")
 
-        try:
-            print("\n=== Stage 5b: Market research (web search) ===")
-            from market_research import run as run_market
-            run_market()
-        except Exception as e:
-            print(f"  ! market research failed: {e}")
+        # Stages 5b/5c hit web_search — billed per call AND search results are
+        # billed as input tokens. OFF by default per Lior's spend rule
+        # (see PLAYBOOK.md §4). Opt in via env flag when she authorizes.
+        if os.getenv("REGENERATE_MARKET", "").lower() in ("1", "true", "yes"):
+            try:
+                print("\n=== Stage 5b: Market research (web search) ===")
+                from market_research import run as run_market
+                run_market()
+            except Exception as e:
+                print(f"  ! market research failed: {e}")
+        else:
+            print("\n=== Stage 5b skipped (REGENERATE_MARKET not set) ===")
 
-        try:
-            print("\n=== Stage 5c: New-company discovery (web search) ===")
-            from discovery import run as run_discovery
-            run_discovery()
-        except Exception as e:
-            print(f"  ! discovery failed: {e}")
+        if os.getenv("REGENERATE_DISCOVERY", "").lower() in ("1", "true", "yes"):
+            try:
+                print("\n=== Stage 5c: New-company discovery (web search) ===")
+                from discovery import run as run_discovery
+                run_discovery()
+            except Exception as e:
+                print(f"  ! discovery failed: {e}")
+        else:
+            print("\n=== Stage 5c skipped (REGENERATE_DISCOVERY not set) ===")
 
         # Phase 3 (per-company deep dive of 148 companies) is opt-in only —
         # too expensive (~$10) for every weekly cron. Trigger via:

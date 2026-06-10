@@ -96,7 +96,14 @@ def run_agent(
             response = client.messages.create(
                 model=model,
                 max_tokens=max_tokens,
-                system=system_prompt,
+                # Cache the static system prompt (training corpus, profile,
+                # skills). Reads cost 0.1x within the 5-min TTL — multiple
+                # drafts/observer rounds in one sitting reuse the prefix.
+                system=[{
+                    "type": "text",
+                    "text": system_prompt,
+                    "cache_control": {"type": "ephemeral"},
+                }],
                 tools=tool_specs,
                 messages=messages,
             )

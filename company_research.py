@@ -97,13 +97,22 @@ def fetch_companies(notion):
     return out
 
 
+# Cost model per call (Haiku 4.5, max_uses=1): ~8-10k input ($0.01) + ~700
+# output ($0.0035) + $0.01 search fee ≈ $0.02-0.025. The 06-04 Sonnet run with
+# unlimited searches averaged ~$0.25/call — search RESULTS billed as input
+# were the dominant cost. See PLAYBOOK.md §1.
+_IN_RATE, _OUT_RATE, _SEARCH_FEE = 1.0 / 1e6, 5.0 / 1e6, 0.01
+
+
 def research_one(client, company, retries=2):
-    """Claude + web_search call to research one company."""
+    """Claude + web_search call to research one company.
+
+    Returns (research_dict, est_cost_usd)."""
     prompt = (
         f"Research the current ({date.today().isoformat()}) state of **{company['name']}**.\n\n"
         f"Context I already have: Tier {company.get('tier')}, "
         f"Priority {company.get('priority')}, Notes: {company.get('notes')[:200] if company.get('notes') else ''}\n\n"
-        "Use web search for fresh news (Apr–Jun 2026 preferred). Skip filler. "
+        "Do ONE focused web search for fresh news (Apr–Jun 2026 preferred). Skip filler. "
         "Output ONLY a JSON object — no markdown, no code fences, no preamble — with this shape:\n"
         '{\n'
         '  "status_summary": "1 sentence: actively hiring / paused / layoffs / acquired / etc.",\n'
@@ -118,20 +127,25 @@ def research_one(client, company, retries=2):
     for attempt in range(retries):
         try:
             resp = client.messages.create(
-                model="claude-sonnet-4-6",
+                model="claude-haiku-4-5",
                 max_tokens=1200,
-                tools=[{"type": "web_search_20250305", "name": "web_search"}],
+                tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 1}],
                 messages=[{"role": "user", "content": prompt}],
             )
+            u = getattr(resp, "usage", None)
+            cost = _SEARCH_FEE
+            if u is not None:
+                cost += (getattr(u, "input_tokens", 0) or 0) * _IN_RATE
+                cost += (getattr(u, "output_tokens", 0) or 0) * _OUT_RATE
             text = "".join(b.text for b in resp.content if hasattr(b, "text")).strip()
             # Find the JSON object (last {...} block — model may have web_search reasoning text first)
             m = re.search(r"\{.*\}", text, re.DOTALL)
             if not m:
-                return {"error": f"no json: {text[:200]}"}
+                return {"error": f"no json: {text[:200]}"}, cost
             try:
-                return json.loads(m.group(0))
+                return json.loads(m.group(0)), cost
             except json.JSONDecodeError as e:
-                return {"error": f"parse: {e}", "raw": m.group(0)[:300]}
+                return {"error": f"parse: {e}", "raw": m.group(0)[:300]}, cost
         except Exception as e:
             err = str(e)
             if ("429" in err or "rate_limit" in err) and attempt < retries - 1:
@@ -139,15 +153,21 @@ def research_one(client, company, retries=2):
                 print(f"    rate-limited, waiting {wait}s …")
                 time.sleep(wait)
                 continue
-            return {"error": err[:200]}
-    return {"error": "exhausted retries"}
+            return {"error": err[:200]}, 0.0
+    return {"error": "exhausted retries"}, 0.0
 
 
-def run(only_priority=None, limit=None):
+_PRIORITY_RANK = {"Top Target": 0, "High": 1, "Medium": 2, "Low": 3}
+
+
+def run(only_priority=None, limit=None, budget=None, errored_only=False):
     """Run the full company research.
 
     only_priority: list like ['Top Target','High'] to filter — None = all.
     limit: cap for testing.
+    budget: hard USD cap — stop cleanly when estimated spend reaches it.
+    errored_only: only research companies whose existing report has an error
+        (or no report) — for re-running a partially-failed batch.
     """
     if not NOTION_TOKEN or not ANTHROPIC_API_KEY:
         print("ERROR: missing keys")
@@ -160,18 +180,42 @@ def run(only_priority=None, limit=None):
     warm_by_co = load_warm_intros()
     if only_priority:
         companies = [c for c in companies if c.get("priority") in only_priority]
+
+    out_dir_check = Path(__file__).parent / "reports" / "companies"
+    if errored_only:
+        def _needs_rerun(co):
+            p = out_dir_check / f"{slugify(co['name'])}.json"
+            if not p.exists():
+                return True
+            try:
+                return "error" in (json.loads(p.read_text()).get("research") or {"error": 1})
+            except Exception:
+                return True
+        companies = [c for c in companies if _needs_rerun(c)]
+
+    # Highest-leverage first: priority rank, then warm-intro count desc.
+    companies.sort(key=lambda c: (
+        _PRIORITY_RANK.get(c.get("priority"), 9),
+        -len(warm_by_co.get(normalize_for_match(c["name"]), [])),
+    ))
     if limit:
         companies = companies[:limit]
-    print(f"  {len(companies)} companies to research  ·  {sum(len(v) for v in warm_by_co.values())} warm intros indexed")
+    print(f"  {len(companies)} companies to research  ·  {sum(len(v) for v in warm_by_co.values())} warm intros indexed"
+          + (f"  ·  budget ${budget:.2f}" if budget else ""))
 
     today = date.today().isoformat()
     out_dir = Path(__file__).parent / "reports" / "companies"
     out_dir.mkdir(parents=True, exist_ok=True)
 
     index = []
+    spent = 0.0
     for i, co in enumerate(companies, 1):
         slug = slugify(co["name"])
         path = out_dir / f"{slug}.json"
+
+        if budget and spent >= budget:
+            print(f"  BUDGET REACHED (${spent:.2f} of ${budget:.2f}) — stopping cleanly at {i-1}/{len(companies)}")
+            break
 
         # Resume — skip if this run already has a JSON for this company
         existing_today = False
@@ -188,7 +232,8 @@ def run(only_priority=None, limit=None):
             data = json.loads(path.read_text())
         else:
             print(f"  [{i:3}/{len(companies)}] research {co['name']}")
-            research = research_one(client, co)
+            research, cost = research_one(client, co)
+            spent += cost
             intros = warm_by_co.get(normalize_for_match(co["name"]), [])
             data = {
                 "generated": today,
@@ -198,7 +243,7 @@ def run(only_priority=None, limit=None):
                 "intro_count": len(intros),
             }
             path.write_text(json.dumps(data, indent=2))
-            time.sleep(35)  # web_search rate-limit pacing
+            time.sleep(15)  # pacing — Haiku w/ max_uses=1 is light on the search rate limit
 
         index.append({
             "slug": slug,
@@ -214,6 +259,7 @@ def run(only_priority=None, limit=None):
     index_path = Path(__file__).parent / "reports" / f"companies_index_{today}.json"
     index_path.write_text(json.dumps({"generated": today, "companies": index}, indent=2))
     print(f"Wrote {index_path}")
+    print(f"Estimated spend this run: ${spent:.2f}")
     return str(index_path)
 
 
@@ -222,6 +268,8 @@ if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("--priority", help="comma-separated: Top Target,High,Medium,Low")
     p.add_argument("--limit", type=int, default=None)
+    p.add_argument("--budget", type=float, default=None, help="hard USD cap; stops cleanly when reached")
+    p.add_argument("--errored-only", action="store_true", help="only re-run companies whose report errored")
     args = p.parse_args()
     pri = [s.strip() for s in args.priority.split(",")] if args.priority else None
-    run(only_priority=pri, limit=args.limit)
+    run(only_priority=pri, limit=args.limit, budget=args.budget, errored_only=args.errored_only)

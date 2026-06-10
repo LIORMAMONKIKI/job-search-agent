@@ -403,7 +403,13 @@ def main():
             try:
                 print("\n=== Stage 5d: Per-company deep dive ===")
                 from company_research import run as run_co_research
-                run_co_research()
+                # Less-frequent cadence (Lior, 2026-06-10): when enabled, only
+                # refresh high-priority companies, under a hard budget cap.
+                # Full sweeps are manual via company_research.py CLI.
+                run_co_research(
+                    only_priority=["Top Target", "High"],
+                    budget=float(os.getenv("RESEARCH_BUDGET", "1.0")),
+                )
             except Exception as e:
                 print(f"  ! company research failed: {e}")
 

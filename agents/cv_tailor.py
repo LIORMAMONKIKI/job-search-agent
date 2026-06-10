@@ -51,14 +51,10 @@ _REPO_ROOT = Path(__file__).resolve().parent.parent
 _SKILLS_PATH = _REPO_ROOT / "SKILLS.md"
 
 # Lior's CV-process training material — lives OUTSIDE the repo (personal,
-# not committed). Consolidated guide + the Wiz worked example.
+# not committed). Consolidated guide + worked examples (Wiz, Moon Active, ...).
+# Auto-discovered: every .md under AGENT_TRAINING/, consolidated guide first,
+# so new worked examples are picked up without code changes.
 _TRAINING_DIR = _REPO_ROOT.parent / "AGENT_TRAINING"
-_TRAINING_FILES = [
-    _TRAINING_DIR / "Lior_CV_Agent_Training.md",
-    _TRAINING_DIR / "wiz_worked_example" / "STYLE_REASONING.md",
-    _TRAINING_DIR / "wiz_worked_example" / "EDITING_PROCESS_Wiz_CV.md",
-    _TRAINING_DIR / "wiz_worked_example" / "JOB_DESCRIPTION_Wiz.md",
-]
 
 
 def _load_skills() -> str:
@@ -68,12 +64,21 @@ def _load_skills() -> str:
 
 
 def _load_training() -> str:
-    """Concatenate the AGENT_TRAINING corpus. Empty string if absent —
-    the drafter still works, just without the learned voice/process."""
+    """Concatenate the AGENT_TRAINING corpus (all .md files, recursively).
+    Consolidated guide first, then worked examples grouped by folder.
+    Empty string if absent — the drafter still works, just without the
+    learned voice/process."""
+    if not _TRAINING_DIR.exists():
+        return ""
+    files = sorted(
+        _TRAINING_DIR.rglob("*.md"),
+        # Top-level guide first, then by path so each example's files group
+        key=lambda p: (len(p.relative_to(_TRAINING_DIR).parts), str(p)),
+    )
     parts = []
-    for p in _TRAINING_FILES:
-        if p.exists():
-            parts.append(f"\n### {p.name}\n\n{p.read_text()}")
+    for p in files:
+        rel = p.relative_to(_TRAINING_DIR)
+        parts.append(f"\n### {rel}\n\n{p.read_text()}")
     return "\n".join(parts)
 
 

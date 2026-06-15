@@ -1,0 +1,1391 @@
+{
+  "generated": "2026-06-15",
+  "buckets": {
+    "overall": {
+      "label": "Overall",
+      "n_roles": 1824,
+      "n_total_including_archived": 1831,
+      "top_titles": [
+        [
+          "Data Analyst",
+          157
+        ],
+        [
+          "Marketing Analyst",
+          74
+        ],
+        [
+          "Business Analyst",
+          73
+        ],
+        [
+          "Generative AI Associate",
+          38
+        ],
+        [
+          "Product Analyst",
+          33
+        ],
+        [
+          "Solutions Engineer",
+          27
+        ],
+        [
+          "AI Solutions Engineer",
+          20
+        ],
+        [
+          "Growth Analyst - AI Trainer",
+          19
+        ],
+        [
+          "AI Engineer",
+          17
+        ],
+        [
+          "AI Trainer - Freelance Data Annotator",
+          14
+        ],
+        [
+          "Technical Artist",
+          13
+        ],
+        [
+          "Business Data Analyst",
+          12
+        ],
+        [
+          "Analyst",
+          12
+        ],
+        [
+          "Product Data Analyst",
+          10
+        ],
+        [
+          "Growth Analyst",
+          10
+        ],
+        [
+          "Generative AI Engineer",
+          9
+        ],
+        [
+          "Creative Technologist",
+          9
+        ],
+        [
+          "Creative Strategist",
+          8
+        ],
+        [
+          "Prompt Engineer",
+          8
+        ],
+        [
+          "AI Lead",
+          7
+        ],
+        [
+          "AI Analyst",
+          7
+        ],
+        [
+          "Business Intelligence Analyst",
+          7
+        ],
+        [
+          "AI Solutions Analyst",
+          7
+        ],
+        [
+          "Creative Specialist",
+          6
+        ],
+        [
+          "AI",
+          6
+        ]
+      ],
+      "top_matched_skills": [
+        [
+          "A/B testing",
+          405
+        ],
+        [
+          "SQL",
+          379
+        ],
+        [
+          "Data-driven storytelling",
+          271
+        ],
+        [
+          "Dashboarding / metrics design",
+          234
+        ],
+        [
+          "Tableau",
+          211
+        ],
+        [
+          "Prompt engineering",
+          147
+        ],
+        [
+          "model evaluation",
+          141
+        ],
+        [
+          "Experiment design",
+          117
+        ],
+        [
+          "Visual direction",
+          89
+        ],
+        [
+          "Content strategy",
+          62
+        ],
+        [
+          "API integration",
+          61
+        ],
+        [
+          "cross-functional partnership (engineering/data science)",
+          55
+        ],
+        [
+          "Analytical thinking",
+          52
+        ],
+        [
+          "Motion graphics",
+          44
+        ],
+        [
+          "ComfyUI",
+          36
+        ],
+        [
+          "Creative brief interpretation",
+          31
+        ],
+        [
+          "Python",
+          30
+        ],
+        [
+          "After Effects",
+          25
+        ],
+        [
+          "Teaching / mentoring",
+          20
+        ],
+        [
+          "Python (Pandas / NumPy / Scikit-learn)",
+          19
+        ],
+        [
+          "Stakeholder management",
+          18
+        ],
+        [
+          "ElevenLabs (11Labs)",
+          18
+        ],
+        [
+          "aesthetic QA",
+          15
+        ],
+        [
+          "Video production",
+          14
+        ],
+        [
+          "Documentation / methodology design",
+          14
+        ],
+        [
+          "Automation",
+          13
+        ],
+        [
+          "Editing",
+          12
+        ],
+        [
+          "AI image / video generation",
+          10
+        ],
+        [
+          "Multi-channel experimentation",
+          9
+        ],
+        [
+          "content systems / taxonomy design",
+          8
+        ],
+        [
+          "Adobe Premiere",
+          8
+        ],
+        [
+          "LoRA training",
+          7
+        ],
+        [
+          "Verbal communication / presenting",
+          7
+        ],
+        [
+          "Agent workflows",
+          6
+        ],
+        [
+          "Engagement / KPI optimization",
+          6
+        ],
+        [
+          "Scriptwriting",
+          6
+        ],
+        [
+          "vibe coding",
+          5
+        ],
+        [
+          "VFX / Compositing",
+          5
+        ],
+        [
+          "Figma",
+          5
+        ],
+        [
+          "Project management",
+          5
+        ]
+      ],
+      "top_gap_skills": [
+        [
+          "Backend/infra engineering",
+          60
+        ],
+        [
+          "Agent workflows",
+          28
+        ],
+        [
+          "LoRA dataset design",
+          16
+        ],
+        [
+          "Enterprise sales engineering",
+          15
+        ],
+        [
+          "Performance marketing analytics",
+          5
+        ],
+        [
+          "Data pipelines",
+          5
+        ],
+        [
+          "Bangkok relocation readiness",
+          4
+        ],
+        [
+          "product management",
+          4
+        ],
+        [
+          "Pricing analytics",
+          4
+        ],
+        [
+          "Higher education account management",
+          4
+        ],
+        [
+          "Machine learning basics",
+          3
+        ],
+        [
+          "LangChain",
+          3
+        ],
+        [
+          "Agent workflows (production-level)",
+          3
+        ],
+        [
+          "Technical Program Management",
+          3
+        ],
+        [
+          "Instructional design (formal)",
+          3
+        ],
+        [
+          "LATAM market knowledge",
+          3
+        ],
+        [
+          "Marketing mix modeling",
+          3
+        ],
+        [
+          "Financial services domain knowledge",
+          3
+        ],
+        [
+          "B2B sales / account management",
+          3
+        ],
+        [
+          "Marketing attribution modeling",
+          3
+        ]
+      ],
+      "build_from_tags": [
+        [
+          "Brand",
+          709
+        ],
+        [
+          "Relocation",
+          620
+        ],
+        [
+          "Trajectory",
+          357
+        ],
+        [
+          "Promotion",
+          47
+        ]
+      ],
+      "skill_match_distribution": [
+        [
+          "Low",
+          1522
+        ],
+        [
+          "Medium",
+          256
+        ],
+        [
+          "High",
+          40
+        ],
+        [
+          "Reject",
+          6
+        ]
+      ]
+    },
+    "israel": {
+      "label": "Israel",
+      "n_roles": 444,
+      "n_total_including_archived": 448,
+      "top_titles": [
+        [
+          "Data Analyst",
+          54
+        ],
+        [
+          "Business Analyst",
+          26
+        ],
+        [
+          "Product Analyst",
+          15
+        ],
+        [
+          "Marketing Analyst",
+          14
+        ],
+        [
+          "AI Engineer",
+          11
+        ],
+        [
+          "Analyst",
+          8
+        ],
+        [
+          "AI Lead",
+          7
+        ],
+        [
+          "Product Data Analyst",
+          6
+        ],
+        [
+          "Generative AI Engineer",
+          6
+        ],
+        [
+          "Business Data Analyst",
+          5
+        ],
+        [
+          "Solutions Engineer",
+          5
+        ],
+        [
+          "Prompt Engineer",
+          5
+        ],
+        [
+          "Technical Artist",
+          5
+        ],
+        [
+          "Online Data Analyst",
+          4
+        ],
+        [
+          "Marketing Data Analyst",
+          4
+        ],
+        [
+          "AI Team Lead",
+          4
+        ],
+        [
+          "AI",
+          4
+        ],
+        [
+          "AI Solutions Engineer",
+          4
+        ],
+        [
+          "Analytics Engineer",
+          3
+        ],
+        [
+          "AI Product Manager",
+          3
+        ],
+        [
+          "AI Developer",
+          3
+        ],
+        [
+          "Creative AI-Solutions Specialist",
+          3
+        ],
+        [
+          "Creative Specialist",
+          2
+        ],
+        [
+          "Product Analyst - monday Agents",
+          2
+        ],
+        [
+          "Analyst/ Associate Manager, Marketing Strategy",
+          2
+        ]
+      ],
+      "top_matched_skills": [
+        [
+          "SQL",
+          161
+        ],
+        [
+          "A/B testing",
+          153
+        ],
+        [
+          "Data-driven storytelling",
+          113
+        ],
+        [
+          "Dashboarding / metrics design",
+          96
+        ],
+        [
+          "Tableau",
+          91
+        ],
+        [
+          "Experiment design",
+          74
+        ],
+        [
+          "Analytical thinking",
+          25
+        ],
+        [
+          "model evaluation",
+          25
+        ],
+        [
+          "Prompt engineering",
+          24
+        ],
+        [
+          "cross-functional partnership (engineering/data science)",
+          19
+        ],
+        [
+          "Python (Pandas / NumPy / Scikit-learn)",
+          12
+        ],
+        [
+          "API integration",
+          12
+        ],
+        [
+          "Content strategy",
+          11
+        ],
+        [
+          "Visual direction",
+          10
+        ],
+        [
+          "ComfyUI",
+          8
+        ],
+        [
+          "Python",
+          6
+        ],
+        [
+          "Motion graphics",
+          6
+        ],
+        [
+          "vibe coding",
+          4
+        ],
+        [
+          "Multi-channel experimentation",
+          4
+        ],
+        [
+          "Engagement / KPI optimization",
+          4
+        ],
+        [
+          "Stakeholder management",
+          3
+        ],
+        [
+          "Creative brief interpretation",
+          3
+        ],
+        [
+          "Pattern recognition / aesthetic judgment",
+          3
+        ],
+        [
+          "LoRA training",
+          3
+        ],
+        [
+          "aesthetic QA",
+          3
+        ],
+        [
+          "Editing",
+          2
+        ],
+        [
+          "Agent workflows",
+          2
+        ],
+        [
+          "AI image / video generation",
+          2
+        ],
+        [
+          "Automation",
+          2
+        ],
+        [
+          "Adobe Premiere",
+          2
+        ],
+        [
+          "After Effects",
+          2
+        ],
+        [
+          "content systems / taxonomy design",
+          2
+        ],
+        [
+          "Project management",
+          2
+        ],
+        [
+          "Machine learning basics",
+          1
+        ],
+        [
+          "Written communication",
+          1
+        ],
+        [
+          "VFX / Compositing",
+          1
+        ],
+        [
+          "Teaching / mentoring",
+          1
+        ],
+        [
+          "Video production",
+          1
+        ]
+      ],
+      "top_gap_skills": [
+        [
+          "Backend/infra engineering",
+          17
+        ],
+        [
+          "Performance marketing analytics",
+          5
+        ],
+        [
+          "Agent workflows",
+          5
+        ],
+        [
+          "Bangkok relocation readiness",
+          4
+        ],
+        [
+          "LoRA dataset design",
+          4
+        ],
+        [
+          "Pricing analytics",
+          4
+        ],
+        [
+          "Data pipelines",
+          3
+        ],
+        [
+          "Marketing attribution modeling",
+          3
+        ],
+        [
+          "Medical/clinical domain knowledge",
+          2
+        ],
+        [
+          "Travel/OTA domain knowledge",
+          2
+        ],
+        [
+          "Display/programmatic advertising",
+          2
+        ],
+        [
+          "Travel/hospitality domain knowledge",
+          2
+        ],
+        [
+          "LangChain",
+          2
+        ],
+        [
+          "DBT / data modeling",
+          2
+        ],
+        [
+          "Backend data pipelines",
+          2
+        ],
+        [
+          "Fraud domain knowledge",
+          2
+        ],
+        [
+          "Travel/hospitality domain",
+          2
+        ],
+        [
+          "Marketing mix modeling",
+          2
+        ],
+        [
+          "B2B SaaS product ownership",
+          2
+        ],
+        [
+          "AI governance / control plane concepts",
+          2
+        ]
+      ],
+      "build_from_tags": [
+        [
+          "Relocation",
+          165
+        ],
+        [
+          "Trajectory",
+          142
+        ],
+        [
+          "Brand",
+          99
+        ],
+        [
+          "Promotion",
+          25
+        ]
+      ],
+      "skill_match_distribution": [
+        [
+          "Low",
+          323
+        ],
+        [
+          "Medium",
+          108
+        ],
+        [
+          "High",
+          11
+        ],
+        [
+          "Reject",
+          2
+        ]
+      ]
+    },
+    "international": {
+      "label": "International (anywhere not Israel)",
+      "n_roles": 1129,
+      "n_total_including_archived": 1132,
+      "top_titles": [
+        [
+          "Data Analyst",
+          64
+        ],
+        [
+          "Generative AI Associate",
+          37
+        ],
+        [
+          "Business Analyst",
+          30
+        ],
+        [
+          "Marketing Analyst",
+          28
+        ],
+        [
+          "Growth Analyst - AI Trainer",
+          19
+        ],
+        [
+          "Product Analyst",
+          14
+        ],
+        [
+          "Solutions Engineer",
+          14
+        ],
+        [
+          "AI Trainer - Freelance Data Annotator",
+          12
+        ],
+        [
+          "AI Solutions Engineer",
+          11
+        ],
+        [
+          "Creative Strategist",
+          8
+        ],
+        [
+          "Growth Analyst",
+          8
+        ],
+        [
+          "Technical Artist",
+          7
+        ],
+        [
+          "Creative Technologist",
+          7
+        ],
+        [
+          "AI Analyst",
+          6
+        ],
+        [
+          "Experimentation Analyst - AI Trainer",
+          6
+        ],
+        [
+          "Creative Producer",
+          6
+        ],
+        [
+          "AI Solutions Analyst",
+          6
+        ],
+        [
+          "AI Engineer",
+          6
+        ],
+        [
+          "Applied AI Engineer",
+          5
+        ],
+        [
+          "Artificial Intelligence Engineer",
+          5
+        ],
+        [
+          "Business Data Analyst",
+          4
+        ],
+        [
+          "Product Data Analyst",
+          4
+        ],
+        [
+          "AI Deployment Engineer",
+          4
+        ],
+        [
+          "Solutions Engineer, Large Enterprise",
+          4
+        ],
+        [
+          "Solutions Engineer, Digital Natives",
+          4
+        ]
+      ],
+      "top_matched_skills": [
+        [
+          "A/B testing",
+          183
+        ],
+        [
+          "SQL",
+          167
+        ],
+        [
+          "Data-driven storytelling",
+          120
+        ],
+        [
+          "Prompt engineering",
+          106
+        ],
+        [
+          "model evaluation",
+          103
+        ],
+        [
+          "Tableau",
+          91
+        ],
+        [
+          "Dashboarding / metrics design",
+          88
+        ],
+        [
+          "Visual direction",
+          69
+        ],
+        [
+          "API integration",
+          47
+        ],
+        [
+          "Content strategy",
+          45
+        ],
+        [
+          "Experiment design",
+          38
+        ],
+        [
+          "cross-functional partnership (engineering/data science)",
+          35
+        ],
+        [
+          "Motion graphics",
+          33
+        ],
+        [
+          "ComfyUI",
+          26
+        ],
+        [
+          "Creative brief interpretation",
+          25
+        ],
+        [
+          "Analytical thinking",
+          24
+        ],
+        [
+          "Python",
+          23
+        ],
+        [
+          "Teaching / mentoring",
+          19
+        ],
+        [
+          "After Effects",
+          18
+        ],
+        [
+          "ElevenLabs (11Labs)",
+          18
+        ],
+        [
+          "Stakeholder management",
+          15
+        ],
+        [
+          "Documentation / methodology design",
+          13
+        ],
+        [
+          "aesthetic QA",
+          11
+        ],
+        [
+          "Automation",
+          11
+        ],
+        [
+          "Video production",
+          10
+        ],
+        [
+          "Verbal communication / presenting",
+          7
+        ],
+        [
+          "Editing",
+          7
+        ],
+        [
+          "AI image / video generation",
+          6
+        ],
+        [
+          "content systems / taxonomy design",
+          6
+        ],
+        [
+          "Scriptwriting",
+          6
+        ],
+        [
+          "Python (Pandas / NumPy / Scikit-learn)",
+          5
+        ],
+        [
+          "Figma",
+          5
+        ],
+        [
+          "Brand campaigns end-to-end",
+          4
+        ],
+        [
+          "Brand content",
+          4
+        ],
+        [
+          "Color grading",
+          4
+        ],
+        [
+          "LoRA training",
+          3
+        ],
+        [
+          "Written communication",
+          3
+        ],
+        [
+          "VFX / Compositing",
+          3
+        ],
+        [
+          "Agent workflows",
+          3
+        ],
+        [
+          "Multi-channel experimentation",
+          3
+        ]
+      ],
+      "top_gap_skills": [
+        [
+          "Backend/infra engineering",
+          39
+        ],
+        [
+          "Agent workflows",
+          22
+        ],
+        [
+          "Enterprise sales engineering",
+          15
+        ],
+        [
+          "LoRA dataset design",
+          11
+        ],
+        [
+          "Higher education account management",
+          4
+        ],
+        [
+          "product management",
+          3
+        ],
+        [
+          "Agent workflows (production-level)",
+          3
+        ],
+        [
+          "Technical Program Management",
+          3
+        ],
+        [
+          "Instructional design (formal)",
+          3
+        ],
+        [
+          "LATAM market knowledge",
+          3
+        ],
+        [
+          "B2B sales / account management",
+          3
+        ],
+        [
+          "Business systems analysis",
+          2
+        ],
+        [
+          "Program/project management at scale",
+          2
+        ],
+        [
+          "Fraud/trust & safety investigations",
+          2
+        ],
+        [
+          "Identity verification / KYC",
+          2
+        ],
+        [
+          "IT security / compliance (B2B SaaS)",
+          2
+        ],
+        [
+          "team management / people leadership",
+          2
+        ],
+        [
+          "Supply chain domain knowledge",
+          2
+        ],
+        [
+          "Financial services domain knowledge",
+          2
+        ],
+        [
+          "L&D program design",
+          2
+        ]
+      ],
+      "build_from_tags": [
+        [
+          "Brand",
+          583
+        ],
+        [
+          "Relocation",
+          441
+        ],
+        [
+          "Trajectory",
+          187
+        ],
+        [
+          "Promotion",
+          18
+        ]
+      ],
+      "skill_match_distribution": [
+        [
+          "Low",
+          973
+        ],
+        [
+          "Medium",
+          126
+        ],
+        [
+          "High",
+          29
+        ],
+        [
+          "Reject",
+          1
+        ]
+      ]
+    }
+  },
+  "gaps": {
+    "overall": [
+      {
+        "skill": "Backend/infra engineering",
+        "demand_count": 60,
+        "lior_level": "Gap"
+      },
+      {
+        "skill": "Agent workflows",
+        "demand_count": 28,
+        "lior_level": "Learning"
+      },
+      {
+        "skill": "LoRA dataset design",
+        "demand_count": 16,
+        "lior_level": "Gap"
+      },
+      {
+        "skill": "Enterprise sales engineering",
+        "demand_count": 15,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Performance marketing analytics",
+        "demand_count": 5,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Data pipelines",
+        "demand_count": 5,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Bangkok relocation readiness",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "product management",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Pricing analytics",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Higher education account management",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Machine learning basics",
+        "demand_count": 3,
+        "lior_level": "Familiar"
+      },
+      {
+        "skill": "LangChain",
+        "demand_count": 3,
+        "lior_level": "Learning"
+      },
+      {
+        "skill": "Agent workflows (production-level)",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Technical Program Management",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Instructional design (formal)",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      }
+    ],
+    "israel": [
+      {
+        "skill": "Backend/infra engineering",
+        "demand_count": 17,
+        "lior_level": "Gap"
+      },
+      {
+        "skill": "Performance marketing analytics",
+        "demand_count": 5,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Agent workflows",
+        "demand_count": 5,
+        "lior_level": "Learning"
+      },
+      {
+        "skill": "Bangkok relocation readiness",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "LoRA dataset design",
+        "demand_count": 4,
+        "lior_level": "Gap"
+      },
+      {
+        "skill": "Pricing analytics",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Data pipelines",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Marketing attribution modeling",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Medical/clinical domain knowledge",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Travel/OTA domain knowledge",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Display/programmatic advertising",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Travel/hospitality domain knowledge",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "LangChain",
+        "demand_count": 2,
+        "lior_level": "Learning"
+      },
+      {
+        "skill": "DBT / data modeling",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Backend data pipelines",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      }
+    ],
+    "international": [
+      {
+        "skill": "Backend/infra engineering",
+        "demand_count": 39,
+        "lior_level": "Gap"
+      },
+      {
+        "skill": "Agent workflows",
+        "demand_count": 22,
+        "lior_level": "Learning"
+      },
+      {
+        "skill": "Enterprise sales engineering",
+        "demand_count": 15,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "LoRA dataset design",
+        "demand_count": 11,
+        "lior_level": "Gap"
+      },
+      {
+        "skill": "Higher education account management",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "product management",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Agent workflows (production-level)",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Technical Program Management",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Instructional design (formal)",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "LATAM market knowledge",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "B2B sales / account management",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Business systems analysis",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Program/project management at scale",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Fraud/trust & safety investigations",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Identity verification / KYC",
+        "demand_count": 2,
+        "lior_level": "Not listed"
+      }
+    ]
+  }
+}

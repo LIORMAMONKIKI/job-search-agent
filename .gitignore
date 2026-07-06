@@ -47,3 +47,6 @@ agents/revisions/*.json
 !agents/revisions/.gitkeep
 # Editor backups
 *.bak
+
+# Scraped/Hunter contact data — personal emails, public repo: never commit
+reports/contact_channels.json

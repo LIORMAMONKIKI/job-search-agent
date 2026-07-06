@@ -236,3 +236,6 @@ Lightricks. Currently being closed via IC-LoRA cinematic-look project (Q2 2026).
 For Luma-tier Technical Artist roles, flag as "stretch" until the artifact
 ships. Other roles (Evangelist, Producer, Generalist) don't have this bar.
 """
+
+# ---- Hunter.io (email pattern finding, free tier: 25 searches/mo) ----
+HUNTER_API_KEY = os.getenv("HUNTER_API_KEY")

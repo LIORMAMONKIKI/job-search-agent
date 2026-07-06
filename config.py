@@ -28,8 +28,10 @@ GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
 # Senders whose emails we scan for job listings. Add more as you subscribe.
 GMAIL_ALERT_SENDERS = [
     "jobs-noreply@linkedin.com",       # LinkedIn saved-search alerts
+    "jobalerts-noreply@linkedin.com",  # LinkedIn job alerts (actual 2026 sender)
     "jobs-listings@linkedin.com",
     "joblisting@linkedin.com",
+    "donotreply@jobalert.indeed.com",  # Indeed job alerts (actual 2026 sender)
     "noreply@otta.com",                # Otta / Welcome to the Jungle
     "jobalerts@otta.com",
     "team@otta.com",

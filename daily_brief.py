@@ -48,12 +48,20 @@ STRONG = [
     "ai artist", "creative producer", "ai producer", "technical artist",
     "ai filmmaker", "ai content", "creative specialist", "midjourney",
     "stable diffusion", "text-to-video", "text to video",
+    # skill-first titles (2026-07 expansion — hunt bundles, not labels)
+    "forward deployed", "model quality", "human data", "ai trainer",
+    "scientific visualization", "creative operations", "content operations",
+    "aesthetics", "preference data", "multimodal evaluation",
+    "content intelligence", "creative research", "research resident",
 ]
 ADJACENT = [
     "ai specialist", "prompt", "ai enablement", "ai strategist",
     "creative lead", "motion design", "motion graphics", "storytelling",
     "workflow", "ai transformation", "creative workflow", "visual",
-    "video editor", "ai trainer", "ai evaluator", "ai quality",
+    "video editor", "ai evaluator", "ai quality",
+    "solutions engineer", "sales engineer", "technical account manager",
+    "content automation", "marketing technologist", "data visualization",
+    "annotation lead", "trust and safety", "synthetic media",
 ]
 NOISE = [
     "accountant", "user acquisition", "backend", "software engineer",

@@ -25,19 +25,35 @@ from pathlib import Path
 
 from config import GMAIL_USER, GMAIL_APP_PASSWORD
 
-# Senders worth scanning (the real 2026 senders, verified against the inbox)
+# Domain-level senders — IMAP FROM does substring matching, so a domain
+# catches every alert address that platform uses (and survives their renames).
+# The lane scorer downstream filters any non-job mail that slips in.
 BRIEF_SENDERS = [
+    # major boards (verified live in Lior's inbox)
+    "jobalert.indeed.com",
     "jobalerts-noreply@linkedin.com",
     "jobs-noreply@linkedin.com",
-    "donotreply@jobalert.indeed.com",
-    "noreply@glassdoor.com",
-    "jobs@wellfound.com",
-    "no-reply@ziprecruiter.com",
-    "team@otta.com",
-    # niche boards — will light up once Lior signs up for their alerts
-    "hello@curiousrefuge.com",
-    "notifications@himalayas.app",
-    "jobs@arc.dev",
+    "glassdoor.com",
+    "ziprecruiter.com",
+    "wellfound.com",
+    "otta.com",
+    # niche boards — light up on signup
+    "curiousrefuge.com",
+    "himalayas.app",
+    "arc.dev",
+    "aijobs.net",
+    "twine.net",
+    "usebraintrust.com",
+    # freelance marketplaces
+    "upwork.com",
+    "contra.com",
+    # AI expert / human-data platforms — light up on signup
+    "mercor.com",
+    "outlier.ai",
+    "dataannotation.tech",
+    "alignerr.com",
+    "joinhandshake.com",
+    "surgehq.ai",
 ]
 
 # ---- Lane scoring ------------------------------------------------------------

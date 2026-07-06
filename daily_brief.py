@@ -173,6 +173,50 @@ def extract_candidates(subject, body):
     return cands
 
 
+
+# ---- Pipeline section: newly-sourced Notion roles (the half that was mute) ----
+def pipeline_fresh(days=2):
+    """Pull roles the weekly/daily scraper added recently from Notion.
+    Re-scores titles with the lane scorer so judge under-rating can't bury
+    an obviously in-lane role. Returns list of dicts."""
+    try:
+        from notion_client import Client
+        from config import NOTION_TOKEN, SOURCED_ROLES_DATA_SOURCE_ID
+    except Exception:
+        return []
+    cutoff = (datetime.now() - timedelta(days=days)).date().isoformat()
+    try:
+        n = Client(auth=NOTION_TOKEN)
+        rows, cursor = [], None
+        while True:
+            kw = {"data_source_id": SOURCED_ROLES_DATA_SOURCE_ID, "page_size": 100,
+                  "filter": {"property": "Date Sourced", "date": {"on_or_after": cutoff}}}
+            if cursor:
+                kw["start_cursor"] = cursor
+            r = n.data_sources.query(**kw)
+            rows.extend(r["results"])
+            if not r.get("has_more"):
+                break
+            cursor = r.get("next_cursor")
+    except Exception:
+        return []
+    out = []
+    for row in rows:
+        p = row["properties"]
+        t = p["Role Title"]["title"][0]["plain_text"] if p["Role Title"]["title"] else ""
+        judge = ((p.get("Skill-Thread Match", {}).get("select")) or {}).get("name", "—")
+        loc_rt = p.get("Location", {}).get("rich_text") or []
+        loc = loc_rt[0]["plain_text"] if loc_rt else ""
+        url = p.get("JD Link", {}).get("url") or ""
+        lane = score_line(f"{t} {loc}")
+        # surface if the judge liked it OR the lane scorer does (belt+braces)
+        if judge == "High" or lane >= 2 or (judge == "Medium" and lane >= 1):
+            out.append({"title": t, "judge": judge, "lane": lane,
+                        "loc": classify_location(f"{t} {loc}") or loc[:20], "url": url})
+    out.sort(key=lambda e: (-(e["judge"] == "High"), -e["lane"]))
+    return out
+
+
 def run(days=1):
     if not GMAIL_USER or not GMAIL_APP_PASSWORD:
         print("GMAIL_USER / GMAIL_APP_PASSWORD missing in .env")
@@ -237,6 +281,15 @@ def run(days=1):
         for e in maybes[:8]:
             md.append(f"- {e['line']}  _({e['src']})_")
         md.append("")
+    # Pipeline half — newly-scraped roles from Notion (judge + lane rescore)
+    fresh = pipeline_fresh(days=max(days, 2))
+    if fresh:
+        md.append("## 🏭 Fresh from the pipeline (scraper, last 48h)")
+        for e in fresh[:10]:
+            md.append(f"- **{e['title'][:60]}** ({e['loc']}) — judge:{e['judge']} lane:{e['lane']}"
+                      + (f" · [JD]({e['url']})" if e['url'] else ""))
+        md.append("")
+
     md.append("## ✅ The Daily 4")
     md.append("1. [ ] Apply to ONE role (top of the lane list, or carryover)")
     md.append("2. [ ] Send ONE outreach message (warm > cold)")

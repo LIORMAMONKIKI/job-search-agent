@@ -122,6 +122,15 @@ Shared layers:
 
 ---
 
+
+### Lior's channel tips (2026-07-06) — integration map
+
+1. **Comeet** — no central portal; per-company boards. Covered via funding radar → new IL companies added to DB → careers_scraper watches their Comeet boards automatically.
+2. **Funding radar** (build Thursday, task #5): scrape Startup Nation Finder + Geektime/Calcalist funding news weekly → recently-funded IL companies → auto-add to Companies DB → scraper coverage. Funded = hiring.
+3. **Networking** — Wednesday track: Angelica Libkind (Artlist reconnect), Guy Roitberg (Guardio, 1st-degree AI Creative Builder — warm door to live role), Dotan (mentoring), Guy Bar-Hava (Jam scene).
+4. **Community** — Banodoco + Comfy Discord + LTX LoRA Jam (her scene is already playing: Ran Bensimon IC-LoRA workflow). Israeli: GenAI TLV meetups.
+5. **MentMe (mentme.io)** — IL job-search mentoring from ex-recruiters; complementary to Dotan (process-side vs craft-side). One session recommended.
+
 ## 3. Strategic findings — current state
 
 ### Top warm-intro targets (re-prioritized after Lightricks correction)
@@ -199,3 +208,5 @@ for the full rule. Summary:
 - Update at end of each working session with new findings + crossed-off tasks
 - Optional: mirror to a Notion page under JOB_HUNT_HQ_PAGE_ID for at-a-glance
   reference. Currently just MD.
+
+- 🔖 US-later (2026-07-08): **Forward Deployed Creative [US]** — Luma / Dream Lab, LA, $150-200K. Generative-video FDE building AI production workflows with brands. Dead-center profile match; US in-person → watch for OPT window. JD: https://www.linkedin.com/jobs/view/4431530700

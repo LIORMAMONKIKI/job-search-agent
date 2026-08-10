@@ -1,0 +1,1399 @@
+{
+  "generated": "2026-08-10",
+  "buckets": {
+    "overall": {
+      "label": "Overall",
+      "n_roles": 3331,
+      "n_total_including_archived": 3406,
+      "top_titles": [
+        [
+          "Data Analyst",
+          271
+        ],
+        [
+          "Business Analyst",
+          123
+        ],
+        [
+          "Marketing Analyst",
+          110
+        ],
+        [
+          "Product Analyst",
+          93
+        ],
+        [
+          "AI Solutions Engineer",
+          47
+        ],
+        [
+          "Solutions Engineer",
+          42
+        ],
+        [
+          "Generative AI Associate",
+          39
+        ],
+        [
+          "AI Engineer",
+          32
+        ],
+        [
+          "Technical Artist",
+          30
+        ],
+        [
+          "Creative Strategist",
+          23
+        ],
+        [
+          "AI Trainer - Freelance Data Annotator",
+          21
+        ],
+        [
+          "Product Data Analyst",
+          19
+        ],
+        [
+          "Creative Technologist",
+          19
+        ],
+        [
+          "Growth Analyst - AI Trainer",
+          19
+        ],
+        [
+          "Prompt Engineer",
+          18
+        ],
+        [
+          "Business Data Analyst",
+          17
+        ],
+        [
+          "AI Product Manager",
+          16
+        ],
+        [
+          "Analyst - AI Trainer",
+          16
+        ],
+        [
+          "Growth Analyst",
+          15
+        ],
+        [
+          "AI Analyst",
+          14
+        ],
+        [
+          "Analyst",
+          14
+        ],
+        [
+          "AI",
+          12
+        ],
+        [
+          "AI Solutions Analyst",
+          12
+        ],
+        [
+          "Creative Producer",
+          11
+        ],
+        [
+          "Generative AI Engineer",
+          11
+        ]
+      ],
+      "top_matched_skills": [
+        [
+          "A/B testing",
+          920
+        ],
+        [
+          "SQL",
+          892
+        ],
+        [
+          "Data-driven storytelling",
+          597
+        ],
+        [
+          "Dashboarding / metrics design",
+          561
+        ],
+        [
+          "Tableau",
+          424
+        ],
+        [
+          "Prompt engineering",
+          347
+        ],
+        [
+          "model evaluation",
+          294
+        ],
+        [
+          "Experiment design",
+          242
+        ],
+        [
+          "Visual direction",
+          215
+        ],
+        [
+          "Content strategy",
+          140
+        ],
+        [
+          "Analytical thinking",
+          120
+        ],
+        [
+          "Motion graphics",
+          114
+        ],
+        [
+          "cross-functional partnership (engineering/data science)",
+          107
+        ],
+        [
+          "API integration",
+          103
+        ],
+        [
+          "Creative brief interpretation",
+          89
+        ],
+        [
+          "ComfyUI",
+          72
+        ],
+        [
+          "After Effects",
+          64
+        ],
+        [
+          "Python (Pandas / NumPy / Scikit-learn)",
+          62
+        ],
+        [
+          "Python",
+          52
+        ],
+        [
+          "aesthetic QA",
+          46
+        ],
+        [
+          "Automation",
+          43
+        ],
+        [
+          "Stakeholder management",
+          42
+        ],
+        [
+          "Documentation / methodology design",
+          39
+        ],
+        [
+          "Teaching / mentoring",
+          36
+        ],
+        [
+          "Adobe Premiere",
+          32
+        ],
+        [
+          "Editing",
+          29
+        ],
+        [
+          "Video production",
+          29
+        ],
+        [
+          "ElevenLabs (11Labs)",
+          22
+        ],
+        [
+          "Multi-channel experimentation",
+          20
+        ],
+        [
+          "Scriptwriting",
+          18
+        ],
+        [
+          "Agent workflows",
+          18
+        ],
+        [
+          "AI image / video generation",
+          17
+        ],
+        [
+          "content systems / taxonomy design",
+          16
+        ],
+        [
+          "Figma",
+          14
+        ],
+        [
+          "Engagement / KPI optimization",
+          13
+        ],
+        [
+          "LoRA training",
+          13
+        ],
+        [
+          "Project management",
+          13
+        ],
+        [
+          "Runway",
+          12
+        ],
+        [
+          "vibe coding",
+          12
+        ],
+        [
+          "Verbal communication / presenting",
+          11
+        ]
+      ],
+      "top_gap_skills": [
+        [
+          "Backend/infra engineering",
+          116
+        ],
+        [
+          "Agent workflows",
+          57
+        ],
+        [
+          "LoRA dataset design",
+          52
+        ],
+        [
+          "Enterprise sales engineering",
+          18
+        ],
+        [
+          "Machine learning basics",
+          14
+        ],
+        [
+          "Product management (formal PM role)",
+          13
+        ],
+        [
+          "Financial services domain knowledge",
+          9
+        ],
+        [
+          "product management",
+          8
+        ],
+        [
+          "Data pipelines",
+          7
+        ],
+        [
+          "HR tech domain knowledge",
+          6
+        ],
+        [
+          "roadmap ownership",
+          6
+        ],
+        [
+          "LangGraph",
+          5
+        ],
+        [
+          "LangChain",
+          5
+        ],
+        [
+          "Salesforce CRM",
+          5
+        ],
+        [
+          "Stakeholder alignment at PM level",
+          5
+        ],
+        [
+          "Medical/clinical domain knowledge",
+          5
+        ],
+        [
+          "Agent workflows (production-level)",
+          5
+        ],
+        [
+          "Marketing attribution modeling",
+          5
+        ],
+        [
+          "Performance marketing analytics",
+          5
+        ],
+        [
+          "Product design (UX/UI)",
+          4
+        ]
+      ],
+      "build_from_tags": [
+        [
+          "Brand",
+          1090
+        ],
+        [
+          "Relocation",
+          831
+        ],
+        [
+          "Trajectory",
+          617
+        ],
+        [
+          "Promotion",
+          66
+        ]
+      ],
+      "skill_match_distribution": [
+        [
+          "Low",
+          2877
+        ],
+        [
+          "Medium",
+          393
+        ],
+        [
+          "High",
+          55
+        ],
+        [
+          "Reject",
+          6
+        ]
+      ]
+    },
+    "israel": {
+      "label": "Israel",
+      "n_roles": 871,
+      "n_total_including_archived": 883,
+      "top_titles": [
+        [
+          "Data Analyst",
+          94
+        ],
+        [
+          "Business Analyst",
+          41
+        ],
+        [
+          "Product Analyst",
+          30
+        ],
+        [
+          "AI Engineer",
+          26
+        ],
+        [
+          "Marketing Analyst",
+          20
+        ],
+        [
+          "AI Product Manager",
+          10
+        ],
+        [
+          "Product Data Analyst",
+          10
+        ],
+        [
+          "AI",
+          9
+        ],
+        [
+          "Technical Artist",
+          9
+        ],
+        [
+          "Marketing Data Analyst",
+          8
+        ],
+        [
+          "Prompt Engineer",
+          8
+        ],
+        [
+          "Analyst",
+          8
+        ],
+        [
+          "AI Developer",
+          7
+        ],
+        [
+          "Business Data Analyst",
+          7
+        ],
+        [
+          "Solutions Engineer",
+          7
+        ],
+        [
+          "Generative AI Engineer",
+          7
+        ],
+        [
+          "AI Lead",
+          7
+        ],
+        [
+          "AI Solutions Engineer",
+          6
+        ],
+        [
+          "AI Solution Engineer",
+          5
+        ],
+        [
+          "AI Team Lead",
+          5
+        ],
+        [
+          "Salesforce & GenAI Builder",
+          4
+        ],
+        [
+          "Performance Analyst",
+          4
+        ],
+        [
+          "Online Data Analyst",
+          4
+        ],
+        [
+          "Business Operations Analyst",
+          3
+        ],
+        [
+          "GTM AI Product Manager",
+          3
+        ]
+      ],
+      "top_matched_skills": [
+        [
+          "SQL",
+          349
+        ],
+        [
+          "A/B testing",
+          321
+        ],
+        [
+          "Data-driven storytelling",
+          225
+        ],
+        [
+          "Dashboarding / metrics design",
+          211
+        ],
+        [
+          "Tableau",
+          203
+        ],
+        [
+          "Experiment design",
+          124
+        ],
+        [
+          "Analytical thinking",
+          69
+        ],
+        [
+          "Prompt engineering",
+          63
+        ],
+        [
+          "model evaluation",
+          60
+        ],
+        [
+          "cross-functional partnership (engineering/data science)",
+          43
+        ],
+        [
+          "Python (Pandas / NumPy / Scikit-learn)",
+          39
+        ],
+        [
+          "API integration",
+          32
+        ],
+        [
+          "Content strategy",
+          30
+        ],
+        [
+          "Visual direction",
+          29
+        ],
+        [
+          "Automation",
+          22
+        ],
+        [
+          "Motion graphics",
+          19
+        ],
+        [
+          "Python",
+          17
+        ],
+        [
+          "Stakeholder management",
+          12
+        ],
+        [
+          "After Effects",
+          12
+        ],
+        [
+          "ComfyUI",
+          12
+        ],
+        [
+          "Documentation / methodology design",
+          10
+        ],
+        [
+          "Multi-channel experimentation",
+          10
+        ],
+        [
+          "Creative brief interpretation",
+          10
+        ],
+        [
+          "Adobe Premiere",
+          9
+        ],
+        [
+          "Engagement / KPI optimization",
+          8
+        ],
+        [
+          "vibe coding",
+          7
+        ],
+        [
+          "Agent workflows",
+          6
+        ],
+        [
+          "Teaching / mentoring",
+          5
+        ],
+        [
+          "AI image / video generation",
+          5
+        ],
+        [
+          "Editing",
+          5
+        ],
+        [
+          "Machine learning basics",
+          4
+        ],
+        [
+          "Project management",
+          4
+        ],
+        [
+          "aesthetic QA",
+          4
+        ],
+        [
+          "LoRA training",
+          4
+        ],
+        [
+          "Scriptwriting",
+          3
+        ],
+        [
+          "Pattern recognition / aesthetic judgment",
+          3
+        ],
+        [
+          "Runway",
+          2
+        ],
+        [
+          "Video production",
+          2
+        ],
+        [
+          "VFX / Compositing",
+          2
+        ],
+        [
+          "content systems / taxonomy design",
+          2
+        ]
+      ],
+      "top_gap_skills": [
+        [
+          "Backend/infra engineering",
+          51
+        ],
+        [
+          "Agent workflows",
+          21
+        ],
+        [
+          "LoRA dataset design",
+          10
+        ],
+        [
+          "Machine learning basics",
+          7
+        ],
+        [
+          "Product management (formal PM role)",
+          7
+        ],
+        [
+          "HR tech domain knowledge",
+          6
+        ],
+        [
+          "Medical/clinical domain knowledge",
+          5
+        ],
+        [
+          "Performance marketing analytics",
+          5
+        ],
+        [
+          "LangGraph",
+          4
+        ],
+        [
+          "LangChain",
+          4
+        ],
+        [
+          "Salesforce CRM",
+          4
+        ],
+        [
+          "B2B SaaS product ownership",
+          4
+        ],
+        [
+          "product management",
+          4
+        ],
+        [
+          "Gaming domain knowledge",
+          4
+        ],
+        [
+          "Data pipelines",
+          4
+        ],
+        [
+          "Marketing attribution modeling",
+          4
+        ],
+        [
+          "Bangkok relocation readiness",
+          4
+        ],
+        [
+          "Pricing analytics",
+          4
+        ],
+        [
+          "Team leadership / management",
+          3
+        ],
+        [
+          "Product management (formal PM)",
+          3
+        ]
+      ],
+      "build_from_tags": [
+        [
+          "Trajectory",
+          256
+        ],
+        [
+          "Relocation",
+          229
+        ],
+        [
+          "Brand",
+          180
+        ],
+        [
+          "Promotion",
+          39
+        ]
+      ],
+      "skill_match_distribution": [
+        [
+          "Low",
+          682
+        ],
+        [
+          "Medium",
+          173
+        ],
+        [
+          "High",
+          14
+        ],
+        [
+          "Reject",
+          2
+        ]
+      ]
+    },
+    "international": {
+      "label": "International (anywhere not Israel)",
+      "n_roles": 2052,
+      "n_total_including_archived": 2115,
+      "top_titles": [
+        [
+          "Data Analyst",
+          120
+        ],
+        [
+          "Product Analyst",
+          56
+        ],
+        [
+          "Business Analyst",
+          50
+        ],
+        [
+          "Marketing Analyst",
+          48
+        ],
+        [
+          "Generative AI Associate",
+          37
+        ],
+        [
+          "AI Solutions Engineer",
+          32
+        ],
+        [
+          "Solutions Engineer",
+          24
+        ],
+        [
+          "Creative Strategist",
+          19
+        ],
+        [
+          "AI Trainer - Freelance Data Annotator",
+          19
+        ],
+        [
+          "Growth Analyst - AI Trainer",
+          19
+        ],
+        [
+          "Creative Technologist",
+          16
+        ],
+        [
+          "Technical Artist",
+          16
+        ],
+        [
+          "Analyst - AI Trainer",
+          16
+        ],
+        [
+          "Growth Analyst",
+          12
+        ],
+        [
+          "AI Analyst",
+          11
+        ],
+        [
+          "Creative Producer",
+          11
+        ],
+        [
+          "AI Solutions Analyst",
+          10
+        ],
+        [
+          "AI Trainer",
+          9
+        ],
+        [
+          "Product Data Analyst",
+          8
+        ],
+        [
+          "Director, AI Enablement",
+          8
+        ],
+        [
+          "Prompt Engineer",
+          7
+        ],
+        [
+          "Growth Marketing Analyst",
+          7
+        ],
+        [
+          "Director, AI Transformation",
+          7
+        ],
+        [
+          "AI Deployment Engineer",
+          7
+        ],
+        [
+          "AI Video Creator",
+          7
+        ]
+      ],
+      "top_matched_skills": [
+        [
+          "A/B testing",
+          482
+        ],
+        [
+          "SQL",
+          453
+        ],
+        [
+          "Data-driven storytelling",
+          300
+        ],
+        [
+          "Dashboarding / metrics design",
+          276
+        ],
+        [
+          "Prompt engineering",
+          252
+        ],
+        [
+          "model evaluation",
+          214
+        ],
+        [
+          "Tableau",
+          176
+        ],
+        [
+          "Visual direction",
+          167
+        ],
+        [
+          "Experiment design",
+          106
+        ],
+        [
+          "Content strategy",
+          98
+        ],
+        [
+          "Motion graphics",
+          84
+        ],
+        [
+          "API integration",
+          69
+        ],
+        [
+          "Creative brief interpretation",
+          67
+        ],
+        [
+          "cross-functional partnership (engineering/data science)",
+          60
+        ],
+        [
+          "ComfyUI",
+          54
+        ],
+        [
+          "Analytical thinking",
+          46
+        ],
+        [
+          "After Effects",
+          45
+        ],
+        [
+          "aesthetic QA",
+          41
+        ],
+        [
+          "Python",
+          34
+        ],
+        [
+          "Teaching / mentoring",
+          31
+        ],
+        [
+          "Stakeholder management",
+          30
+        ],
+        [
+          "Documentation / methodology design",
+          27
+        ],
+        [
+          "ElevenLabs (11Labs)",
+          22
+        ],
+        [
+          "Python (Pandas / NumPy / Scikit-learn)",
+          21
+        ],
+        [
+          "Automation",
+          21
+        ],
+        [
+          "Video production",
+          20
+        ],
+        [
+          "Editing",
+          19
+        ],
+        [
+          "Adobe Premiere",
+          18
+        ],
+        [
+          "Scriptwriting",
+          15
+        ],
+        [
+          "content systems / taxonomy design",
+          14
+        ],
+        [
+          "Figma",
+          13
+        ],
+        [
+          "Agent workflows",
+          11
+        ],
+        [
+          "Verbal communication / presenting",
+          11
+        ],
+        [
+          "AI image / video generation",
+          10
+        ],
+        [
+          "Brand content",
+          9
+        ],
+        [
+          "Brand campaigns end-to-end",
+          9
+        ],
+        [
+          "Project management",
+          9
+        ],
+        [
+          "Color grading",
+          9
+        ],
+        [
+          "Runway",
+          8
+        ],
+        [
+          "LoRA training",
+          8
+        ]
+      ],
+      "top_gap_skills": [
+        [
+          "Backend/infra engineering",
+          61
+        ],
+        [
+          "LoRA dataset design",
+          38
+        ],
+        [
+          "Agent workflows",
+          35
+        ],
+        [
+          "Enterprise sales engineering",
+          18
+        ],
+        [
+          "Financial services domain knowledge",
+          7
+        ],
+        [
+          "Product management (formal PM role)",
+          6
+        ],
+        [
+          "Machine learning basics",
+          6
+        ],
+        [
+          "Product design (UX/UI)",
+          4
+        ],
+        [
+          "Design systems",
+          4
+        ],
+        [
+          "product management",
+          4
+        ],
+        [
+          "Stakeholder alignment at PM level",
+          4
+        ],
+        [
+          "Agent workflows (production-level)",
+          4
+        ],
+        [
+          "Enterprise architecture design",
+          4
+        ],
+        [
+          "Higher education account management",
+          4
+        ],
+        [
+          "product marketing",
+          3
+        ],
+        [
+          "Banking/financial domain knowledge",
+          3
+        ],
+        [
+          "roadmap ownership",
+          3
+        ],
+        [
+          "JavaScript",
+          3
+        ],
+        [
+          "Growth marketing analytics",
+          3
+        ],
+        [
+          "Early-stage startup ops",
+          3
+        ]
+      ],
+      "build_from_tags": [
+        [
+          "Brand",
+          871
+        ],
+        [
+          "Relocation",
+          582
+        ],
+        [
+          "Trajectory",
+          312
+        ],
+        [
+          "Promotion",
+          23
+        ]
+      ],
+      "skill_match_distribution": [
+        [
+          "Low",
+          1821
+        ],
+        [
+          "Medium",
+          191
+        ],
+        [
+          "High",
+          39
+        ],
+        [
+          "Reject",
+          1
+        ]
+      ]
+    }
+  },
+  "gaps": {
+    "overall": [
+      {
+        "skill": "Backend/infra engineering",
+        "demand_count": 116,
+        "lior_level": "Gap"
+      },
+      {
+        "skill": "Agent workflows",
+        "demand_count": 57,
+        "lior_level": "Learning"
+      },
+      {
+        "skill": "LoRA dataset design",
+        "demand_count": 52,
+        "lior_level": "Gap"
+      },
+      {
+        "skill": "Enterprise sales engineering",
+        "demand_count": 18,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Machine learning basics",
+        "demand_count": 14,
+        "lior_level": "Familiar"
+      },
+      {
+        "skill": "Product management (formal PM role)",
+        "demand_count": 13,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Financial services domain knowledge",
+        "demand_count": 9,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "product management",
+        "demand_count": 8,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Data pipelines",
+        "demand_count": 7,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "HR tech domain knowledge",
+        "demand_count": 6,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "roadmap ownership",
+        "demand_count": 6,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "LangGraph",
+        "demand_count": 5,
+        "lior_level": "Learning"
+      },
+      {
+        "skill": "LangChain",
+        "demand_count": 5,
+        "lior_level": "Learning"
+      },
+      {
+        "skill": "Salesforce CRM",
+        "demand_count": 5,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Stakeholder alignment at PM level",
+        "demand_count": 5,
+        "lior_level": "Not listed"
+      }
+    ],
+    "israel": [
+      {
+        "skill": "Backend/infra engineering",
+        "demand_count": 51,
+        "lior_level": "Gap"
+      },
+      {
+        "skill": "Agent workflows",
+        "demand_count": 21,
+        "lior_level": "Learning"
+      },
+      {
+        "skill": "LoRA dataset design",
+        "demand_count": 10,
+        "lior_level": "Gap"
+      },
+      {
+        "skill": "Machine learning basics",
+        "demand_count": 7,
+        "lior_level": "Familiar"
+      },
+      {
+        "skill": "Product management (formal PM role)",
+        "demand_count": 7,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "HR tech domain knowledge",
+        "demand_count": 6,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Medical/clinical domain knowledge",
+        "demand_count": 5,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Performance marketing analytics",
+        "demand_count": 5,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "LangGraph",
+        "demand_count": 4,
+        "lior_level": "Learning"
+      },
+      {
+        "skill": "LangChain",
+        "demand_count": 4,
+        "lior_level": "Learning"
+      },
+      {
+        "skill": "Salesforce CRM",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "B2B SaaS product ownership",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "product management",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Gaming domain knowledge",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Data pipelines",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      }
+    ],
+    "international": [
+      {
+        "skill": "Backend/infra engineering",
+        "demand_count": 61,
+        "lior_level": "Gap"
+      },
+      {
+        "skill": "LoRA dataset design",
+        "demand_count": 38,
+        "lior_level": "Gap"
+      },
+      {
+        "skill": "Agent workflows",
+        "demand_count": 35,
+        "lior_level": "Learning"
+      },
+      {
+        "skill": "Enterprise sales engineering",
+        "demand_count": 18,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Financial services domain knowledge",
+        "demand_count": 7,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Product management (formal PM role)",
+        "demand_count": 6,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Machine learning basics",
+        "demand_count": 6,
+        "lior_level": "Familiar"
+      },
+      {
+        "skill": "Product design (UX/UI)",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Design systems",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "product management",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Stakeholder alignment at PM level",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Agent workflows (production-level)",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Enterprise architecture design",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "Higher education account management",
+        "demand_count": 4,
+        "lior_level": "Not listed"
+      },
+      {
+        "skill": "product marketing",
+        "demand_count": 3,
+        "lior_level": "Not listed"
+      }
+    ]
+  }
+}

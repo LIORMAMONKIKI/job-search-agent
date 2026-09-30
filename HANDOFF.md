@@ -236,3 +236,25 @@ rest):
 - Honest about misses — "I'm wrong in fixable ways, fast" is the trust model.
 - Give strategy when she asks strategy; don't retreat to tool-building.
 - Confirm every dollar. Quote 3× ceiling.
+
+---
+
+## 7. Status update — 2026-09-30 (end of stretch)
+
+- **Strategy layer since July:** `RESEARCH_DOSSIER.md` (evidence base) + the
+  "selection layer" thesis (dataset curation / aesthetic evaluation / physics
+  plausibility for world models). Her Canva 100k-asset curation = LoRA dataset skill,
+  reframed. Startup option = independent eval + custom visual eval suites + brand QA
+  gate; academic physics benchmarks and Artificial Analysis arenas already exist, so
+  the wedge is expert diagnosis + custom suites, not a public leaderboard.
+- **LoRA Jam closed Jul 27** — whether she entered is still unconfirmed.
+- **Aug–Sep:** portfolio month (Earth Sound, Astria explainer, clean portfolio repo).
+- **Today:** daily engine gained the data/ops × AI title family; Notion Companies DB
+  synced (7 refreshed, 10 new); `reports/NEW_TARGETS_2026-09-30.md` +
+  `reports/LINKEDIN_SCAN_2026-09-30.md` written. Notion connector works in-session.
+- **Tomorrow's jobs session starts with:** monday.com Design Ops Lead (AI Enablement)
+  decision (Matan Arbel, 1st-degree, hiring manager, "DM me"); Decart via Gil Livnat;
+  Luma via Gili Ben Shahar; Figma Weave via Lior Albeck; ElevenLabs Data Ops verify;
+  Prolific EOR inquiry; LinkedIn alert swap (2 NY alerts → Data Ops remote + AI PM IL).
+- **Logistics parked:** bank tracking via email alerts (needs bank + card names, then a
+  logged-in moment). No app, no exporting — her constraint.

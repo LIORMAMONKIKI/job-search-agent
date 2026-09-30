@@ -69,8 +69,15 @@ STRONG = [
     "scientific visualization", "creative operations", "content operations",
     "aesthetics", "preference data", "multimodal evaluation",
     "content intelligence", "creative research", "research resident",
+    # data/operations × AI (2026-09-30 expansion — the selection-layer titles)
+    "data operations", "ai operations", "human data operations",
+    "data curation", "training data", "ai program manager",
+    "technical program manager", "deployment strategist",
+    "research operations", "ai programs",
 ]
 ADJACENT = [
+    "model operations", "modelops", "ai integration", "data quality",
+    "labeling", "program manager, research", "r&d operations",
     "ai specialist", "prompt", "ai enablement", "ai strategist",
     "creative lead", "motion design", "motion graphics", "storytelling",
     "workflow", "ai transformation", "creative workflow", "visual",

@@ -258,3 +258,12 @@ rest):
   Prolific EOR inquiry; LinkedIn alert swap (2 NY alerts → Data Ops remote + AI PM IL).
 - **Logistics parked:** bank tracking via email alerts (needs bank + card names, then a
   logged-in moment). No app, no exporting — her constraint.
+
+## 8. Status update — 2026-10-04/05 (end of stretch)
+
+- **The hub moved:** read `../OPS/` first (README → LIOR.md → STATE.md → TODAY.md → LOG.md → CURRENT-WORK.md). This file is the agent-side supplement.
+- **Daily engine:** `daily_brief.py` gained the data/ops × AI title family (STRONG/ADJACENT). Scheduled task `morning-job-brief` runs 10:02 when the laptop is open. Indeed + LinkedIn alerts healthy; Glassdoor dead (0/30d).
+- **Reports:** `reports/NEW_TARGETS_2026-09-30.md`, `reports/LINKEDIN_SCAN_2026-09-30.md`, `reports/daily_brief_2026-10-04.md` (30-day sweep).
+- **Notion Companies DB:** synced Sep 30 (7 refreshed, 10 new) + Oct 4 (9 new from Grace Gong's lists: OpenArt AI, Video Rebirth, ShengShu, PixVerse, Tripo, Fish Audio, Loora, David AI, Edison Scientific). Krea is duplicated ("Krea AI" / "krea.ai") — dedupe.
+- **Known bug:** JS-rendered Comeet boards look empty to WebFetch; use `careers_scraper.scrape_comeet(url)` (works for Shortical) or the Comeet JSON API.
+- **Rules added Oct 4:** no LTX as a build base; no gaming angles; never send her to the LinkedIn feed; 2h/day TOTAL for the job hunt; confirm every spend (3× ceiling) — unchanged.
